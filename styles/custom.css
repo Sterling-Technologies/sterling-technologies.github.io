@@ -2,7 +2,7 @@
 ------------------------------*/
 html,
 body {
-    color: #232323;
+    color: #333333;
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 14px;
     font-style: normal;
@@ -70,84 +70,6 @@ body {
     padding: 20px;
 }
 
-/* Partial - Profile
-------------------------------*
-.profile {
-    height: 290px;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-}
-
-.profile .profile-info {
-    background-color: #31517A;
-    color: #FFFFFF;
-    height: 290px;
-    padding: 10px;
-    position: absolute;
-    top: 170px;
-    transition: 0.2s;
-    width: 100%;
-}
-
-.profile .profile-info.hover {
-    overflow: auto;
-    top: 0;
-}
-
-.profile .profile-info h3 {
-    font-size: 20px;
-}
-
-.profile .profile-info h4 {
-    color: #CCCCCC;
-    font-size: 17px;
-}
-
-.profile .profile-social {
-    display: block;
-    font-size: 35px;
-}
-
-.profile .profile-social a {
-    color: #FFFFFF;
-}*/
-.profile {
-}
-
-.profile .profile-image {
-    float: left;
-}
-
-.profile .profile-image img {
-    width: 100px;
-}
-
-.profile .profile-title {
-    padding-top: 20px;
-    padding-left: 120px;
-}
-
-.profile .profile-info h3 {
-    font-size: 20px;
-}
-
-.profile .profile-info h4 {
-    color: #666666;
-    font-size: 17px;
-}
-
-.profile .profile-social {
-    font-size: 20px;
-}
-
-.profile-bio {
-    clear: both;
-    color: #343434;
-    line-height: 24px;
-    padding-top: 20px;
-}
-
 /* Head
 ------------------------------*/
 .head {
@@ -175,7 +97,7 @@ body {
 /* Foot
 ------------------------------*/
 .foot {
-    background-color: #343434;
+    background-color: #333333;
     color: #FFFFFF;
     padding: 40px 0;
 }
@@ -217,17 +139,5 @@ body {
 }
 
 .body .section-1 {
-
-}
-
-.body .section-2 {
-
-}
-
-.body .section-3 {
-
-}
-
-.body .section-4 {
-
+    text-align: center;
 }
