@@ -27,7 +27,29 @@
   }
 }
 
-/* Header
+/* Breadcrumb
+------------------------------*/
+.breadcrumb {
+  background-color: #fff;
+  padding: .75rem 0;
+
+  li {
+    &:not(:first-child)::before {
+      content: ">";
+    }
+
+    &.active a {
+      color: $text-default;
+    }
+
+    a {
+      color: $text-gold;
+      text-decoration: none;
+    }
+  }
+}
+
+/* Footer
 ------------------------------*/
 .foot {
   .upper-footer {

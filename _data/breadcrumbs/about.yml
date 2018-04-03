@@ -1,0 +1,7 @@
+- name: Home
+  link: /
+  active: false
+
+- name: About the Company
+  link: /about
+  active: true
