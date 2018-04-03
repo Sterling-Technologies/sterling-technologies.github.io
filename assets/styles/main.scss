@@ -1,0 +1,12 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+// import fonts
+@import "https://fonts.googleapis.com/css?family=Cabin:400,500,600,700";
+
+// import partials
+@import "variables";
+@import "global";
+@import "layouts";
