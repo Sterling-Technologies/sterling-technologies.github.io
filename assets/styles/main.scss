@@ -4,9 +4,13 @@
 ---
 
 // import fonts
+@import "bignoodle";
 @import "https://fonts.googleapis.com/css?family=Cabin:400,500,600,700";
 
 // import partials
 @import "variables";
 @import "global";
 @import "layouts";
+
+// import pages
+@import "pages/about";
