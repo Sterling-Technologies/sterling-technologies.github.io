@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light">
   <div class="container">
     <a class="navbar-brand" href="/">
-      <img src="./assets/images/logos/logo-horizontal-colored.png" alt="SterlingTech Logo">
+      <img src="{{ site.url }}/assets/images/logos/logo-horizontal-colored.png" alt="SterlingTech Logo">
     </a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,34 +10,58 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
+        <li class="nav-item {% if page.url == "/about" %}active{% endif %}">
           <a class="nav-link" href="/about">
-            about
+            {% if page.url == "/about" %}
+              &lt;about&gt;
+            {% else %}
+              about
+            {% endif %}
           </a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#">
-            &lt;what we do&gt;
+        <li class="nav-item {% if page.url == "/what-we-do" %}active{% endif %}">
+          <a class="nav-link" href="/what-we-do">
+            {% if page.url == "/what-we-do" %}
+              &lt;what we do&gt;
+            {% else %}
+              what we do
+            {% endif %}
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            case studies
+        <li class="nav-item {% if page.url == "/case-studies" %}active{% endif %}">
+          <a class="nav-link" href="/case-studies">
+            {% if page.url == "/case-studies" %}
+              &lt;case studies&gt;
+            {% else %}
+              case studies
+            {% endif %}
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            the team
+        <li class="nav-item {% if page.url == "/teams/index" %}active{% endif %}">
+          <a class="nav-link" href="/teams">
+            {% if page.url == "/teams/index" %}
+              &lt;the team&gt;
+            {% else %}
+              the team
+            {% endif %}
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            careers
+        <li class="nav-item {% if page.url == "/careers" %}active{% endif %}">
+          <a class="nav-link" href="/careers">
+            {% if page.url == "/careers" %}
+              &lt;careers&gt;
+            {% else %}
+              careers
+            {% endif %}
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            contact
+        <li class="nav-item {% if page.url == "/contact" %}active{% endif %}">
+          <a class="nav-link" href="/contact">
+            {% if page.url == "/contact" %}
+              &lt;contact&gt;
+            {% else %}
+              contact
+            {% endif %}
           </a>
         </li>
       </ul>

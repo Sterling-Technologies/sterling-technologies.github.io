@@ -42,3 +42,10 @@ plugins:
 
 # Include
 include: ['_pages']
+
+# Collections
+collections_dir: collections
+collections:
+  teams:
+    output: true
+    permalink: /teams/:team

@@ -1,0 +1,57 @@
+.page-team {
+  padding-top: 2rem;
+
+  .upper-section {
+    margin-bottom: 3rem;
+  }
+
+  .team-menu {
+    text-align: center;
+    margin-bottom: 2.5rem;
+
+    ul {
+      margin: 0;
+      padding: 0;
+
+      li {
+        display: inline-block;
+        list-style-type: none;
+
+        a {
+          color: $text-gold;
+          display: block;
+          padding: 0.5rem 1rem;
+          text-decoration: none;
+          text-transform: uppercase;
+        }
+
+        &.active a {
+          color: $text-red;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
+  .team-profiles {
+    padding: 3rem 0;
+    position: relative;
+
+    .hanging-bg {
+      background: url('../images/placeholder/team-banner-bg.png') no-repeat;
+      background-size: contain;
+      height: 500px;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: -1;
+    }
+
+    h3 {
+      color: #fff;
+      font-family: $text-bignoodle;
+      font-size: 2.3rem;
+      text-align: center;
+    }
+  }
+}

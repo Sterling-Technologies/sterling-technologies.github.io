@@ -1,0 +1,20 @@
+---
+layout: default
+name: all
+---
+
+<!-- Breadcrumbs -->
+{% include breadcrumbs.html breadcrumbs=site.data.breadcrumbs.team %}
+
+<section class="page-team page-content">
+  <div class="container">
+    <!-- Upper Section -->
+    {% include team/upper.html %}
+
+    <!-- Menu -->
+    {% include team/menu.html name=page.name %}
+  </div>
+
+  <!-- Profiles -->
+  {% include team/profiles.html name=page.name %}
+</section>

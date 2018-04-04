@@ -1,0 +1,76 @@
+<section class="team-menu">
+  <ul>
+    <li class="{% if include.name == "all" %}active{% endif %}">
+      <a href="/teams">
+        {% if include.name == "all" %}
+          &lt;/all&gt;
+        {% else %}
+          all
+        {% endif %}
+      </a>
+    </li>
+    <li class="{% if include.name == "managers" %}active{% endif %}">
+      <a href="/teams/managers">
+        {% if include.name == "managers" %}
+          &lt;/managers&gt;
+        {% else %}
+          managers
+        {% endif %}
+      </a>
+    </li>
+    <li class="{% if include.name == "/teams/admin" %}active{% endif %}">
+      <a href="/teams/admin">
+        {% if include.name == "/teams/admin" %}
+          &lt;/admin&gt;
+        {% else %}
+          admin
+        {% endif %}
+      </a>
+    </li>
+    <li class="{% if include.name == "/teams/project-manager" %}active{% endif %}">
+      <a href="/teams/project-manager">
+        {% if include.name == "/teams/project-manager" %}
+          &lt;/project manager&gt;
+        {% else %}
+          project manager
+        {% endif %}
+      </a>
+    </li>
+    <li class="{% if include.name == "/teams/developers" %}active{% endif %}">
+      <a href="/teams/developers">
+        {% if include.name == "/teams/developers" %}
+          &lt;/developers&gt;
+        {% else %}
+          developers
+        {% endif %}
+      </a>
+    </li>
+    <li class="{% if include.name == "/teams/marketing" %}active{% endif %}">
+      <a href="/teams/marketing">
+        {% if include.name == "/teams/marketing" %}
+          &lt;/marketing&gt;
+        {% else %}
+          marketing
+        {% endif %}
+      </a>
+    </li>
+    <li class="{% if include.name == "/teams/sales" %}active{% endif %}">
+      <a href="/teams/sales">
+        {% if include.name == "/teams/sales" %}
+          &lt;/sales&gt;
+        {% else %}
+          sales
+        {% endif %}
+      </a>
+    </li>
+    <li class="{% if include.name == "/teams/designers" %}active{% endif %}">
+      <a href="/teams/designers">
+        {% if include.name == "/teams/designers" %}
+          &lt;/designers&gt;
+        {% else %}
+          designers
+        {% endif %}
+      </a>
+    </li>
+  </ul>
+</section>
