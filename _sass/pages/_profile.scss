@@ -1,0 +1,82 @@
+.page-profile {
+  .profile-cover {
+    background: url('../images/placeholder/profile-banner.png') no-repeat;
+    background-size: cover;
+    height: 422px;
+    position: relative;
+
+    .row {
+      .col:last-child {
+        position: relative;
+        height: 422px;
+      }
+    }
+
+    .profile-cover-info {
+      color: #fff;
+      position: absolute;
+      bottom: 5rem;
+
+      .profile-name {
+        font-size: 3rem;
+        letter-spacing: 2px;
+        line-height: 1;
+        margin-bottom: 10px;
+      }
+
+      .profile-position {
+        font-size: 18px;
+        margin-bottom: 15px;
+      }
+
+      .profile-award {
+        color: #b5b5b5;
+      }
+    }
+  }
+
+  .profile-detail {
+    padding-bottom: 3rem;
+
+    .profile-image {
+      height: 325px;
+      position: relative;
+
+      img {
+        position: absolute;
+        top: -350px;
+        width: 95%;
+      }
+    }
+
+    .profile-awards {
+      margin: 0;
+      padding: 0;
+
+      li {
+        list-style-type: none;
+        margin-bottom: 10px;
+
+        a {
+          color: $text-default;
+          font-size: 18px;
+
+          img {
+            margin-right: 15px;
+          }
+        }
+      }
+    }
+
+    .profile-bio {
+      padding: 2rem 0;
+    }
+
+    .btn {
+      font-size: 16px;
+      letter-spacing: 3px;
+      padding: 1rem 2rem;
+      text-transform: uppercase;
+    }
+  }
+}
