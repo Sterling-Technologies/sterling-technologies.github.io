@@ -1,0 +1,17 @@
+- name: Linda Ramos
+  first_name: Linda
+  position: Head Hunter
+  detail: Owns the most number of pencils in all of Sterling Tech
+  img_bnw: /assets/images/placeholder/team-bnw.png
+  img_colored: /assets/images/placeholder/team-colored.png
+  team: managers
+  highlighted: false
+
+- name: Terrance Gilbert
+  first_name: Terrance
+  position: Hunter Head
+  detail: Owns the most number of pencils in all of Sterling Tech
+  team: admin
+  img_bnw: /assets/images/placeholder/team-bnw.png
+  img_colored: /assets/images/placeholder/team-colored.png
+  highlighted: true

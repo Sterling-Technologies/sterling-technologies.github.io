@@ -1,7 +1,7 @@
 ---
 layout: default
-name: all
-title: All
+name: sales
+title: Sales
 ---
 
 <!-- Breadcrumbs -->
@@ -17,9 +17,6 @@ title: All
   </div>
 
   <!-- Profiles -->
-  {% assign profiles = site.data.profiles %}
+  {% assign profiles = site.data.profiles | where: "team", "sales" %}
   {% include team/profiles.html title=page.title profiles=profiles %}
-
-  <!-- Join Team -->
-  {% include team/join.html %}
 </section>

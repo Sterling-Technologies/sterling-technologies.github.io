@@ -1,6 +1,7 @@
 ---
 layout: default
 name: managers
+title: Managers
 ---
 
 <!-- Breadcrumbs -->
@@ -12,11 +13,10 @@ name: managers
     {% include team/upper.html %}
 
     <!-- Menu -->
-    {% include team/menu.html name=page.name %}
+    {% include team/menu.html title=page.title %}
   </div>
 
-  <!-- {% assign posts = site.posts | where: "author", "toto" %} -->
-
   <!-- Profiles -->
-  {% include team/profiles.html name=page.name %}
+  {% assign profiles = site.data.profiles | where: "team", "managers" %}
+  {% include team/profiles.html title=page.title profiles=profiles %}
 </section>

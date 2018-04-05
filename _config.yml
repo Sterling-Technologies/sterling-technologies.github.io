@@ -48,4 +48,4 @@ collections_dir: collections
 collections:
   teams:
     output: true
-    permalink: /teams/:team
+    permalink: /teams/:name

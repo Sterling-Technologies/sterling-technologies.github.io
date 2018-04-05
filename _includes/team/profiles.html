@@ -1,10 +1,33 @@
 <section class="team-profiles">
   <div class="hanging-bg"></div>
   <div class="container">
-    {% if include.name != "all" %}
-      <h3>&lt;{{ include.name }}&gt;</h3>
-    {% endif %}
+    <h3>&lt;{{ include.title }}&gt;</h3>
 
+    <div class="row">
+      {% for profile in include.profiles %}
+        <div class="col col-md-3">
+          <div class="profile-wrapper {% if profile.highlighted == true %}d-none{% endif %}">
+            <img src="{{ site.url }}{{ profile.img_bnw }}" alt="Profile Image">
+            <div class="profile-info">
+              <div class="profile-name">{{ profile.name }}</div>
+              <div class="profile-pos">{{ profile.position }}</div>
+            </div>
+          </div>
 
+          <div class="profile-wrapper active {% if profile.highlighted == false %}d-none{% endif %}">
+            <img src="{{ site.url }}{{ profile.img_colored }}" alt="Profile Image">
+            <div class="profile-info">
+              <div class="profile-detail">
+                {{ profile.detail }}
+              </div>
+
+              <a href="#" class="btn btn-red btn-block btn-lg">
+                Meet {{ profile.first_name }}
+              </a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </section>
