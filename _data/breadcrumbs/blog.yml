@@ -1,0 +1,7 @@
+- name: Home
+  link: /
+  active: false
+
+- name: Blog
+  link: /blog
+  active: true

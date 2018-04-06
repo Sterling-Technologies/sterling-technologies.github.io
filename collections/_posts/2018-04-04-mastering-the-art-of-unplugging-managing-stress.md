@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Mastering the Art of Unplugging and Managing Stress"
+date: 2018-04-04 02:53:01
+categories: []
+tags: [popular]
+popular: true
+image: /assets/images/placeholder/blog-image3.png
+short_detail: "Proident voluptate aliqua laboris tempor voluptate proident ex esse enim est cillum sint Lorem eiusmod officia anim."
+---

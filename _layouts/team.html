@@ -112,7 +112,7 @@ layout: default
         {% for profile in profiles %}
           <div class="col col-md-3">
             <div class="profile-wrapper {% if profile.highlighted == true %}d-none{% endif %}">
-              <img src="{{ site.url }}{{ profile.img_bnw }}" alt="Profile Image">
+              <img src="{{ profile.img_bnw | absolute_url }}" alt="Profile Image">
               <div class="profile-info">
                 <div class="profile-name">{{ profile.name }}</div>
                 <div class="profile-pos">{{ profile.position }}</div>
@@ -120,7 +120,7 @@ layout: default
             </div>
 
             <div class="profile-wrapper active {% if profile.highlighted == false %}d-none{% endif %}">
-              <img src="{{ site.url }}{{ profile.img_colored }}" alt="Profile Image">
+              <img src="{{ profile.img_colored | absolute_url }}" alt="Profile Image">
               <div class="profile-info">
                 <div class="profile-detail">
                   {{ profile.detail }}

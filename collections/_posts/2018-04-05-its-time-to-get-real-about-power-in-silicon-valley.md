@@ -1,0 +1,10 @@
+---
+layout: post
+title: "It's Time to Get Real About Power in Silicon Valley"
+date: 2018-04-05 02:53:01
+categories: []
+tags: []
+popular: false
+image: /assets/images/placeholder/blog-image2.png
+short_detail: "Proident voluptate aliqua laboris tempor voluptate proident ex esse enim est cillum sint Lorem eiusmod officia anim."
+---

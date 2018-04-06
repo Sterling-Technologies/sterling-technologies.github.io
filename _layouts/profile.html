@@ -31,7 +31,7 @@ layout: default
             <div class="profile-name">{{ page.name }}</div>
             <div class="profile-position">{{ page.position }}</div>
             <div class="profile-award">
-              <img src="{{ site.url }}/assets/images/icons/profile-badge.png" alt="Profile Badge">
+              <img src="{{ "/assets/images/icons/profile-badge.png" | absolute_url }}" alt="Profile Badge">
               {{ page.award }}
             </div>
           </div>
@@ -44,37 +44,42 @@ layout: default
       <div class="row">
         <div class="col col-md-5">
           <div class="profile-image">
-            <img src="{{ site.url }}/assets/images/placeholder/profile-picture.png" alt="Profile Picture">
+            <img src="{{ page.profile_img | absolute_url }}" alt="Profile Picture">
           </div>
 
           <ul class="profile-awards">
             <li>
               <a href="#" class="clearfix">
-                <img src="{{ site.url }}/assets/images/icons/profile-red-badge-2.png" class="float-left" alt="achievement logo">
+                <img src="{{ "/assets/images/icons/profile-red-badge-4.png" | absolute_url }}"
+                class="float-left" alt="achievement logo">
                 <span class="float-left">Competition</span>
               </a>
             </li>
             <li>
               <a href="#" class="clearfix">
-                <img src="{{ site.url }}/assets/images/icons/profile-red-badge-3.png" class="float-left" alt="achievement logo">
+                <img src="{{ "/assets/images/icons/profile-red-badge-3.png" | absolute_url }}"
+                class="float-left" alt="achievement logo">
                 <span class="float-left">Communication</span>
               </a>
             </li>
             <li>
               <a href="#" class="clearfix">
-                <img src="{{ site.url }}/assets/images/icons/profile-red-badge-4.png" class="float-left" alt="achievement logo">
+                <img src="{{ "/assets/images/icons/profile-red-badge.png" | absolute_url }}"
+                class="float-left" alt="achievement logo">
                 <span class="float-left">Significance</span>
               </a>
             </li>
             <li>
               <a href="#" class="clearfix">
-                <img src="{{ site.url }}/assets/images/icons/profile-red-badge-5.png" class="float-left" alt="achievement logo">
+                <img src="{{ "/assets/images/icons/profile-red-badge-2.png" | absolute_url }}"
+                class="float-left" alt="achievement logo">
                 <span class="float-left">Self-Assurance</span>
               </a>
             </li>
             <li>
               <a href="#" class="clearfix">
-                <img src="{{ site.url }}/assets/images/icons/profile-red-badge.png" class="float-left" alt="achievement logo">
+                <img src="{{ "/assets/images/icons/profile-red-badge-5.png" | absolute_url }}"
+                class="float-left" alt="achievement logo">
                 <span class="float-left">Activator</span>
               </a>
             </li>
@@ -82,11 +87,7 @@ layout: default
         </div>
         <div class="col col-md-7">
           <div class="profile-bio">
-            <p>Adipisicing occaecat id aliqua velit excepteur dolor ea labore non est. Ex incididunt deserunt amet sint adipisicing elit cupidatat. Labore occaecat cupidatat non consectetur occaecat enim voluptate excepteur id. Voluptate mollit et nisi aliquip quis duis fugiat ex sit ad culpa duis excepteur nisi elit. Irure enim in nisi incididunt incididunt ea proident eiusmod cillum eiusmod pariatur aliquip velit esse veniam. Nulla velit fugiat elit veniam velit enim velit elit et laboris quis cupidatat. Laborum aute culpa quis velit consequat aliquip minim laborum cupidatat. Anim esse minim culpa aliquip labore duis consequat nisi velit.</p>
-
-            <p>Ex qui officia quis proident quis ut incididunt tempor pariatur. Fugiat deserunt quis ullamco anim consectetur laborum esse exercitation. Sit non eiusmod pariatur nulla laboris eiusmod velit do in eu laborum quis duis. Culpa nulla proident cupidatat fugiat excepteur amet non esse sit reprehenderit.</p>
-
-            <p>In id do veniam culpa cupidatat pariatur nisi fugiat aliquip do. Aliqua fugiat consectetur cupidatat fugiat dolore voluptate et reprehenderit non eu veniam. Aliqua incididunt veniam magna dolore exercitation consectetur non do non minim ad tempor nostrud sit in ut sint.</p>
+            {{ page.content }}
           </div>
 
           <div class="clearfix">
