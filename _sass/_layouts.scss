@@ -4,23 +4,28 @@
   .navbar {
     padding: 1rem;
 
-    .navbar-brand img {
-      width: 260px;
-    }
+    .container {
+      padding-left: 0;
+      padding-right: 0;
 
-    .navbar-nav {
-      li {
-        a.nav-link {
-          color: $text-gold;
-          font-weight: 600;
-          font-size: 15px;
-          letter-spacing: 3px;
-          padding: .5rem .8rem;
-          text-transform: uppercase;
-        }
+      .navbar-brand img {
+        width: 260px;
+      }
 
-        &.active a.nav-link {
-          color: $text-red;
+      .navbar-nav {
+        li {
+          a.nav-link {
+            color: $text-gold;
+            font-weight: 600;
+            font-size: 15px;
+            letter-spacing: 3px;
+            padding: .5rem .8rem;
+            text-transform: uppercase;
+          }
+
+          &.active a.nav-link {
+            color: $text-red;
+          }
         }
       }
     }
@@ -55,14 +60,22 @@
   .upper-footer {
     color: #fff;
     background-color: #292929;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 
     .footer-logo {
       display: block;
 
       img {
         width: 120px;
+      }
+
+      &.home {
+        margin-bottom: 15px;
+
+        img {
+          width: 200px
+        }
       }
     }
 
@@ -91,11 +104,19 @@
         display: inline-block;
         margin-left: 18px;
 
+        &:first-child {
+          margin-left: 0;
+        }
+
         a {
           color: #fff;
           font-size: 30px;
         }
       }
+    }
+
+    .email-link {
+      color: #fff;
     }
   }
 

@@ -1,0 +1,135 @@
+.page-home {
+  .section-header {
+    margin-bottom: 5rem;
+    text-align: center;
+
+    .section-logo {
+      margin-bottom: 3rem;
+
+      img {
+        width: auto;
+      }
+    }
+
+    .section-title {
+      color: $text-red;
+      font-family: $text-bignoodle;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+  }
+
+  .section-1 {
+    margin-top: 3rem;
+
+    .container {
+      background: url('../images/home/sec1-slash.png') no-repeat;
+      background-position: right;
+      background-size: contain;
+      padding: 8rem 0 20rem;
+
+      h2 {
+        color: $text-red;
+        font-family: $text-bignoodle;
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  .section-2 {
+    background-color: #F1F1F1;
+    padding: 8rem;
+
+    .services-list {
+      .row {
+        &:first-child {
+          margin-bottom: 5rem;
+        }
+
+        &:last-child {
+          margin: 0 auto;
+          width: 70%;
+        }
+
+        .col {
+          text-align: center;
+
+          .service-image {
+            margin-bottom: 15px;
+
+            img {
+              width: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .section-3 {
+    padding: 5rem;
+
+    .section-header {
+      margin-bottom: 6rem;
+
+      .section-title {
+        font-size: 4rem;
+      }
+    }
+
+    .site-list {
+      .row {
+        width: 80%;
+        margin: 0 auto;
+
+        .col:first-child {
+          padding: 2rem 0;
+        }
+
+        .col:last-child {
+          padding: 4rem 0;
+        }
+
+        ul {
+          margin: 0;
+          padding: 0;
+
+          li {
+            list-style-type: none;
+            text-align: center;
+            margin-bottom: 3rem;
+
+            a {
+              display: block;
+
+              img {
+                width: auto;
+                object-fit: contain;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .section-4 {
+    color: #fff;
+    background: url('../images/home/sec4-background.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20rem 0;
+
+    h3 {
+      font-family: $text-bignoodle;
+      font-size: 4rem;
+      font-weight: normal;
+      margin-bottom: 3rem;
+    }
+
+    p {
+      margin-bottom: 3rem;
+    }
+  }
+}

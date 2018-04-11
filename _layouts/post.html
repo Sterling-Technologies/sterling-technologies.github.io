@@ -49,7 +49,7 @@ layout: default
       <div class="blog-listing">
         <!-- Get Posts -->
         {% assign posts = site.posts | sort: 'date' | reverse %}
-        {% assign i = 0; %}
+        {% assign i = 0 %}
 
         <div class="row">
           {% for post in posts limit: 4 %}
