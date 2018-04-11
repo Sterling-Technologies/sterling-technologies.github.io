@@ -1,7 +1,7 @@
-- name: Home
-  link: /
+- title: Home
+  url: /
   active: false
 
-- name: Team
-  link: /the-team
+- title: Team
+  url: /the-team
   active: true

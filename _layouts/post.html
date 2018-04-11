@@ -2,4 +2,82 @@
 layout: default
 ---
 
-{{ page.title }}
+<section class="page-post">
+  <!-- Breadcrumb -->
+  <nav aria-label="breadcrumb">
+    <div class="container">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="/">Home</a>
+        </li>
+        <li class="breadcrumb-item">
+          <a href="/blog">Blog</a>
+        </li>
+        <li class="breadcrumb-item active">
+          <a href="{{ page.url }}">
+            {{ page.title }}
+          </a>
+        </li>
+      </ol>
+    </div>
+  </nav>
+
+
+  <div class="container">
+    <!-- Post Header -->
+    <section class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <p class="post-short-detail">{{ page.short_detail }}</p>
+        <p class="post-date">{{ page.date | date_to_long_string }}</p>
+    </section>
+
+    <!-- Post Banner -->
+    <div class="post-banner">
+      <img src="{{ page.banner_image | absolute_url }}" alt="Post Banner">
+    </div>
+
+    <!-- Post Content -->
+    <div class="post-content">
+      {{ page.content }}
+    </div>
+
+    <!-- Recent Posts -->
+    <div class="recent-posts">
+      <hr>
+      <h3>Recent Posts</h3>
+
+      <div class="blog-listing">
+        <!-- Get Posts -->
+        {% assign posts = site.posts | sort: 'date' | reverse %}
+        {% assign i = 0; %}
+
+        <div class="row">
+          {% for post in posts limit: 4 %}
+          <!-- remove this post from list -->
+          {% if post.url == page.url %}
+          {% continue %}
+          {% endif %}
+
+          <!-- show only 3 posts -->
+          {% if i > 3 %}
+          {% break %}
+          {% endif %}
+
+          <div class="col col-md-4">
+            <a href="{{ post.url }}" class="post-image">
+              <img src="{{ post.image | absolute_url }}" alt="Post Image">
+            </a>
+            <div class="post-detail">
+              <a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
+              <div class="post-short-detail">{{ post.short_detail }}</div>
+              <div class="post-date">{{ post.date | date_to_long_string }}</div>
+            </div>
+          </div>
+
+          {% assign i = i | plus: 1 %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

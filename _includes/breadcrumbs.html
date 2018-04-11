@@ -4,14 +4,14 @@
       {% for crumb in include.breadcrumbs %}
         {% if crumb.active == true %}
           <li class="breadcrumb-item active">
-            <a href="{{ crumb.link }}">
-              {{ crumb.name }}
+            <a href="{{ crumb.url }}">
+              {{ crumb.title }}
             </a>
           </li>
         {% else %}
           <li class="breadcrumb-item">
-            <a href="{{ crumb.link }}">
-              {{ crumb.name }}
+            <a href="{{ crumb.url }}">
+              {{ crumb.title }}
             </a>
           </li>
         {% endif %}
