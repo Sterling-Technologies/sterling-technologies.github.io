@@ -1,0 +1,33 @@
+.page-tools {
+  padding-bottom: 5rem;
+
+  .upper-section {
+    margin-bottom: 4rem;
+  }
+
+  .tool-list {
+    .col {
+      a {
+        border: 1px solid #ddd;
+        color: $text-default;
+        display: block;
+        padding: 3.5rem 2.7rem;
+        text-align: center;
+        text-decoration: none;
+
+        .fa {
+          font-size: 4rem;
+          margin-bottom: 30px;
+        }
+
+        .tool-name {
+          font-size: 20px;
+        }
+
+        .tool-short-desc {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

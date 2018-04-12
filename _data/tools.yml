@@ -1,0 +1,8 @@
+- name: Random User Generator
+  short_desc: At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque
+  icon: fa fa-user
+  link: /tools/random-user-generator
+- name: Ninja Ninja
+  short_desc: At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque
+  icon: fa fa-cog
+  link: /tools/ninja-ninja
