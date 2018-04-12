@@ -66,6 +66,10 @@
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
   .page-home {
+    .section-2 .services-list .row .col .service-image img {
+      width: 50%;
+    }
+
     .section-3 .site-list .row {
       width: 100%;
     }
