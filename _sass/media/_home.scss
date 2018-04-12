@@ -42,12 +42,16 @@
     }
 
     .section-3 {
+      padding: 5rem 0;
+
       .section-header {
         margin-bottom: 5rem;
       }
 
       .site-list .row {
         .col {
+          flex-basis: auto;
+          -webkit-flex-basis: auto;
           padding: 0 !important;
         }
       }
