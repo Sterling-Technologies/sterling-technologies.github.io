@@ -1,0 +1,45 @@
+.page-contact {
+  padding-bottom: 3rem;
+
+  .form-wrapper {
+    // background: url('../images/placeholder/profile-banner.png') no-repeat;
+    // background-size: 50% 100%;
+    // background-position: right;
+
+    form {
+      h2 {
+        color: $text-red;
+        font-size: 2rem;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        border: 1px solid #ddd;
+        padding: .75rem 2rem;
+
+        &::-webkit-input-placeholder {
+          color: #909090;
+          font-style: italic;
+        }
+
+        &:-moz-placeholder {
+          color: #909090;
+          font-style: italic;
+        }
+
+        &::-moz-placeholder {
+          color: #909090;
+          font-style: italic;
+        }
+
+        &:-ms-input-placeholder {
+          color: #909090;
+          font-style: italic;
+        }
+      }
+    }
+  }
+}
