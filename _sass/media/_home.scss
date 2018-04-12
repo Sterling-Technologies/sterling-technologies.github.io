@@ -13,6 +13,10 @@
       .container {
         background-position: bottom;
         padding: 3rem 15px 20rem;
+
+        p br {
+          display: none;
+        }
       }
     }
 
@@ -46,6 +50,10 @@
 
       .section-header {
         margin-bottom: 5rem;
+
+        p br {
+          display: none;
+        }
       }
 
       .site-list .row {
