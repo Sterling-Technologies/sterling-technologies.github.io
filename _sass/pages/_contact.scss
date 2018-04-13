@@ -2,10 +2,6 @@
   padding-bottom: 3rem;
 
   .form-wrapper {
-    // background: url('../images/placeholder/profile-banner.png') no-repeat;
-    // background-size: 50% 100%;
-    // background-position: right;
-
     form {
       h2 {
         color: $text-red;
@@ -18,7 +14,7 @@
       input[type="email"],
       textarea {
         border: 1px solid #ddd;
-        padding: .75rem 2rem;
+        padding: .75rem 1.8rem;
 
         &::-webkit-input-placeholder {
           color: #909090;

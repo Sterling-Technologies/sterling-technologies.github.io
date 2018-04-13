@@ -20,7 +20,7 @@ permalink: /tools
         {% for tool in site.data.tools %}
           <div class="col col-md-4">
             <a href="{{ tool.link | absolute_url }}">
-              <i class="{{ tool.icon }}"></i>
+              <img src="{{ tool.icon | absolute_url }}" alt="Tool Icon">
               <p class="tool-name">{{ tool.name }}</p>
               <p class="tool-short-desc">{{ tool.short_desc }}</p>
             </a>

@@ -1,8 +1,12 @@
 - name: Random User Generator
   short_desc: At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque
-  icon: fa fa-user
+  icon: /assets/images/icons/tools/tools-people.png
   link: /tools/random-user-generator
 - name: Ninja Ninja
   short_desc: At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque
-  icon: fa fa-cog
+  icon: /assets/images/icons/tools/tools-ninja.png
   link: /tools/ninja-ninja
+- name: QR Code Decoder
+  short_desc: At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque
+  icon: /assets/images/icons/tools/tools-qr_code.png
+  link: /tools/qr-code
