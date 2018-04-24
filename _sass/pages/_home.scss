@@ -1,25 +1,5 @@
 .page-home {
-  .section-header {
-    margin-bottom: 5rem;
-    text-align: center;
-
-    .section-logo {
-      margin-bottom: 3rem;
-
-      img {
-        width: auto;
-      }
-    }
-
-    .section-title {
-      color: $text-red;
-      font-family: $text-bignoodle;
-      font-size: 2rem;
-      margin-bottom: 20px;
-    }
-  }
-
-  .section-1 {
+  .banner-section {
     margin-top: 3rem;
 
     .container {
@@ -31,90 +11,250 @@
       h2 {
         color: $text-red;
         font-family: $text-bignoodle;
-        font-size: 2.5rem;
-        margin-bottom: 20px;
+        font-size: 3.8rem;
+        margin: 0;
+      }
+
+      i {
+        display: block;
+        font-size: 16px;
+        margin-bottom: 30px;
+      }
+
+      p {
+        margin: 0;
+        font-size: 18px;
+      }
+
+      .text-red {
+        color: $text-red;
+        font-size: 24px;
       }
     }
   }
 
-  .section-2 {
-    background-color: #F1F1F1;
-    padding: 8rem;
+  .tech-acc-section {
+    background-color: #951B25;
+    color: #fff;
+    padding: 6rem 0;
 
-    .services-list {
-      .row {
+    .row {
+      margin-bottom: 4rem;
+
+      .col {
+        align-items: center;
+        display: flex;
+        font-size: 16px;
+        line-height: 2;
+
         &:first-child {
-          margin-bottom: 5rem;
+          h3 {
+            font-size: 2.2rem;
+            font-weight: normal;
+            letter-spacing: 1px;
+          }
+        }
+      }
+    }
+
+    .process {
+      margin: 0;
+      padding: 0;
+
+      li {
+        list-style-type: none;
+        text-align: center;
+        width: 100%;
+
+        .process-image {
+          position: relative;
+          margin-bottom: 2rem;
+
+          &:after {
+            content: "";
+            border-top: 2px solid #fff;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 158px;
+            right: 0;
+            height: 0.5em;
+            width: 54px;
+          }
         }
 
         &:last-child {
-          margin: 0 auto;
-          width: 70%;
+          .process-image::after {
+            content: none;
+          }
         }
 
-        .col {
-          text-align: center;
-
-          .service-image {
-            margin-bottom: 15px;
-
-            img {
-              width: auto;
-            }
-          }
+        p {
+          font-size: 18px;
         }
       }
     }
   }
 
-  .section-3 {
-    padding: 5rem;
+  .what-we-do-section {
+    padding: 8rem 0;
 
     .section-header {
-      margin-bottom: 6rem;
+      margin-bottom: 3rem;
 
-      .section-title {
-        font-size: 4rem;
-      }
-    }
-
-    .site-list {
-      .row {
-        width: 80%;
-        margin: 0 auto;
-
+      .row:first-child {
         .col:first-child {
-          padding: 2rem 0;
+          align-items: flex-end;
+          -webkit-align-items: flex-end;
+          justify-content: flex-end;
+          -webkit-justify-content: flex-end;
+
+          h3 {
+            color: $text-red;
+            font-size: 5rem;
+            font-family: $text-bignoodle;
+          }
         }
 
         .col:last-child {
-          padding: 4rem 0;
+          p {
+            font-style: italic;
+            font-size: 16px;
+          }
+        }
+      }
+
+      .row:last-child {
+        p {
+          color: $text-red;
+          font-size: 2rem;
+          margin-left: 5.4rem;
+        }
+      }
+    }
+
+    .wwd-list {
+      padding: 0 5rem;
+
+      .col {
+        text-align: center;
+        margin-top: 2rem;
+
+        .solution-image {
+          margin-bottom: 20px;
+          min-height: 125px;
         }
 
-        ul {
-          margin: 0;
-          padding: 0;
-
-          li {
-            list-style-type: none;
-            text-align: center;
-            margin-bottom: 3rem;
-
-            a {
-              display: block;
-
-              img {
-                width: auto;
-                object-fit: contain;
-              }
-            }
-          }
+        p {
+          font-size: 18px;
         }
       }
     }
   }
 
-  .section-4 {
+  .what-we-use-section {
+    background-color: #393939;
+    color: #fff;
+    padding: 4rem 0;
+
+    .section-header {
+      text-align: center;
+
+      h3 {
+        font-family: $text-bignoodle;
+        font-size: 2.8rem;
+      }
+
+      p {
+        font-size: 16px;
+        font-style: italic;
+        margin-bottom: 5rem;
+      }
+    }
+
+    .wwu-list {
+      .col-name {
+        color: $text-light-gold;
+        font-size: 18px;
+        margin-bottom: 2rem;
+        text-align: center;
+      }
+
+      ul {
+        margin: 0;
+        padding: 0;
+
+        li {
+          list-style-type: none;
+          text-align: center;
+          margin-bottom: 1.7rem;
+        }
+      }
+    }
+  }
+
+  .case-studies-section {
+    color: #fff;
+
+    .section-text {
+      background-color: #951B25;
+      padding-top: 8rem;
+      padding-bottom: 8rem;
+      padding-right: 30px;
+      text-align: right;
+
+      h3 {
+        font-family: $text-bignoodle;
+        font-size: 4.6rem;
+        font-weight: normal;
+        letter-spacing: 1px;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-size: 16px;
+        margin-left: auto;
+        width: 60%;
+      }
+    }
+
+    .section-projects {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+      padding-left: 5rem;
+
+      .col {
+        margin-bottom: 2rem;
+        align-items: center;
+        -webkit-align-items: center;
+        justify-content: center;
+        -webkit-justify-content: center;
+      }
+    }
+  }
+
+  .press-section {
+    padding: 4rem;
+
+    h3 {
+      color: $text-red;
+      font-size: 2rem;
+      font-weight: 400;
+      margin-bottom: 3rem;
+      text-align: center;
+    }
+
+    .blog-listing {
+      padding: 0 8rem;
+
+      .col {
+        padding: 0 2rem;
+      }
+    }
+  }
+
+  .contact-us-section {
     color: #fff;
     background: url('../images/home/sec4-background.png') no-repeat;
     background-position: center;
@@ -123,13 +263,17 @@
 
     h3 {
       font-family: $text-bignoodle;
-      font-size: 4rem;
-      font-weight: normal;
-      margin-bottom: 3rem;
+      font-size: 6rem;
+      font-weight: 400;
     }
 
     p {
       margin-bottom: 3rem;
+      font-size: 16px;
+    }
+
+    .btn {
+      padding: 1.5rem 2rem;
     }
   }
 }
