@@ -1,0 +1,32 @@
+{
+  "name": "sterlingtech",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack  --display-error-detail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sterling-Technologies/sterling-technologies.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sterling-Technologies/sterling-technologies.github.io/issues"
+  },
+  "homepage": "https://github.com/Sterling-Technologies/sterling-technologies.github.io#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "axios": "^0.18.0",
+    "file-system": "^2.2.2",
+    "fs": "0.0.1-security",
+    "github-api": "^3.0.0",
+    "jsonwebtoken": "^8.2.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15"
+  }
+}

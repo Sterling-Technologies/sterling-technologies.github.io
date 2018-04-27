@@ -40,8 +40,14 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+exclude:
+  - app
+  - node_modules
+
 # Include
-include: ['_pages']
+include:
+  - _pages
+  - dist
 
 # Collections
 collections_dir: collections

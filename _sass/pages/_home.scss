@@ -234,6 +234,24 @@
     }
   }
 
+  .github-section {
+    .section-header {
+      background-color: #474747;
+      color: #fff;
+      padding: 1rem;
+
+      p {
+        font-size: 20px;
+        margin: 0;
+
+        img {
+          display: inline-block;
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+
   .press-section {
     padding: 4rem;
 
