@@ -29,4 +29,4 @@ class Home {
 // instantiate class
 const home = new Home();
 // run init
-home.init();
+// home.init();

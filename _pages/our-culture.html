@@ -1,0 +1,194 @@
+---
+layout: default
+permalink: /our-culture
+---
+
+<div class="page-our-culture page-content">
+  <section class="banner-section">
+    <div class="container">
+      <div class="banner-text-1 ">
+        <h3>Our Culture</h3>
+        <p>
+          We develop game changers. Our mission is to develop things that have
+          an impact on our city, Philippines, Southeast Asia and the World.
+          Extreme lengths are taken in pursuit of this goal.
+        </p>
+      </div>
+      <div class="banner-text-2">
+        <h2>Work Hard</h2>
+        <h2>Play Hard</h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="core-values-section">
+    <div class="container">
+      <section class="honesty-row">
+        <div class="row">
+          <div class="col col-honesty">
+            <div class="col-wrapper">
+              <!-- get honesty core value -->
+              {% assign value = site.data.core-values | where: 'name', 'honesty' | first %}
+
+              <p class="value-num">Core Value I</p>
+              <h2 class="value-name">{{ value.name }}</h2>
+              <p class="value-description">{{ value.description }}</p>
+
+              <a href="{{ value.link | absolute_url }}">Know more</a>
+            </div>
+          </div>
+          <div class="col col-gallery">
+            <div class="col-wrapper">
+              <h2>(Gallery)</h2>
+              <p>
+                Eum iriure dolor in hendrerit in vulputate velit esse. Typi non
+                habent claritatem insitam est usus legentis in iis qui facit eorum
+                claritatem Investigationes. Facer possim assum demonstraverunt
+                lectores legere me lius quod ii legunt saepius claritas est.
+              </p>
+
+              <a href="#" class="clearfix">
+                See more
+                <i class="fa fa-arrow-right float-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="office-tour-row">
+        <h3>
+          Magic. <br>
+          It happens here.
+        </h3>
+        <a href="#">
+          Take a tour of our office
+          <i class="fa fa-arrow-right"></i>
+        </a>
+      </section>
+
+      <section class="three-values-row d-flex">
+        <div class="col-values">
+          <div class="col-ownership">
+            <!-- get ownership core value -->
+            {% assign value = site.data.core-values | where: 'name', 'ownership' | first %}
+
+            <p class="value-num">Core Value II</p>
+            <h3 class="value-name">{{ value.name }}</h3>
+            <p class="value-description">{{ value.description }}</p>
+            <a href="{{ value.link }}">Know more</a>
+          </div>
+
+          <div class="col-passion">
+            <!-- get passion core value -->
+            {% assign value = site.data.core-values | where: 'name', 'passion' | first %}
+
+            <p class="value-num">Core Value IV</p>
+            <h3 class="value-name">{{ value.name }}</h3>
+            <p class="value-description">{{ value.description }}</p>
+            <a href="{{ value.link }}">Know more</a>
+          </div>
+        </div>
+
+        <div class="col-values">
+          <div class="col-transparency">
+            <!-- get transparency core value -->
+            {% assign value = site.data.core-values | where: 'name', 'transparency' | first %}
+
+            <div class="d-flex">
+              <div>
+                <p class="value-num">Core Value III</p>
+                <h3 class="value-name">
+                  tran <br>
+                  spar <br>
+                  ency
+                </h3>
+                <a href="{{ value.link }}">Know more</a>
+              </div>
+              <p class="value-description">{{ value.description }}</p>
+            </div>
+          </div>
+
+          <div class="col-images">
+            <div class="d-flex">
+              <img src="{{ '/assets/images/our-culture/square-1.png' }}" alt="Core Value Image">
+              <img src="{{ '/assets/images/our-culture/square-2.png' }}" alt="Core Value Image">
+            </div>
+            <div class="d-flex">
+              <img src="{{ '/assets/images/our-culture/square-3.png' }}" alt="Core Value Image">
+              <img src="{{ '/assets/images/our-culture/square-4.png' }}" alt="Core Value Image">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="discipline-row">
+        <!-- get discipline core value -->
+        {% assign value = site.data.core-values | where: 'name', 'discipline' | first %}
+
+        <div class="row">
+          <div class="col col-md-4">
+            <p class="value-num">Core Value V</p>
+            <h3 class="value-name">{{ value.name }}</h3>
+            <a href="#">Know more</a>
+          </div>
+          <div class="col col-md-8">
+            <p class="value-description">{{ value.description }}</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="family-row d-flex">
+        <img src="{{ '/assets/images/our-culture/family-1.png' }}" alt="Family Core Value Image">
+        <div class="col-family">
+          <!-- get family core value -->
+          {% assign value = site.data.core-values | where: 'name', 'family' | first %}
+
+          <p class="value-num">Core Value VI</p>
+          <h3 class="value-name">{{ value.name }}</h3>
+          <p class="value-description">{{ value.description }}</p>
+          <a href="#">Know more</a>
+        </div>
+        <img src="{{ '/assets/images/our-culture/family-2.png' }}" alt="Family Core Value Image">
+      </section>
+    </div>
+  </section>
+
+  <section class="game-section">
+    <div class="container">
+      <p class="text-highlight-1">
+        When the boss isn't looking
+      </p>
+      <p class="text-highlight-2">
+        Player's Unknown Battlegrounds
+      </p>
+
+      <div class="d-flex">
+        <img src="{{ '/assets/images/our-culture/game.png' }}" class="game-image" alt="Game Image">
+        <div class="details">
+          <p class="description">
+            At vero eos et accusamus et iusto odio dignissimos ducimus,
+            qui blanditiis praesentium voluptatum deleniti atque corrupti,
+            Eum iriure dolor in hendrerit in vulputate velit esse. Typi non
+            habent claritatem insitam est usus legentis in iis qui facit eorum
+            claritatem Investigationes. Facer possim assum demonstraverunt
+            lectores legere me lius quod ii legunt saepius claritas est.
+          </p>
+
+          <div class="top-player">
+            <p>Sterling Tech's Top Player</p>
+            <div class="d-flex">
+              <div class="player-img">
+                <img src="{{ '/assets/images/our-culture/player-chris.png' }}" alt="Top Player Image">
+              </div>
+              <div>
+                <p class="player-ign">chrispeepata</p>
+                <p class="player-name">a.k.a. Chris Baquiran</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

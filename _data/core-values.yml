@@ -1,0 +1,96 @@
+- name: honesty
+  description:
+    Fairness and straightforwardness of conduct. Honesty implies a refusal to lie, steal, or deceive in any way. Honesty implies trustworthiness and incorruptibility to a degree that one is incapable of being false to a trust, responsibility, or pledge.
+  image: /assets/images/core-values/values-honesty.png
+  link: /core-values#honesty
+  supporting_behavior:
+    - Truthfully performs eight hours of work during business days
+    - Speaks their mind openly to others • Accuracy of reports and results
+    - Develops and encourages open and honest work practices and relationships.
+  conflicting_behavior:
+    - Says one thing and does another
+    - Criticizes people without their knowledge
+    - Acts dishonest and/or fraudulent • Taking bribes or any corrupt actions
+- name: transparency
+  description:
+    The extent to which actions are observable by others. The implication of transparency is openness in that all actions should be scrupulous enough to bear public scrutiny.
+  image: /assets/images/core-values/values-transparency.png
+  link: /core-values#transparency
+  supporting_behavior:
+    - Asks for opinions on things that they have done or about to do
+    - Asks for timeline extensions at a reasonable time
+    - Calls in when they are abruptly late or absent in a reasonable time
+    - Informs management of their personal situations which will affect their performance in work
+  conflicting_behavior:
+    - Takes responsibility for mistakes and failures
+    - Takes control of issues, tasks and/or projects
+    - Attempts to make projects better and optimized
+    - Understands business requirements
+- name: ownership
+  description:
+    Taking the initiative to bring about positive results. It means not waiting for others to act, and caring about the outcome as much as an owner of the company would. It is being accountable for the results of actions; that they are of the highest quality and delivered in a timely manner. Taking ownership shows others that they can trust you to do the right thing.
+  image: /assets/images/core-values/values-ownership.png
+  link: /core-values#ownership
+  supporting_behavior:
+    - Takes responsibility for mistakes and failures
+    - Takes control of issues, tasks and/or projects
+    - Attempts to make projects better and optimized
+    - Understands business requirements
+  conflicting_behavior:
+    - Does tasks in a completely different way than previously agreed without informing anyone
+    - Does not proactively assign him/her self to tasks
+    - Blames others for their personal faults
+    - Does not ask for clarifications even when the task is vague
+- name: passion
+  description:
+    Working with the belief towards a greater and higher purpose. Passion suggests an active or anxious regard for the standards of one’s profession, calling, or position.
+  image: /assets/images/core-values/values-passion.png
+  link: /core-values#passion
+  supporting_behavior:
+    - Researches for the right solution/answer for every problem
+    - Spends time learning about new things related to their work
+    - Introduces different (and sometimes better) ways of doing things
+    - Teaches others on how to be better in the workplace
+    - Understands the goals of the business and actively contributes to the completion of those goals
+  conflicting_behavior:
+    - Does not reach out to others for help on tasks
+    - Leaves work without completing committed tasks
+    - Not willing to try new things outside of their role
+    - Mostly says “no”
+- name: discipline
+  description:
+    To correct, mold and/or perfect the mental faculties or moral character. Discipline involves self-corrective actions in order to stay focused at the task at hand. We describe the level discipline by the sheer amount of rules either set by the company or one’s self and the ability to follow them. Having discipline at the very least will make a person consistent with their actions (whether right or wrong).
+  image: /assets/images/core-values/values-discipline.png
+  link: /core-values#discipline
+  supporting_behavior:
+    - General attention to detail
+    - Commits and makes every deadline
+    - Proven and practiced expertise in their related work
+    - Attempts to be a master at their profession
+    - Goes the extra mile to complete tasks the right way
+    - Does not make the same mistake more than once
+  conflicting_behavior:
+    - Does not care about the output of work
+    - Does not care how their solution was done
+- name: family
+  description:
+    A group of individuals emotionally related in anyway. Family can be thought of as a kind of team formed together in order to stay together to reach specific goals.
+  image: /assets/images/core-values/values-family.png
+  link: /core-values#family
+  supporting_behavior:
+    - Treats others as they would like to be treated
+    - Values different cultures and beliefs, and shows this in day-to-day words and actions.
+    - Displays respect for and awareness of individual differences.
+    - Seeks out, listens to, and respects the ideas and opinions of others.
+    - Engages in honest and direct communication at all levels in the organization.
+    - Offers to help co-workers
+    - Regular attempts to make bonds with others
+    - Protects others from possible danger
+    - Compromises on disagreements and conflicting ideas
+  conflicting_behavior:
+    - Fails to respect the rights of all groups and individuals.
+    - Does not acknowledge the contributions of others.
+    - Makes preconceived assumptions about others’ work or ideas and isn’t prepared to listen to alternative points of view.
+    - Ignores or colludes with oppressive behavior.
+    - Does not participate in any company activities
+    - Did not attempt to make any friends in the company • Does not practice humility
