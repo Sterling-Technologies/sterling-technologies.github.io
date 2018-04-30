@@ -1,8 +1,8 @@
 .page-contact {
-  padding-bottom: 3rem;
-
   .form-wrapper {
     form {
+      padding-bottom: 3rem;
+
       h2 {
         color: $text-red;
         font-size: 2rem;
@@ -35,6 +35,23 @@
           color: #909090;
           font-style: italic;
         }
+      }
+
+      .btn {
+        width: 40%;
+      }
+    }
+
+    .contact-aside .col-wrapper {
+      background: url('../images/placeholder/contact-us-bg.png') no-repeat;
+      background-size: cover;
+
+      p {
+        color: #fff;
+        font-size: 1.5rem;
+        line-height: 1.8;
+        margin: 13rem 0 0 4rem;
+        width: 60%;
       }
     }
   }
