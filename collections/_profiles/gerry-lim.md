@@ -1,16 +1,18 @@
 ---
 layout: profile
-name: Linda Ramos
-first_name: Linda
-slug: linda-ramos
-position: Head Hunter
-detail: Owns the most number of pencils in all of Sterling Tech
+name: Gerry Lim
+first_name: Gerry
+slug: gerry-lim
+position: CEO
+detail:
+  Gerry Lim is the president of Sterling Global Call Center, Inc., servicing both local and international markets; a recognized player especially in the fast food delivery and Telco industry. He is an active member of the Call Center Association of the Philippines, European Chamber of Commerce, and the Philippine Stationers Association.
+company: Sterling Technologies
 img_bnw: /assets/images/placeholder/team-bnw.png
 img_colored: /assets/images/placeholder/team-colored.png
 profile_img: /assets/images/placeholder/profile-picture.png
-team: employees
+team: executives
+order: 2
 highlighted: false
-award: Best in Cramming
 ---
 
 <p>Adipisicing occaecat id aliqua velit excepteur dolor ea labore non est. Ex incididunt deserunt amet sint adipisicing elit cupidatat. Labore occaecat cupidatat non consectetur occaecat enim voluptate excepteur id. Voluptate mollit et nisi aliquip quis duis fugiat ex sit ad culpa duis excepteur nisi elit. Irure enim in nisi incididunt incididunt ea proident eiusmod cillum eiusmod pariatur aliquip velit esse veniam. Nulla velit fugiat elit veniam velit enim velit elit et laboris quis cupidatat. Laborum aute culpa quis velit consequat aliquip minim laborum cupidatat. Anim esse minim culpa aliquip labore duis consequat nisi velit.</p>

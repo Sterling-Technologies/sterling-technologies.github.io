@@ -8,105 +8,85 @@ layout: default
 <section class="page-team page-content">
   <div class="container">
     <section class="upper-section">
-      <h2>Meet the &lt;Game Changers!&gt;</h2>
+      <h2>Our Team</h2>
       <p>
-        Esse esse eu excepteur officia reprehenderit labore cillum sit aute <br>
-        magna enim cillum excepteur aliquip in aliquip officia. Duis labore nisi dolor
+        We house over 50+ like minded, business strategists, startup mentors,
+        marketing professionals <br> and some of the best technologists in the
+        country, all experts in their fields.
       </p>
     </section>
 
+    <section class="team-executives">
+      <!-- get executives -->
+      {% assign executives = site.profiles | where: "team", 'executives' | sort: 'order' %}
 
-    <!-- Menu -->
-    <section class="team-menu">
-      <ul>
-        <li class="{% if page.title == "All" %}active{% endif %}">
-          <a href="/teams">
-            {% if page.title == "All" %}
-              &lt;/all&gt;
-            {% else %}
-              all
-            {% endif %}
-          </a>
-        </li>
-        <li class="{% if page.title == "Managers" %}active{% endif %}">
-          <a href="/teams/managers">
-            {% if page.title == "Managers" %}
-              &lt;/managers&gt;
-            {% else %}
-              managers
-            {% endif %}
-          </a>
-        </li>
-        <li class="{% if page.title == "Admin" %}active{% endif %}">
-          <a href="/teams/admin">
-            {% if page.title == "Admin" %}
-              &lt;/admin&gt;
-            {% else %}
-              admin
-            {% endif %}
-          </a>
-        </li>
-        <li class="{% if page.title == "Project Manager" %}active{% endif %}">
-          <a href="/teams/project-manager">
-            {% if page.title == "Project Manager" %}
-              &lt;/project manager&gt;
-            {% else %}
-              project manager
-            {% endif %}
-          </a>
-        </li>
-        <li class="{% if page.title == "Developers" %}active{% endif %}">
-          <a href="/teams/developers">
-            {% if page.title == "Developers" %}
-              &lt;/developers&gt;
-            {% else %}
-              developers
-            {% endif %}
-          </a>
-        </li>
-        <li class="{% if page.title == "Marketing" %}active{% endif %}">
-          <a href="/teams/marketing">
-            {% if page.title == "Marketing" %}
-              &lt;/marketing&gt;
-            {% else %}
-              marketing
-            {% endif %}
-          </a>
-        </li>
-        <li class="{% if page.title == "Sales" %}active{% endif %}">
-          <a href="/teams/sales">
-            {% if page.title == "Sales" %}
-              &lt;/sales&gt;
-            {% else %}
-              sales
-            {% endif %}
-          </a>
-        </li>
-        <li class="{% if page.title == "Designers" %}active{% endif %}">
-          <a href="/teams/designers">
-            {% if page.title == "Designers" %}
-              &lt;/designers&gt;
-            {% else %}
-              designers
-            {% endif %}
-          </a>
-        </li>
-      </ul>
+      <div class="row d-flex justify-content-md-center">
+        {% for exec in executives %}
+          <div class="col col-md-4">
+            <div class="exec-wrapper">
+              <img src="{{ exec.img_bnw | absolute_url }}" alt="Profile Image">
+              <div class="profile-info">
+                <div class="profile-name">{{ exec.name }}</div>
+                <div class="profile-position">{{ exec.position }}</div>
+                <div class="profile-company">{{ exec.company }}</div>
+                <div class="profile-detail">{{ exec.detail }}</div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
     </section>
-  </div>
 
-  <!-- Define Profiles -->
-  {% if page.name == "all" %}
-    {% assign profiles = site.profiles %}
-  {% else %}
-    {% assign profiles = site.profiles | where: "team_slug", page.name %}
-  {% endif %}
+    <section class="team-top-management">
+      <!-- get top management -->
+      {% assign top-management = site.profiles | where: "team", 'top-management' | sort: 'order' %}
 
-  <!-- List Profiles -->
-  <section class="team-profiles">
-    <div class="hanging-bg"></div>
-    <div class="container">
-      <h3>&lt;{{ page.title }}&gt;</h3>
+      <div class="row justify-content-md-center">
+        {% for management in top-management %}
+          <div class="col col-md-3">
+            <div class="profile-wrapper {% if management.highlighted == true %}d-none{% endif %}">
+              <img src="{{ management.img_bnw | absolute_url }}" alt="Profile Image">
+              <div class="profile-info">
+                <div class="profile-name">{{ management.name }}</div>
+                <div class="profile-pos">{{ management.position }}</div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="team-leads">
+      <!-- get top management -->
+      {% assign leads = site.profiles | where: "team", 'leads' | sort: 'order' %}
+
+      <div class="row justify-content-md-center">
+        {% for lead in leads %}
+          <div class="col col-md-3">
+            <div class="profile-wrapper {% if lead.highlighted == true %}d-none{% endif %}">
+              <img src="{{ lead.img_bnw | absolute_url }}" alt="Profile Image">
+              <div class="profile-info">
+                <div class="profile-name">{{ lead.name }}</div>
+                <div class="profile-pos">{{ lead.position }}</div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+
+    <!-- List Profiles -->
+    <section class="team-profiles">
+      <div class="section-header text-center">
+        <h3>The Real Team</h3>
+        <p>
+          We are always actively developing something amazing for partners,
+          companies and internally.
+        </p>
+      </div>
+
+      <!-- Define Profiles -->
+      {% assign profiles = site.profiles | where: "team", 'employees' %}
 
       <div class="row">
         {% for profile in profiles %}
@@ -134,8 +114,8 @@ layout: default
           </div>
         {% endfor %}
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 
   <section class="team-join">
     <div class="container">

@@ -5,102 +5,110 @@
     margin-bottom: 3rem;
   }
 
-  .team-menu {
-    text-align: center;
-    margin-bottom: 2.5rem;
+  .team-executives {
+    margin-bottom: 4rem;
 
-    ul {
-      margin: 0;
-      padding: 0;
+    .exec-wrapper {
+      border: 1px solid #B4B4B4;
+      position: relative;
 
-      li {
-        display: inline-block;
-        list-style-type: none;
+      img {
+        width: 100%;
+        height: 500px;
+      }
 
-        a {
-          color: $text-gold;
-          display: block;
-          padding: 0.5rem 1rem;
-          text-decoration: none;
-          text-transform: uppercase;
+      .profile-info {
+        color: #fff;
+        padding: 1rem 2rem;
+        position: absolute;
+        bottom: 15px;
+        left: 0;
+
+        .profile-name {
+          color: $text-red;
+          font-size: 25px;
+          line-height: 1;
+          margin-bottom: 0;
         }
 
-        &.active a {
-          color: $text-red;
-          font-weight: 600;
+        .profile-position {
+          color: #333333;
+          font-size: 20px;
+        }
+
+        .profile-company {
+          font-style: italic;
+          margin-bottom: 15px;
         }
       }
     }
   }
 
+  .team-top-management {
+    margin-bottom: 2rem;
+  }
+
+  .team-leads {
+    margin-bottom: 3rem;
+  }
+
   .team-profiles {
-    padding: 3rem 0;
+    padding: 2rem 0;
+    margin-bottom: 3rem;
+
+    .section-header {
+      margin-bottom: 4rem;
+
+      h3 {
+        color: $text-red;
+        font-family: $text-bignoodle;
+        font-size: 2.5rem;
+      }
+    }
+  }
+
+  .profile-wrapper {
+    border: 1px solid #B4B4B4;
     position: relative;
 
-    .hanging-bg {
-      background: url('../images/placeholder/team-banner-bg.png') no-repeat;
-      background-size: cover;
-      height: 380px;
-      position: absolute;
-      top: 0;
+    img {
       width: 100%;
-      z-index: -1;
+      height: 394px;
     }
 
-    h3 {
+    .profile-info {
+      background-color: #484848;
       color: #fff;
-      font-family: $text-bignoodle;
-      font-size: 2.3rem;
-      margin-bottom: 4rem;
-      text-align: center;
+      padding: 1rem;
+      position: absolute;
+      bottom: 30px;
+      left: 0;
+      width: 87%;
+
+      .profile-name {
+        font-size: 23px;
+        font-weight: 400;
+      }
     }
 
-    .row {
-      .col {
-        .profile-wrapper {
-          border: 1px solid #707070;
-          position: relative;
+    &.active {
+      .profile-info {
+        background-color: transparent;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        width: 95%;
 
-          img {
-            width: 100%;
-            height: 394px;
-          }
+        .profile-detail {
+          background-color: #000;
+          opacity: 0.8;
+          padding: 15px 10px;
+          text-align: center;
+        }
 
-          .profile-info {
-            background-color: #484848;
-            color: #fff;
-            padding: 1rem;
-            position: absolute;
-            bottom: 30px;
-            left: 0;
-            width: 85%;
-
-            .profile-name {
-              font-size: 25px;
-            }
-          }
-
-          &.active {
-            .profile-info {
-              background-color: transparent;
-              margin: 0 auto;
-              left: 0;
-              right: 0;
-              width: 95%;
-
-              .profile-detail {
-                background-color: #000;
-                opacity: 0.8;
-                padding: 15px 10px;
-                text-align: center;
-              }
-
-              .btn {
-                margin-top: 10px;
-                text-transform: uppercase;
-              }
-            }
-          }
+        .btn {
+          margin-top: 10px;
+          text-transform: uppercase;
         }
       }
     }
@@ -108,7 +116,8 @@
 
   .team-join {
     color: #fff;
-    background-color: rgba(205, 180, 139, 0.7);
+    background: url('../images/team-bottom-banner.png') no-repeat;
+    background-size: cover;
     padding: 8rem 0;
     text-align: center;
 

@@ -1,16 +1,17 @@
 ---
 layout: profile
-name: Linda Ramos
-first_name: Linda
-slug: linda-ramos
-position: Head Hunter
-detail: Owns the most number of pencils in all of Sterling Tech
+name: Edgar Ilaga
+first_name: Edgar
+slug: edgar-ilaga
+position: Business Technology Lead
+detail: Lorem ipsum dolor sit amet
+company: Sterling Technologies
 img_bnw: /assets/images/placeholder/team-bnw.png
 img_colored: /assets/images/placeholder/team-colored.png
 profile_img: /assets/images/placeholder/profile-picture.png
-team: employees
+team: leads
+order: 1
 highlighted: false
-award: Best in Cramming
 ---
 
 <p>Adipisicing occaecat id aliqua velit excepteur dolor ea labore non est. Ex incididunt deserunt amet sint adipisicing elit cupidatat. Labore occaecat cupidatat non consectetur occaecat enim voluptate excepteur id. Voluptate mollit et nisi aliquip quis duis fugiat ex sit ad culpa duis excepteur nisi elit. Irure enim in nisi incididunt incididunt ea proident eiusmod cillum eiusmod pariatur aliquip velit esse veniam. Nulla velit fugiat elit veniam velit enim velit elit et laboris quis cupidatat. Laborum aute culpa quis velit consequat aliquip minim laborum cupidatat. Anim esse minim culpa aliquip labore duis consequat nisi velit.</p>
