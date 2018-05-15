@@ -103,8 +103,84 @@
   .e-commerce-section {
     margin-top: 12rem;
   }
+}
 
-  .back-office-section {
+.page-wwd-layout {
+  .banner-section {
+    margin: 2rem 0 3rem;
+
+    .col {
+      padding-top: 3rem;
+      padding-bottom: 2rem;
+      position: relative;
+
+      h3 {
+        color: #5C5C5C;
+        font-family: $text-bignoodle;
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        color: $text-red;
+        font-size: 2.5rem;
+        font-weight: normal;
+      }
+
+      .text-question {
+        font-style: italic;
+      }
+
+      .description {
+        background-color: #fff;
+        padding: 2rem 1.3rem 2rem 0;
+        width: 50%;
+      }
+
+      img {
+        height: 100%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        width: 65%;
+        z-index: -1;
+      }
+    }
+  }
+
+  .services-menu {
     margin-bottom: 3rem;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+
+      li {
+        border-bottom: 1px solid #474747;
+        list-style-type: none;
+        width: 100%;
+
+        &.active {
+          a {
+            color: $text-red;
+            font-weight: 600;
+          }
+        }
+
+        a {
+          color: #474747;
+          display: block;
+          font-size: 0.9rem;
+          letter-spacing: 1px;
+          padding: 1rem 0;
+          text-align: center;
+          text-decoration: none;
+          text-transform: uppercase;
+          width: 100%;
+        }
+      }
+    }
   }
 }

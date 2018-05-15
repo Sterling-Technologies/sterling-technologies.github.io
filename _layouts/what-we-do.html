@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<!-- Breadcrumbs -->
+{% include breadcrumbs.html breadcrumbs=page.breadcrumbs %}
+
+<div class="page-wwd-layout page-content">
+  <section class="banner-section">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="text-wrapper">
+            <h3>What we do</h3>
+            <h2>{{ page.title }}</h2>
+            <p class="text-question">{{ page.text_question }}</p>
+            <p class="description">{{ page.description }}</p>
+          </div>
+          <img src="{{ page.banner_img | absolute_url }}" alt="banner image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services-menu">
+    <div class="container">
+      <!-- get what we do services -->
+      {% assign services = site.what-we-do | sort: 'order' %}
+
+      <!-- loop through services -->
+      <ul class="services-menu">
+        {% for service in services %}
+        <li class="{% if page.slug == service.slug %}active{% endif %}">
+          <a href="/what-we-do/{{ service.slug }}">
+            {% if page.slug == service.slug %}
+              &lt; {{ service.title }} &gt;
+            {% else %}
+              {{ service.title }}
+            {% endif %}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+
+  {{ content }}
+</div>
