@@ -52,9 +52,6 @@ include:
 # Collections
 collections_dir: collections
 collections:
-  teams:
-    output: true
-    permalink: /teams/:name
   profiles:
     output: true
     permalink: /profiles/:name
