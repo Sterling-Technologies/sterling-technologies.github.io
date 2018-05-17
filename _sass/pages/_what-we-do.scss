@@ -110,8 +110,7 @@
     margin: 2rem 0 3rem;
 
     .col {
-      padding-top: 3rem;
-      padding-bottom: 2rem;
+      padding-top: 2rem;
       position: relative;
 
       h3 {
@@ -132,8 +131,10 @@
       }
 
       .description {
-        background-color: #fff;
-        padding: 2rem 1.3rem 2rem 0;
+        background-color: #000;
+        color: #fff;
+        margin: 0;
+        padding: 1.5rem 2rem;
         width: 50%;
       }
 
