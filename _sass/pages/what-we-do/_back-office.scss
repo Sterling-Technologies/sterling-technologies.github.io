@@ -1,0 +1,145 @@
+.page-wwd-layout {
+  .back-office-content {
+    margin-bottom: 3rem;
+    
+    .image-circle {
+      background-color: #A7A7A7;
+      border-radius: 50%;
+      height: 130px;
+      margin: 0 auto 2rem;
+      width: 130px;
+    }
+
+    .two-col-img {
+      .col-image {
+        background-color: #E0E0E0;
+        display: flex;
+        display: -webkit-flex;
+        min-height: 300px;
+
+        img {
+          object-fit: contain;
+          margin: auto auto;
+        }
+      }
+
+      .col-text {
+        text-align: center;
+        padding: 3rem 5rem;
+
+        h3 {
+          color: $text-red;
+          margin-bottom: 10px;
+        }
+
+        .text-q {
+          font-style: italic;
+          margin-bottom: 2rem;
+        }
+
+        .desc {
+          line-height: 1.8;
+          padding: 0 3rem;
+          text-align: left;
+        }
+      }
+    }
+
+    .section-1 {
+      margin: 2rem 0 4rem;
+    }
+
+    .section-2 {
+      background-color: #951B25;
+      color: #fff;
+      padding: 3rem 0;
+
+      h4 {
+        font-weight: normal;
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+      }
+
+      p {
+        line-height: 2;
+      }
+    }
+
+    .section-3 {
+      margin: 4rem 0;
+
+      .col-text {
+        padding-top: 4rem;
+        padding-left: 0;
+
+        .desc {
+          padding: 0 5rem 0 0;
+        }
+      }
+    }
+
+    .section-4.jobayan-features {
+      margin-bottom: 3rem;
+
+      ul {
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        -webkit-justify-content: center;
+
+        li {
+          list-style-type: none;
+          text-align: center;
+          width: 100%;
+
+          p {
+            letter-spacing: 2px;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+
+    .section-5 {
+      margin-bottom: 3rem;
+    }
+
+    .section-6 {
+      ul.d-flex {
+        background-color: #951B25;
+        color: #fff;
+        margin: 0 auto 1rem;
+        padding: 3rem 0;
+        width: 80%;
+
+        li {
+          list-style-type: none;
+          width: 100%;
+          text-align: center;
+
+          .image-circle {
+            background-color: #fff;
+          }
+
+          h4 {
+            font-size: 1.2rem;
+            font-weight: normal;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+          }
+
+          ul {
+            padding: 0;
+
+            li {
+              margin-bottom: 3px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
