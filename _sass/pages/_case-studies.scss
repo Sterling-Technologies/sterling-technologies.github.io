@@ -1,0 +1,106 @@
+.page-case-studies {
+  .project-list {
+    .col-proj {
+      margin-bottom: 3rem;
+
+      .proj-img {
+        display: block;
+        margin-bottom: 1rem;
+        position: relative;
+
+        img {
+          width: 100%;
+          object-fit: contain;
+        }
+
+        .img-overlay {
+          background-color: rgba(149, 27, 37, 0.7);
+          color: #fff;
+          display: none;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          width: 100%;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          padding: 4rem 3rem;
+
+          .wrapper {
+            display: flex;
+            flex-direction: column;
+            -webkit-flex-direction: column;
+            align-items: center;
+            -webkit-align-items: center;
+            justify-content: center;
+            -webkit-justify-content: center;
+            height: 100%;
+
+            .proj-title {
+              font-family: $text-bignoodle;
+              font-size: 3rem;
+            }
+          }
+
+        }
+      }
+
+      .proj-link {
+        color: inherit;
+        display: block;
+        font-weight: 600;
+        font-size: 16px;
+        letter-spacing: 2px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+    }
+
+    .col-proj:hover {
+      .proj-img .img-overlay {
+        display: block;
+      }
+    }
+  }
+}
+
+.layout-case-study {
+  .banner-section {
+    background-color: #434343;
+    padding: 5rem 0;
+    color: #fff;
+
+    h2 {
+      font-family: $text-bignoodle;
+      font-size: 6rem;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 2.5rem;
+      width: 40%;
+    }
+
+    .btn {
+      background-color: #951B25;
+      padding: 1.8rem 4rem;
+    }
+  }
+
+  .study-menu {
+    padding: 2rem 0 2.5rem;
+
+    a {
+      color: inherit;
+      letter-spacing: 2px;
+      margin-right: 3rem;
+      padding: 0 1rem 1rem;
+      text-transform: uppercase;
+      text-decoration: none;
+
+      &.active {
+        border-bottom: 5px solid #F5A242;
+      }
+    }
+  }
+}

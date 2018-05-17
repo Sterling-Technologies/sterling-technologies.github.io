@@ -58,3 +58,6 @@ collections:
   what-we-do:
     output: true
     permalink: /what-we-do/:slug
+  case-studies:
+    output: true
+    permalink: /case-studies/:slug
