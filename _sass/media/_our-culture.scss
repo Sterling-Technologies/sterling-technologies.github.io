@@ -1,0 +1,77 @@
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  .page-our-culture .core-values-section .honesty-row .row .col-honesty .col-wrapper {
+    padding: 5rem;
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  .page-our-culture {
+    .core-values-section {
+      .honesty-row .row .col-honesty .col-wrapper {
+        padding: 2.2rem 4rem;
+      }
+
+      .office-tour-row {
+        padding: 5rem 4rem 7rem;
+      }
+
+      .three-values-row .col-transparency {
+        background-color: #fff;
+      }
+    }
+
+    .three-values-row,
+    .family-row,
+    .game-section .d-flex, {
+      flex-direction: column;
+      -webkit-flex-direction: column;
+    }
+
+    .game-section .details {
+      margin-top: 2rem;
+      padding-left: 0;
+    }
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  .page-our-culture {
+    .banner-section {
+      padding: 8rem 0 5rem;
+      
+      .banner-text-1 p {
+        width: 85%;
+      }
+    }
+
+    .core-values-section {
+      .honesty-row {
+        height: auto;
+        padding-top: 2rem;
+
+        .row {
+          position: relative;
+          top: 0;
+
+          .col:first-child {
+            padding-right: 15px;
+          }
+
+          .col:last-child {
+            padding-left: 15px;
+          }
+        }
+      }
+
+      .office-tour-row {
+        background-size: cover;
+      }
+    }
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {}

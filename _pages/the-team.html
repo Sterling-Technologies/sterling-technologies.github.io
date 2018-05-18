@@ -23,7 +23,7 @@ permalink: /the-team
 
       <div class="row d-flex justify-content-md-center">
         {% for exec in executives %}
-          <div class="col col-md-4">
+          <div class="col col-12 col-sm-12 col-md-4">
             <div class="exec-wrapper">
               <img src="{{ exec.img_bnw | absolute_url }}" alt="Profile Image">
               <div class="profile-info">
@@ -44,7 +44,7 @@ permalink: /the-team
 
       <div class="row justify-content-md-center">
         {% for management in top-management %}
-          <div class="col col-md-3">
+          <div class="col col-12 col-sm-12 col-md-3 col-profile">
             <div class="profile-wrapper {% if management.highlighted == true %}d-none{% endif %}">
               <img src="{{ management.img_bnw | absolute_url }}" alt="Profile Image">
               <div class="profile-info">
@@ -63,7 +63,7 @@ permalink: /the-team
 
       <div class="row justify-content-md-center">
         {% for lead in leads %}
-          <div class="col col-md-3">
+          <div class="col col-12 col-sm-12 col-md-3 col-profile">
             <div class="profile-wrapper {% if lead.highlighted == true %}d-none{% endif %}">
               <img src="{{ lead.img_bnw | absolute_url }}" alt="Profile Image">
               <div class="profile-info">
@@ -91,8 +91,8 @@ permalink: /the-team
 
       <div class="row">
         {% for profile in profiles %}
-          <div class="col col-md-3">
-            <div class="profile-wrapper {% if profile.highlighted == true %}d-none{% endif %}">
+          <div class="col col-12 col-sm-12 col-md-3 col-profile">
+            <div class="profile-wrapper">
               <img src="{{ profile.img_bnw | absolute_url }}" alt="Profile Image">
               <div class="profile-info">
                 <div class="profile-name">{{ profile.name }}</div>
@@ -100,7 +100,7 @@ permalink: /the-team
               </div>
             </div>
 
-            <div class="profile-wrapper active {% if profile.highlighted == false %}d-none{% endif %}">
+            <div class="profile-wrapper active">
               <img src="{{ profile.img_colored | absolute_url }}" alt="Profile Image">
               <div class="profile-info">
                 <div class="profile-detail">

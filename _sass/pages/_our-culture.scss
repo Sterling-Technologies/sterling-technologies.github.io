@@ -2,7 +2,7 @@
   .banner-section {
     background: url('../images/our-culture/culture-banner.png') no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     padding: 15rem 0 12rem;
     color: #fff;
 
@@ -274,7 +274,7 @@
         color: #fff;
         padding: 3rem 4rem;
         text-align: center;
-        width: 90%;
+        width: 100%;
 
         .value-num {
           font-size: 16px;
