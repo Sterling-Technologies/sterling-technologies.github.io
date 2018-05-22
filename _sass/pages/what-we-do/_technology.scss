@@ -119,9 +119,15 @@
       }
       
       .col-01 {
-        p:nth-child(1) {
+        p.first-child {
           font-style: italic;
           text-transform: uppercase;
+          text-align: center;
+        }
+        p {
+          padding: 0 40px;
+          text-align: left;
+          line-height: 25px;
         }
       }
       
