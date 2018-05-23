@@ -35,26 +35,71 @@
             justify-content: center;
             -webkit-justify-content: center;
             height: 100%;
+            //border: 1px solid black;
+            position: relative;
 
-            .sterling-tech-logo {
-              height: 25px;
+            .inner-wrapper {
+              .sterling-tech-logo {
+                height: 25px;
+              }
+
+              .proj-header {
+                font-size: 1rem;
+                margin-top: 12px;
+              }
+
+              .proj-title {
+                font-family: $text-bignoodle;
+                font-size: 2.5rem;
+                margin: -10px;
+
+              }
+
+              .proj-footer {
+                font-size: 1rem;
+              }
             }
 
-            .proj-header {
-              font-size: 1rem;
-              margin-top: 12px;
+            .inner-wrapper:before {
+              content: "";
+              position: absolute;
+              right: 0;
+              bottom: -0.15em;
+              height: 40%;
+              width: 1px;
+              background: #FFFFFF;
             }
 
-            .proj-title {
-              font-family: $text-bignoodle;
-              font-size: 2.5rem;
-              margin: -10px;
-
+            .inner-wrapper:after {
+              position: absolute;
+              bottom: -0.15em;
+              right: 0;
+              content: "";
+              width: 40%;
+              height: 0;
+              border-bottom: 1px solid #FFFFFF;
             }
 
-            .proj-footer {
-              font-size: 1rem;
-            }
+          }
+
+          .wrapper:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: -0.15em;
+            height: 40%;
+            width: 1px;
+            background: #FFFFFF;
+          }
+
+          .wrapper:after {
+            position: absolute;
+            top: -0.15em;
+            left: 0;
+            content: "";
+            width: 40%;
+            height: 0;
+            border-bottom: 1px solid #FFFFFF;
           }
 
         }
