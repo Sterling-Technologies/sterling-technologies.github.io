@@ -1,0 +1,151 @@
+.layout-what-we-do {
+  .technology {
+    padding: 0 0 2rem;
+
+   hr {
+      margin: 3rem auto;
+      border: 2px solid #000;
+      width: 50px;
+    }
+
+    .section-1{
+
+      h3 {
+        font-size: 1.3rem;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+      }
+
+      p {
+        margin: 0 230px;
+        line-height: 2;
+        word-spacing: 2px;
+      }
+
+     
+    }
+
+    .section-2 ul.section-images {
+      padding: 0 150px;
+
+      li {
+        background-color: #E0E0E0;
+        display: inline-block;
+        height: 120px;
+        margin-bottom: 20px;
+        margin-right: 15px;
+        width: 155px;
+
+        &:nth-child(4),
+        &:last-child {
+          margin-right: 0;
+        }
+
+        &:nth-child(5),
+        &:nth-child(6),
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .section-3 ul.section-images {
+      padding: 0;
+
+      li {
+        background-color: #5D5D5D;
+        color: #fff;
+        display: inline-block;
+        height: 120px;
+        line-height: 120px;
+        list-style-type: none;
+        margin-bottom: 20px;
+        margin-right: 10px;
+        vertical-align: middle;
+        width: 155px;
+      }
+    }
+
+    .section-4 {
+
+      ul.section-images {
+        padding: 0;
+
+        li {
+          background-color: #919191;
+          color: #fff;
+          display: inline-block;
+          height: 120px;
+          line-height: 120px;
+          list-style-type: none;
+          margin-bottom: 30px;
+          margin-right: 10px;
+          vertical-align: middle;
+          width: 155px;
+        }
+      }
+
+      p {
+        margin: 0 230px;
+        line-height: 2;
+        word-spacing: 2px;
+        margin-bottom: 20px;
+      }
+
+      button {
+        background-color: #fff;
+        border: 1px solid #B73641;
+        box-shadow: 0px 0px 0px transparent;
+        color: #B73641;
+        text-transform: uppercase;
+        text-shadow: 0px 0px 0px transparent;
+        padding: 20px 35px;
+        letter-spacing: 1px;
+      }
+    
+      margin-bottom: 30px;
+
+    }
+
+    .section-5 {
+      h3 {
+        font-size: 1.3rem;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+      }
+      
+      .col-01 {
+        p.first-child {
+          font-style: italic;
+          text-transform: uppercase;
+          text-align: center;
+        }
+        p {
+          padding: 0 40px;
+          text-align: left;
+          line-height: 25px;
+        }
+      }
+      
+      .col-02 {
+        padding: 50px 20px;
+        background-color: #951B25;
+        color: #fff;
+
+        li {
+          font-weight: 400;
+          list-style-type: none;
+          margin-bottom: 15px;
+          word-spacing: 1px;
+        }
+      }
+    }
+
+  }
+
+
+}
