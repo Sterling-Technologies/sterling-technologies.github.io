@@ -16,7 +16,7 @@
       </a>
     </li>
     {% assign segment = page.url | slice: 1, page.url.size | split: '/' | first  %}
-    <li class="nav-item {% if segment == "case-studies" %}active{% endif %}">
+    <!-- <li class="nav-item {% if segment == "case-studies" %}active{% endif %}">
       <a class="nav-link" href="/case-studies">
         {% if segment == "case-studies" %}
           &lt;case studies&gt;
@@ -24,7 +24,15 @@
           case studies
         {% endif %}
       </a>
-    </li>
+    </li> -->
+    <li class="nav-item {% if page.url == "/who-we-are" %}active{% endif %}">
+      <a class="nav-link" href="/who-we-are">
+        {% if page.url == "/who-we-are" %}
+          &lt;who we are&gt;
+        {% else %}
+          who we are
+        {% endif %}
+      </a>
     <li class="nav-item {% if page.url == "/the-team" %}active{% endif %}">
       <a class="nav-link" href="/the-team">
         {% if page.url == "/the-team" %}
@@ -34,7 +42,7 @@
         {% endif %}
       </a>
     </li>
-    <li class="nav-item {% if page.url == "/careers" %}active{% endif %}">
+    <!-- <li class="nav-item {% if page.url == "/careers" %}active{% endif %}">
       <a class="nav-link" href="/careers">
         {% if page.url == "/careers" %}
           &lt;careers&gt;
@@ -42,7 +50,7 @@
           careers
         {% endif %}
       </a>
-    </li>
+    </li> -->
     <li class="nav-item {% if page.url == "/our-culture" %}active{% endif %}">
       <a class="nav-link" href="/our-culture">
         {% if page.url == "/our-culture" %}

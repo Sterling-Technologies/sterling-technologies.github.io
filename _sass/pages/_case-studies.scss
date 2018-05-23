@@ -1,7 +1,7 @@
 .page-case-studies {
   .project-list {
     .col-proj {
-      margin-bottom: 3rem;
+      margin-bottom: 2rem;
 
       .proj-img {
         display: block;
@@ -14,10 +14,11 @@
         }
 
         .img-overlay {
-          background-color: rgba(149, 27, 37, 0.7);
+          background-color: #951B25;
           color: #fff;
           display: none;
           height: 100%;
+          opacity: 0.93;
           position: absolute;
           top: 0;
           width: 100%;
@@ -35,9 +36,24 @@
             -webkit-justify-content: center;
             height: 100%;
 
+            .sterling-tech-logo {
+              height: 25px;
+            }
+
+            .proj-header {
+              font-size: 1rem;
+              margin-top: 12px;
+            }
+
             .proj-title {
               font-family: $text-bignoodle;
-              font-size: 3rem;
+              font-size: 2.5rem;
+              margin: -10px;
+
+            }
+
+            .proj-footer {
+              font-size: 1rem;
             }
           }
 

@@ -6,7 +6,31 @@
   short_desc: At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque
   icon: /assets/images/icons/tools/tools-ninja.png
   link: /tools/ninja-ninja
+- name: Random User Generator
+  short_desc: At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque
+  icon: /assets/images/icons/tools/tools-pacman.png
+  link: /tools/random-user-generator
+- name: Surf Buddy
+  short_desc: At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque
+  icon: /assets/images/icons/tools/tools-water_element_filled.png
+  link: /tools/surf-buddy
 - name: QR Code Decoder
   short_desc: At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque
   icon: /assets/images/icons/tools/tools-qr_code.png
   link: /tools/qr-code
+- name: Random User Generator
+  short_desc: At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque
+  icon: /assets/images/icons/tools/tools-search_property.png
+  link: /tools/random-user-generator
+- name: Random User Generator
+  short_desc: At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque
+  icon: /assets/images/icons/tools/tools-speed.png
+  link: /tools/random-user-generator
+- name: Random User Generator
+  short_desc: At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque
+  icon: /assets/images/icons/tools/tools-workflow.png
+  link: /tools/random-user-generator
+- name: Fingerprint Sensor
+  short_desc: At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque
+  icon: /assets/images/icons/tools/tools-fingerprint.png
+  link: /tools/fingerprint-sensor

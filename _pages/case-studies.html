@@ -27,13 +27,21 @@ permalink: /case-studies
         {% for study in studies %}
           <div class="col col-md-4 col-proj">
             <a href="/case-studies/{{ study.slug }}" class="proj-img">
-              <img src="{{ '/assets/images/placeholder/case-study.jpg' | absolute_url }}" alt="Project Logo">
+              <img 
+                alt="Project Logo"
+                src="{{ '/assets/images/placeholder/case-study.jpg' | absolute_url }}" 
+              >
 
               <div class="img-overlay text-center">
                 <div class="wrapper">
-                  <div>view</div>
+                  <img 
+                    alt="Sterlingtech Logo"
+                    class="sterling-tech-logo"
+                    src="{{ '/assets/images/case-study/white-small-sllogo.png' | absolute_url }}" 
+                  >
+                  <div class="proj-header">view</div>
                   <div class="proj-title">{{ study.title }}</div>
-                  <div>case study</div>
+                  <div class="proj-footer">case study</div>
                 </div>
               </div>
             </a>
