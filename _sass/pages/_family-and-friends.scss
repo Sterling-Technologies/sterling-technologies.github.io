@@ -6,9 +6,11 @@
   }
 
   .section-1 {
-    background-color: #464646;
-    color: #fff;
-    padding: 5rem 0;
+    background-image: url(../images/family-and-friends/fnf-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000;
+    padding: 10rem 0;
 
     .col {
       position: relative;
@@ -24,7 +26,7 @@
       }
 
       hr {
-        border: 3px solid #fff;
+        border: 3px solid #000;
         position: absolute;
         width: 15%;
       }
@@ -36,28 +38,15 @@
   }
 
   .company-list-section {
-    padding: 1rem 0 5rem 20rem;
-    text-align: left;
+    padding: 5rem 5rem 0;
 
     .company-detail {
-      margin-top: 3rem;
+      margin-bottom: 5rem;
 
-      h3 {
-        font-size: 1.25rem;
-        font-weight: 900;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-      }
-
-      p {
-        color: #6C6C6C;
-        font-size: 16px;
-        line-height: 2;
-        margin: 0;
-      }
-
-      .bar-separator {
-        margin: 1rem 1.5rem;
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
       }
     }
   }

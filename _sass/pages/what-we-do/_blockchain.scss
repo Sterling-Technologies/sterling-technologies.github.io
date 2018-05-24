@@ -4,7 +4,6 @@
       margin: 2rem 0 4rem;
 
       .col-image {
-        background-color: #E0E0E0;
         display: flex;
         display: -webkit-flex;
         min-height: 300px;
@@ -44,9 +43,20 @@
       padding: 2.5rem;
       width: 55%;
 
-      ul li {
+      ul {
         font-size: 16px;
         margin-bottom: 10px;
+
+        li {
+          font-weight: 400;
+          list-style-type: none;
+          margin-bottom: 15px;
+          word-spacing: 1px;
+
+          img {
+            padding: 5px 20px 5px 0px;
+          }
+        }
       }
     }
   }

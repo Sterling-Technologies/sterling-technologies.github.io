@@ -16,7 +16,8 @@ breadcrumbs:
 text_question: Have a great idea for the blockchain?
 description:
   Blockchain technology has grown into huge demand, yet there is a lack of accessible experts in the field. We have both the knowledge and experience to transform your product to utilize the blockchain.
-banner_img: /assets/images/team-bottom-banner.png
+banner_img: /assets/images/what-we-do/blockchain/whatwedo-banner-blockchain.jpg
+background_img: /assets/images/what-we-do/inner-whatwedo-blockchain.jpg
 ---
 
 <div class="page-content blockchain-content">
@@ -24,7 +25,10 @@ banner_img: /assets/images/team-bottom-banner.png
     <section class="monico-details">
       <div class="row">
         <div class="col col-image">
-          <!-- <img src="{{ '/assets/images/home/sec-3-monico.png' | absolute_url }}" alt="Monic logo"> -->
+          <img 
+            alt="Monico image"
+            src="{{ '/assets/images/what-we-do/blockchain/blockchain-inner.jpg' | absolute_url }}" 
+          >
         </div>
         <div class="col col-text">
           <h3>Monico</h3>
@@ -40,13 +44,32 @@ banner_img: /assets/images/team-bottom-banner.png
     </section>
 
     <section class="monico-features">
+      {% assign check_icon = "/assets/images/icons/check-circle-outline.png" %}
       <ul>
-        <li>Smart contract creation</li>
-        <li>ERC20, Stellar, Hyper Ledger. NEO based token distribution</li>
-        <li>Complete investor and administrator Interface</li>
-        <li>Customized round schedules</li>
-        <li>Support for BTC, ETH, LTC and fiat payments</li>
-        <li>Referrer Bounty Support</li>
+        <li>
+          <img src= {{check_icon}}/>
+          Smart contract creation
+        </li>
+        <li>
+          <img src= {{check_icon}}/>
+          ERC20, Stellar, Hyper Ledger. NEO based token distribution
+        </li>
+        <li>
+          <img src= {{check_icon}}/>
+          Complete investor and administrator Interface
+        </li>
+        <li>
+          <img src= {{check_icon}}/>
+          Customized round schedules
+        </li>
+        <li>
+          <img src= {{check_icon}}/>
+          Support for BTC, ETH, LTC and fiat payments
+        </li>
+        <li>
+          <img src= {{check_icon}}/>
+          Referrer Bounty Support
+        </li>
       </ul>
     </section>
   </div>

@@ -1,4 +1,6 @@
 .page-what-we-do {
+  margin-bottom: 1.5em;
+
   .bar-separator {
     border: 3px solid #000;
     margin: 1rem 0;
@@ -6,7 +8,9 @@
   }
 
   .banner-section {
-    background-color: #d9d9d9;
+    background-image: url(../images/what-we-do/whatwedo-banner-main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 6rem 0 13rem;
     position: relative;
 
@@ -63,11 +67,10 @@
   }
 
   .box-highlight {
-    background-size: 60% 100%;
+    background-size: 57% 95%;
     background-position: right;
     background-repeat: no-repeat;
     padding: 4rem;
-    background-image: url('../images/team-bottom-banner.png');
 
     &.box-right {
       background-position: left;

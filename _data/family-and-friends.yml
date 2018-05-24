@@ -8,6 +8,9 @@
     possible ROI. That’s how we help <br>
     companies keep growing, day in and day out. 
     We can do the same with yours.
+  logo: /assets/images/family-and-friends/fnf-galleon.jpg
+  link: https://www.galleon.ph/
+  alt: galleon logo
 - name: ChatbotPH
   short_desc: 
     Our mission as a partner is to understand 
@@ -18,6 +21,9 @@
     possible ROI. That’s how we help <br>
     companies keep growing, day in and day out. 
     We can do the same with yours.
+  logo: /assets/images/family-and-friends/fnf-chatbot.jpg
+  link: http://www.chatbot.ph/
+  alt: chatbot logo
 - name: Sterling Paper
   short_desc: 
     Our mission as a partner is to understand 
@@ -28,6 +34,9 @@
     possible ROI. That’s how we help <br>
     companies keep growing, day in and day out. 
     We can do the same with yours.
+  logo: /assets/images/family-and-friends/fnf-sterlingpaper.jpg
+  link: http://sterlingpaper.com/our-companies/sterling-paper-products-ent.-inc.
+  alt: sterling paper logo
 - name: Shopcentral
   short_desc: 
     Our mission as a partner is to understand 
@@ -38,6 +47,9 @@
     possible ROI. That’s how we help <br>
     companies keep growing, day in and day out. 
     We can do the same with yours.
+  logo: /assets/images/family-and-friends/fnf-shopcentral.jpg
+  link: https://shopcentral.com.ph/
+  alt: shopcentral logo
 - name: Sterling Global Call Center
   short_desc: 
     Our mission as a partner is to understand 
@@ -48,6 +60,9 @@
     possible ROI. That’s how we help <br>
     companies keep growing, day in and day out. 
     We can do the same with yours.
+  logo: /assets/images/family-and-friends/fnf-sterlingglobal.jpg
+  link: http://www.sterlingglobal.com/
+  alt: sterling global logo
 - name: Dealcha
   short_desc: 
     Our mission as a partner is to understand 
@@ -58,6 +73,9 @@
     possible ROI. That’s how we help <br>
     companies keep growing, day in and day out. 
     We can do the same with yours.
+  logo: /assets/images/family-and-friends/fnf-dealcha.jpg
+  link: https://dealcha.com/
+  alt: dealcha logo
 - name: Jobayan
   short_desc: 
     Our mission as a partner is to understand 
@@ -68,6 +86,9 @@
     possible ROI. That’s how we help <br>
     companies keep growing, day in and day out. 
     We can do the same with yours.
+  logo: /assets/images/family-and-friends/fnf-jobayan.jpg
+  link: https://www.jobayan.com/
+  alt: jobayan logo
 - name: Jump Digital
   short_desc: 
     Our mission as a partner is to understand 
@@ -78,6 +99,9 @@
     possible ROI. That’s how we help <br>
     companies keep growing, day in and day out. 
     We can do the same with yours.
+  logo: /assets/images/family-and-friends/fnf-jumpdigital.jpg
+  link: http://jumpdigital.ph/
+  alt: jump digital logo
 - name: Storm Benefits
   short_desc: 
     Our mission as a partner is to understand 
@@ -88,6 +112,9 @@
     possible ROI. That’s how we help <br>
     companies keep growing, day in and day out. 
     We can do the same with yours.
+  logo: /assets/images/family-and-friends/fnf-storm.jpg
+  link: https://storm.tech/
+  alt: storm benefits logo
 - name: Aces Call Center Jobs
   short_desc: 
     Our mission as a partner is to understand 
@@ -98,6 +125,9 @@
     possible ROI. That’s how we help <br>
     companies keep growing, day in and day out. 
     We can do the same with yours.
+  logo: /assets/images/family-and-friends/fnf-aces.jpg
+  link: https://acesjobs.com.ph/
+  alt: aces logo
 - name: Monstar Labs
   short_desc: 
     Our mission as a partner is to understand 
@@ -108,6 +138,9 @@
     possible ROI. That’s how we help <br>
     companies keep growing, day in and day out. 
     We can do the same with yours.
+  logo: /assets/images/family-and-friends/fnf-monstar.jpg
+  link: https://monstar-lab.com/
+  alt: mosntar labs logo
 - name: Founders Institute
   short_desc: 
     Our mission as a partner is to understand 
@@ -118,6 +151,9 @@
     possible ROI. That’s how we help <br>
     companies keep growing, day in and day out. 
     We can do the same with yours.
+  logo: /assets/images/family-and-friends/fnf-founders.jpg
+  link: https://fi.co/
+  alt: founders institute logo
 - name: Kickstart
   short_desc: 
     Our mission as a partner is to understand 
@@ -128,6 +164,9 @@
     possible ROI. That’s how we help <br>
     companies keep growing, day in and day out. 
     We can do the same with yours.
+  logo: /assets/images/family-and-friends/fnf-kickstart.jpg
+  link: http://www.kickstart.ph/
+  alt: kickstart logo
 - name: Launch Garage
   short_desc: 
     Our mission as a partner is to understand 
@@ -138,16 +177,9 @@
     possible ROI. That’s how we help <br>
     companies keep growing, day in and day out. 
     We can do the same with yours.
-- name: PADCDI
-  short_desc: 
-    Our mission as a partner is to understand 
-    what our clients want to achieve, <br> 
-    contribute to their positive outcomes, a
-    nd help them make good decisions that will <br>
-    drive revenue and performance for the best 
-    possible ROI. That’s how we help <br>
-    companies keep growing, day in and day out. 
-    We can do the same with yours.
+  logo: /assets/images/family-and-friends/fnf-launchgarage.jpg
+  link: https://www.launchgarage.com/
+  alt: launch garage logo
 - name: Stream Engine Studios
   short_desc: 
     Our mission as a partner is to understand 
@@ -158,6 +190,9 @@
     possible ROI. That’s how we help <br>
     companies keep growing, day in and day out. 
     We can do the same with yours.
+  logo: /assets/images/family-and-friends/fnf-streamengine.jpg
+  link: http://streamenginestudios.com/
+  alt: stream engine studios logo
 - name: EWG
   short_desc: 
     Our mission as a partner is to understand 
@@ -168,4 +203,7 @@
     possible ROI. That’s how we help <br>
     companies keep growing, day in and day out. 
     We can do the same with yours.
+  logo: /assets/images/family-and-friends/fnf-ewg.jpg
+  link: https://www.ewg.org/
+  alt: ewg logo
   

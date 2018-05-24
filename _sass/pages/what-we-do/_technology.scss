@@ -1,10 +1,10 @@
 .layout-what-we-do {
   .technology {
-    padding: 0 0 2rem;
+    padding: 0; 
 
-   hr {
-      margin: 3rem auto;
+    hr {
       border: 2px solid #000;
+      margin: 3rem auto;
       width: 50px;
     }
 
@@ -23,8 +23,6 @@
         line-height: 2;
         word-spacing: 2px;
       }
-
-     
     }
 
     .section-2 ul.section-images {
@@ -69,7 +67,8 @@
     }
 
     .section-4 {
-
+      margin-bottom: 30px;
+      
       ul.section-images {
         padding: 0;
 
@@ -104,48 +103,52 @@
         padding: 20px 35px;
         letter-spacing: 1px;
       }
-    
-      margin-bottom: 30px;
-
     }
 
     .section-5 {
+      margin-top: 3rem;
+
       h3 {
         font-size: 1.3rem;
+        font-weight: 900;
         letter-spacing: 2px;
         word-spacing: 2px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         text-transform: uppercase;
       }
       
       .col-01 {
+        padding: 60px 20px;
+
         p.first-child {
           font-style: italic;
           text-transform: uppercase;
           text-align: center;
         }
+
         p {
-          padding: 0 40px;
-          text-align: left;
           line-height: 25px;
+          padding: 0 100px;
+          text-align: left;
         }
       }
       
       .col-02 {
-        padding: 50px 20px;
         background-color: #951B25;
         color: #fff;
+        padding: 60px 20px;
 
         li {
           font-weight: 400;
           list-style-type: none;
           margin-bottom: 15px;
           word-spacing: 1px;
+
+          img {
+            padding: 5px 20px 5px 20px;
+          }
         }
       }
     }
-
   }
-
-
 }

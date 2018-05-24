@@ -4,14 +4,13 @@
       margin-bottom: 3rem;
 
       .col-image {
-        background-color: #E0E0E0;
         display: flex;
         display: -webkit-flex;
         min-height: 300px;
 
         img {
-          object-fit: contain;
-          margin: auto auto;
+          object-fit: cover;
+          width: 100%;
         }
       }
 

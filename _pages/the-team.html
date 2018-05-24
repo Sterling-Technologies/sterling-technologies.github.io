@@ -17,9 +17,9 @@ permalink: /the-team
       </p>
     </section>
 
-    <section class="team-executives">
+    <!-- <section class="team-executives"> -->
       <!-- get executives -->
-      {% assign executives = site.profiles | where: "team", 'executives' | sort: 'order' %}
+      <!-- {% assign executives = site.profiles | where: "team", 'executives' | sort: 'order' %}
 
       <div class="row d-flex justify-content-md-center">
         {% for exec in executives %}
@@ -36,7 +36,7 @@ permalink: /the-team
           </div>
         {% endfor %}
       </div>
-    </section>
+    </section> -->
 
     <section class="team-top-management">
       <!-- get top management -->
@@ -44,31 +44,58 @@ permalink: /the-team
 
       <div class="row justify-content-md-center">
         {% for management in top-management %}
-          <div class="col col-12 col-sm-12 col-md-3 col-profile">
-            <div class="profile-wrapper {% if management.highlighted == true %}d-none{% endif %}">
+          <div class="col col-12 col-sm-12 col-md-3 col-leads">
+            <div class="leads-wrapper">
               <img src="{{ management.img_bnw | absolute_url }}" alt="Profile Image">
-              <div class="profile-info">
-                <div class="profile-name">{{ management.name }}</div>
-                <div class="profile-pos">{{ management.position }}</div>
+              <div class="leads-info">
+                <div class="leads-name">{{ management.name }}</div>
+                <div class="leads-pos">{{ management.position }}</div>
+              </div>
+            </div>
+
+            <div class="leads-wrapper active">
+              <img src="{{ management.img_colored | absolute_url }}" alt="Profile Image">
+              <div class="leads-info">
+                <div class="leads-detail">
+                  {{ management.detail }}
+                </div>
+
+                <a href="#" class="btn btn-red btn-block btn-lg">
+                  Meet {{ management.first_name }}
+                </a>
               </div>
             </div>
           </div>
         {% endfor %}
       </div>
+
     </section>
 
     <section class="team-leads">
-      <!-- get top management -->
+      <!-- get leads -->
       {% assign leads = site.profiles | where: "team", 'leads' | sort: 'order' %}
 
       <div class="row justify-content-md-center">
         {% for lead in leads %}
-          <div class="col col-12 col-sm-12 col-md-3 col-profile">
-            <div class="profile-wrapper {% if lead.highlighted == true %}d-none{% endif %}">
+          <div class="col col-12 col-sm-12 col-md-3 col-leads">
+            <div class="leads-wrapper">
               <img src="{{ lead.img_bnw | absolute_url }}" alt="Profile Image">
-              <div class="profile-info">
-                <div class="profile-name">{{ lead.name }}</div>
-                <div class="profile-pos">{{ lead.position }}</div>
+              <div class="leads-info">
+                <div class="leads-name">{{ lead.name }}</div>
+                <div class="leads-pos">{{ lead.position }}</div>
+              </div>
+            </div>
+
+            <div class="leads-wrapper active">
+              <img src="{{ lead.img_colored | absolute_url }}" alt="Profile Image">
+              <div class="leads-info">
+                <div class="leads-detail">
+                  {{ lead.detail }}
+                </div>
+
+                <a href="#" class="btn btn-red btn-block btn-lg">
+                  Meet {{ lead.first_name }}
+                </a>
               </div>
             </div>
           </div>

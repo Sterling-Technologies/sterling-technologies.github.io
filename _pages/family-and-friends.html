@@ -24,12 +24,12 @@ permalink: /family-and-friends
   </section>
 
   <section class="company-list-section">
-    <div class="company-list">
+    <div class="row">
       {% for company in site.data.family-and-friends %}
-        <div class="company-detail">
-          <h3>{{ company.name }}</h3>
-          <hr class="bar-separator">
-          <p>{{ company.short_desc}}</p>
+        <div class="col col-12 col-sm-12 col-md-4 company-detail">
+          <a href="{{ company.link }}" class="d-flex" target="_blank">
+            <img src="{{ company.logo | absolute_url }}" alt="{{ company.alt }}">
+          </a>
         </div>
       {% endfor %}
     </div>

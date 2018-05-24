@@ -50,10 +50,13 @@ permalink: /what-we-do
   {% for service in services %}
     <!-- get modulo to use on even index -->
     {% assign mod = forloop.index | modulo: 2 %}
-    <section class="{{ service.slug }}-section box-highlight {% if mod != 0 %}box-right{% endif %}">
+    <section 
+      class="{{ service.slug }}-section box-highlight {% if mod == 0 %}box-right{% endif %}" 
+      style="background-image:url({{ service.background_img }})"
+    >
       <div class="container">
         <div class="row">
-        <div class="col col-md-8 {% if mod != 0 %}offset-md-4{% endif %}">
+        <div class="col col-md-8 {% if mod == 0 %}offset-md-4{% endif %}">
           <h3>{{ service.title }}</h3>
           <div class="bar-separator"></div>
           <p>{{ service.description }}</p>

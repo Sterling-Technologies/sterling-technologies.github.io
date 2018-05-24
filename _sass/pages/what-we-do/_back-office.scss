@@ -3,8 +3,6 @@
     margin-bottom: 3rem;
 
     .image-circle {
-      background-color: #A7A7A7;
-      border-radius: 50%;
       height: 130px;
       margin: 0 auto 2rem;
       width: 130px;
@@ -12,7 +10,6 @@
 
     .two-col-img {
       .col-image {
-        background-color: #E0E0E0;
         display: flex;
         display: -webkit-flex;
         min-height: 300px;
@@ -120,7 +117,8 @@
           text-align: center;
 
           .image-circle {
-            background-color: #fff;
+            height: 150px;
+            width: 150px;
           }
 
           h4 {

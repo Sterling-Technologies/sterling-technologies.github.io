@@ -16,7 +16,8 @@ breadcrumbs:
 text_question: How about some AI for your Messenger?
 description:
   We are a team that has been together since 2012 and our retention is very high. This is because we work with new technologies almost every week. We are home of some of the best technologists in the country.
-banner_img: /assets/images/team-bottom-banner.png
+banner_img: /assets/images/what-we-do/technology/whatwedo-banner-technology.jpg
+background_img: /assets/images/what-we-do/inner-whatwedo-technology.jpg
 ---
 
 <div class="page-content technology">
@@ -29,9 +30,7 @@ banner_img: /assets/images/team-bottom-banner.png
     </section>
 
     <section class="section-2 text-center">
-
-      <hr class="bar-separator">
-      
+      <hr class="bar-separator">    
       <h3>Servers</h3>
       <ul class="section-images">
         <li></li>
@@ -56,9 +55,8 @@ banner_img: /assets/images/team-bottom-banner.png
         <li>ElasticSearch</li>
         <li>RabbitMQ</li>
       </ul>
-
-
     </section>
+
     <hr class="bar-separator">
     
     <section class="section-4 text-center">
@@ -77,25 +75,46 @@ banner_img: /assets/images/team-bottom-banner.png
 
       <button>Download a Sample</button>
     </section>
-
+  </div>
+  <div class="bottom-section-container">
     <section class="section-5">
       <div class="row">
         <div class="col col-01 text-center">
           <h3>Continuous Delivery</h3>
           <p class="first-child">Testing is a Serious Business</p>
           <p>
-            Developing custom apps usually yields bugs and issues. For a time, we were also no different than other companies in this regard. Today, we rely on both manual quality assurance and automated testing to measure the stability of our applications. We take automated testing to a different level of coverage.
+            Developing custom apps usually yields bugs and issues. For a time, <br>
+            we were also no different than other companies in this regard. <br>
+            Today, we rely on both manual quality assurance and automated <br>
+            testing to measure the stability of our applications. We take <br>
+            automated testing to a different level of coverage.
           </p>
         </div>
 
-        <div class="col col-02">
+        <div class="col col-02 ">
           <h3 class="text-center">Our Approach</h3>
+          {% assign check_icon = "/assets/images/icons/check-circle-outline.png" %}
           <ul>
-            <li>Show Travis Results</li>
-            <li>Show Coveralls Results</li>
-            <li>Show CacheGrind Results</li>
-            <li>Show WMT Results</li>
-            <li>Show Linode Server Results</li>
+            <li>
+              <img src= {{check_icon}}/>
+              Show Travis Results
+            </li>
+            <li>
+              <img src= {{check_icon}}/>
+              Show Coveralls Results
+            </li>
+            <li>
+              <img src= {{check_icon}}/>
+              Show CacheGrind Results
+            </li>
+            <li>
+              <img src= {{check_icon}}/>
+              Show WMT Results
+            </li>
+            <li>
+              <img src= {{check_icon}}/>
+              Show Linode Server Results
+            </li>
           </ul>
         </div>
       </div>

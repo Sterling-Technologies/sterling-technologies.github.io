@@ -1,4 +1,6 @@
 .page-who-we-are {
+  margin-bottom: 1.5em;
+  
   .bar-separator {
     border: 3px solid #000;
     margin: 2.5rem 0;
@@ -6,9 +8,11 @@
   }
 
   .section-1 {
-    background-color: #1D1D1D;
-    color: #fff;
-    padding: 5rem 0;
+    background-image: url(../images/who-we-are/whoweare-banner-main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000;
+    padding: 10rem 0; 
 
     .col {
       position: relative;
@@ -24,7 +28,7 @@
       }
 
       hr {
-        border: 3px solid #fff;
+        border: 3px solid #000;
         position: absolute;
         width: 15%;
       }
@@ -77,12 +81,23 @@
     }
   }
 
+  .section-4 {
+    background-image: url('/assets/images/who-we-are/whoweare-1.jpg');
+  }
+
+  .section-5 {
+    background-image: url('/assets/images/who-we-are/whoweare-2.jpg');
+  }
+
+  .section-6 {
+    background-image: url('/assets/images/who-we-are/whoweare-3.jpg');
+  }
+
   .box-highlight {
-    background-size: 60% 100%;
+    background-size: 57% 95%;
     background-position: right;
     background-repeat: no-repeat;
     padding: 4rem;
-    background-image: url('../images/team-bottom-banner.png');
 
     &.box-right {
       background-position: left;
