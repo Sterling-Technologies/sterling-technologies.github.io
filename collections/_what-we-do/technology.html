@@ -33,13 +33,17 @@ background_img: /assets/images/what-we-do/inner-whatwedo-technology.jpg
       <hr class="bar-separator">    
       <h3>Servers</h3>
       <ul class="section-images">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        {% assign servers = site.data.what-we-do.technology | where: "tag", 'servers' %}
+        {% for server in servers %}
+          <li>
+            <div class="technology-div">
+              <img src="{{server.img | absolute-url}}">
+              <div class="percent-div">
+                {{server.percent}}
+              </div>
+            </div>
+          </li>
+        {% endfor %}
       </ul>
     </section>
 
@@ -49,11 +53,17 @@ background_img: /assets/images/what-we-do/inner-whatwedo-technology.jpg
       <h3>Databases</h3>
       
       <ul class="section-images">
-        <li>Hadoop</li>
-        <li>CouchDB</li>
-        <li>Redis</li>
-        <li>ElasticSearch</li>
-        <li>RabbitMQ</li>
+        {% assign databases = site.data.what-we-do.technology | where: "tag", 'databases' %}
+        {% for database in databases %}
+          <li>
+            <div class="technology-div">
+              <img src="{{database.img | absolute-url}}">
+              <div class="percent-div">
+                {{database.percent}}
+              </div>
+            </div>
+          </li>
+        {% endfor %}
       </ul>
     </section>
 
@@ -63,10 +73,17 @@ background_img: /assets/images/what-we-do/inner-whatwedo-technology.jpg
       <h3>Libraries</h3>
 
       <ul class="section-images">
-        <li>React JS/Native</li>
-        <li>Ionic</li>
-        <li>Electron</li>
-        <li>Android</li>
+        {% assign libraries = site.data.what-we-do.technology | where: "tag", 'libraries' %}
+        {% for library in libraries %}
+          <li>
+            <div class="technology-div">
+              <img src="{{library.img | absolute-url}}">
+              <div class="percent-div">
+                {{library.percent}}
+              </div>
+            </div>
+          </li>
+        {% endfor %}
       </ul>
 
       <p>

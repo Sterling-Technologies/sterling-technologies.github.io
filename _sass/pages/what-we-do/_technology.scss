@@ -8,16 +8,35 @@
       width: 50px;
     }
 
-    .section-1{
+    .technology-div {
+      position: relative;
 
-      h3 {
-        font-size: 1.3rem;
-        letter-spacing: 2px;
-        word-spacing: 2px;
-        margin-bottom: 20px;
-        text-transform: uppercase;
+      img {
+        position: relative;
       }
 
+      .percent-div {
+        background-color: #505050; 
+        color: #FFFFFF; 
+        font-size: .75rem; 
+        line-height: 15px; 
+        padding: 5px 10px;
+        position: absolute; 
+        right: 55px;
+        top: 110px; 
+      }
+    }
+
+    h3 {
+      font-size: 1.3rem;
+      font-weight: 900;
+      letter-spacing: 2px;
+      word-spacing: 2px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+
+    .section-1{
       p {
         margin: 0 230px;
         line-height: 2;
@@ -29,10 +48,9 @@
       padding: 0 150px;
 
       li {
-        background-color: #E0E0E0;
         display: inline-block;
         height: 120px;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         margin-right: 15px;
         width: 155px;
 
@@ -53,7 +71,6 @@
       padding: 0;
 
       li {
-        background-color: #5D5D5D;
         color: #fff;
         display: inline-block;
         height: 120px;
@@ -73,7 +90,6 @@
         padding: 0;
 
         li {
-          background-color: #919191;
           color: #fff;
           display: inline-block;
           height: 120px;
