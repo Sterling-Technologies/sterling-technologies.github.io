@@ -6,11 +6,11 @@ slug: edgar-ilaga
 position: Business Technology Lead
 detail: Lorem ipsum dolor sit amet
 company: Sterling Technologies
-img_bnw: /assets/images/placeholder/team-bnw.png
-img_colored: /assets/images/placeholder/team-colored.png
+img_bnw: /assets/images/our-team/staff-bnw/ed-bnw.jpg
+img_colored: /assets/images/our-team/staff-alt/ed-alt.jpg
 profile_img: /assets/images/placeholder/profile-picture.png
 team: leads
-order: 1
+order: 4
 highlighted: false
 ---
 

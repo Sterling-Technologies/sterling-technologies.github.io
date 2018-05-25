@@ -3,14 +3,14 @@ layout: profile
 name: Ralph Muncada
 first_name: Ralph
 slug: ralph-muncada
-position: Marketing Lead
+position: Marketing Manager
 detail: Lorem ipsum dolor sit amet
 company: Sterling Technologies
-img_bnw: /assets/images/placeholder/team-bnw.png
-img_colored: /assets/images/placeholder/team-colored.png
+img_bnw: /assets/images/our-team/staff-bnw/ralph-bnw.jpg
+img_colored: /assets/images/our-team/staff-alt/ralph-alt.jpg
 profile_img: /assets/images/placeholder/profile-picture.png
 team: leads
-order: 4
+order: 6
 highlighted: false
 ---
 

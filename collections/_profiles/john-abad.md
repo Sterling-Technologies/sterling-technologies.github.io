@@ -1,14 +1,15 @@
 ---
 layout: profile
-name: Terrance Gilbert
-first_name: Terrance
-slug: terrance-gilbert
-position: Hunter Head
+name: John Abad
+first_name: John
+slug: john-abad
+position: Bus. Dev. Manager
 detail: Owns the most number of pencils in all of Sterling Tech
-img_bnw: /assets/images/placeholder/team-bnw.png
-img_colored: /assets/images/placeholder/team-colored.png
+img_bnw: /assets/images/our-team/staff-bnw/john-bnw.jpg
+img_colored: /assets/images/our-team/staff-alt/john-alt.jpg
 profile_img: /assets/images/placeholder/profile-picture.png
 team: employees
+order: 33
 highlighted: true
 award: Best in Cramming
 ---

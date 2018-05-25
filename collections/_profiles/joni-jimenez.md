@@ -3,12 +3,13 @@ layout: profile
 name: Joni Jimenez
 first_name: Joni
 slug: joni-jimenez
-position: Blockchain Developer
+position: Developer
 detail: Owns the most number of pencils in all of Sterling Tech
-img_bnw: /assets/images/placeholder/team-bnw.png
-img_colored: /assets/images/placeholder/team-colored.png
+img_bnw: /assets/images/our-team/staff-bnw/joni-bnw.jpg
+img_colored: /assets/images/our-team/staff-alt/joni-alt.jpg
 profile_img: /assets/images/placeholder/profile-picture.png
 team: employees
+order: 21
 highlighted: true
 award: Best in Cramming
 ---

@@ -38,10 +38,9 @@ permalink: /the-team
       </div>
     </section> -->
 
-    <section class="team-top-management">
+    <!-- <section class="team-top-management"> -->
       <!-- get top management -->
-      {% assign top-management = site.profiles | where: "team", 'top-management' | sort: 'order' %}
-
+      <!-- {% assign top-management = site.profiles | where: "team", 'top-management' | sort: 'order' %}
       <div class="row justify-content-md-center">
         {% for management in top-management %}
           <div class="col col-12 col-sm-12 col-md-3 col-leads">
@@ -55,21 +54,20 @@ permalink: /the-team
 
             <div class="leads-wrapper active">
               <img src="{{ management.img_colored | absolute_url }}" alt="Profile Image">
-              <div class="leads-info">
-                <div class="leads-detail">
+              <div class="leads-info"> -->
+                <!-- <div class="leads-detail">
                   {{ management.detail }}
                 </div>
 
                 <a href="#" class="btn btn-red btn-block btn-lg">
                   Meet {{ management.first_name }}
-                </a>
-              </div>
+                </a> -->
+              <!-- </div> 
             </div>
           </div>
         {% endfor %}
       </div>
-
-    </section>
+    </section> -->
 
     <section class="team-leads">
       <!-- get leads -->
@@ -77,7 +75,8 @@ permalink: /the-team
 
       <div class="row justify-content-md-center">
         {% for lead in leads %}
-          <div class="col col-12 col-sm-12 col-md-3 col-leads">
+          <div class="col col-12 col-sm-12 col-md-4 col-leads">
+            <!-- <div class="col col-12 col-sm-12 col-sm-4 col-leads"> -->
             <div class="leads-wrapper">
               <img src="{{ lead.img_bnw | absolute_url }}" alt="Profile Image">
               <div class="leads-info">
@@ -89,13 +88,13 @@ permalink: /the-team
             <div class="leads-wrapper active">
               <img src="{{ lead.img_colored | absolute_url }}" alt="Profile Image">
               <div class="leads-info">
-                <div class="leads-detail">
+                <!-- <div class="leads-detail">
                   {{ lead.detail }}
                 </div>
 
                 <a href="#" class="btn btn-red btn-block btn-lg">
                   Meet {{ lead.first_name }}
-                </a>
+                </a> -->
               </div>
             </div>
           </div>
@@ -114,7 +113,7 @@ permalink: /the-team
       </div>
 
       <!-- Define Profiles -->
-      {% assign profiles = site.profiles | where: "team", 'employees' %}
+      {% assign profiles = site.profiles | where: "team", 'employees' | sort: 'order' %}
 
       <div class="row">
         {% for profile in profiles %}
@@ -130,13 +129,13 @@ permalink: /the-team
             <div class="profile-wrapper active">
               <img src="{{ profile.img_colored | absolute_url }}" alt="Profile Image">
               <div class="profile-info">
-                <div class="profile-detail">
+                <!-- <div class="profile-detail">
                   {{ profile.detail }}
                 </div>
 
                 <a href="#" class="btn btn-red btn-block btn-lg">
                   Meet {{ profile.first_name }}
-                </a>
+                </a> -->
               </div>
             </div>
           </div>

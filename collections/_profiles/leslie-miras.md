@@ -1,15 +1,16 @@
 ---
 layout: profile
-name: Linda Ramos
-first_name: Linda
-slug: linda-ramos
-position: Head Hunter
+name: Leslie Miras
+first_name: Leslie
+slug: leslie-miras
+position: Bus. Dev. Manager
 detail: Owns the most number of pencils in all of Sterling Tech
-img_bnw: /assets/images/placeholder/team-bnw.png
-img_colored: /assets/images/placeholder/team-colored.png
+img_bnw: /assets/images/our-team/staff-bnw/leslie-bnw.jpg
+img_colored: /assets/images/our-team/staff-alt/leslie-alt.jpg
 profile_img: /assets/images/placeholder/profile-picture.png
 team: employees
-highlighted: false
+order: 37
+highlighted: true
 award: Best in Cramming
 ---
 

@@ -6,11 +6,11 @@ slug: venice-evangelista
 position: Business Lead
 detail: Lorem ipsum dolor sit amet
 company: Sterling Technologies
-img_bnw: /assets/images/placeholder/team-bnw.png
-img_colored: /assets/images/placeholder/team-colored.png
+img_bnw: /assets/images/our-team/staff-bnw/venice-bnw.jpg
+img_colored: /assets/images/our-team/staff-alt/venice-alt.jpg
 profile_img: /assets/images/placeholder/profile-picture.png
 team: leads
-order: 3
+order: 9
 highlighted: false
 ---
 

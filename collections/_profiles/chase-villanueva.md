@@ -3,12 +3,13 @@ layout: profile
 name: Chase Villanueva
 first_name: Chase
 slug: chase-villanueva
-position: Hunter Head
+position: Fullstack Developer
 detail: Owns the most number of pencils in all of Sterling Tech
-img_bnw: /assets/images/placeholder/team-bnw.png
-img_colored: /assets/images/placeholder/team-colored.png
+img_bnw: /assets/images/our-team/staff-bnw/chase-bnw.jpg
+img_colored: /assets/images/our-team/staff-alt/chase-alt.jpg
 profile_img: /assets/images/placeholder/profile-picture.png
 team: employees
+order: 18
 highlighted: true
 award: Best in Cramming
 ---

@@ -3,12 +3,13 @@ layout: profile
 name: Ciara Estavillo
 first_name: Ciara
 slug: ciara-estavillo
-position: Hunter x Hunter
+position: Developer
 detail: Owns the most number of pencils in all of Sterling Tech
-img_bnw: /assets/images/placeholder/team-bnw.png
-img_colored: /assets/images/placeholder/team-colored.png
+img_bnw: /assets/images/our-team/staff-bnw/ciara-bnw.jpg
+img_colored: /assets/images/our-team/staff-alt/ciara-alt.jpg
 profile_img: /assets/images/placeholder/profile-picture.png
 team: employees
+order: 20
 highlighted: true
 award: Best in Cramming
 ---

@@ -1,14 +1,15 @@
 ---
 layout: profile
-name: Leed Almogbel
-first_name: Leed
-slug: leed-almogbel
-position: Hunter Head
+name: Anne Pedro
+first_name: Anne
+slug: anne-pedro
+position: Relationship Manager
 detail: Owns the most number of pencils in all of Sterling Tech
-img_bnw: /assets/images/placeholder/team-bnw.png
-img_colored: /assets/images/placeholder/team-colored.png
+img_bnw: /assets/images/our-team/staff-bnw/anne-bnw.jpg
+img_colored: /assets/images/our-team/staff-alt/anne-alt.jpg
 profile_img: /assets/images/placeholder/profile-picture.png
 team: employees
+order: 32
 highlighted: true
 award: Best in Cramming
 ---

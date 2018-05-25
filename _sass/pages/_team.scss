@@ -50,6 +50,7 @@
 
   .team-leads {
     margin-bottom: 3rem;
+    padding: 0 4rem;
   }
 
   .team-profiles {
@@ -71,13 +72,12 @@
     position: relative;
 
     .leads-wrapper {
-      border: 1px solid #B4B4B4;
       position: relative;
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
 
       img {
-        width: 100%;
-        height: 100%;
+        //width: 100%;
+        //height: 100%;
       }
 
       .leads-info {
@@ -87,10 +87,10 @@
         position: absolute;
         bottom: 30px;
         left: 0;
-        width: 87%;
+        width: 85%;
 
         .leads-name {
-          font-size: 23px;
+          font-size: 22px;
           font-weight: 400;
         }
       }
@@ -129,31 +129,32 @@
 
   .col-profile {
     position: relative;
+    flex: 0 0 20%;
+    max-width: 20%;
 
     .profile-wrapper {
-      border: 1px solid #B4B4B4;
       position: relative;
       margin-bottom: 2rem;
-      //width: 73%;
-      //height: 74%;
 
       img {
-        width: 100%;
-        height: 100%;
+        width: 198px;
+        height: 261px;
+        position: relative;
       }
 
       .profile-info {
         background-color: #484848;
         color: #fff;
         padding: 1rem;
-        position: absolute;
-        bottom: 30px;
-        left: 0;
-        width: 87%;
+        width: 198px;
 
         .profile-name {
-          font-size: 23px;
+          font-size: 18px;
           font-weight: 400;
+        }
+
+        .profile-pos {
+          font-size: 13px;
         }
       }
 
@@ -167,7 +168,7 @@
           margin: 0 auto;
           left: 0;
           right: 0;
-          width: 95%;
+          width: 100%;
 
           .profile-detail {
             background-color: #000;

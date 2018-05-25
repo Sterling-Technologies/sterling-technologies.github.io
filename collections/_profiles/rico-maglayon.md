@@ -3,12 +3,13 @@ layout: profile
 name: Rico Maglayon
 first_name: Rico
 slug: rico-maglayon
-position: Hunter Head
+position: Senior Developer
 detail: Owns the most number of pencils in all of Sterling Tech
-img_bnw: /assets/images/placeholder/team-bnw.png
-img_colored: /assets/images/placeholder/team-colored.png
+img_bnw: /assets/images/our-team/staff-bnw/rico-bnw.jpg
+img_colored: /assets/images/our-team/staff-alt/rico-alt.jpg
 profile_img: /assets/images/placeholder/profile-picture.png
 team: employees
+order: 10
 highlighted: true
 award: Best in Cramming
 ---

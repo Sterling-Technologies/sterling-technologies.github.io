@@ -3,14 +3,14 @@ layout: profile
 name: Koko Domingo
 first_name: Koko
 slug: koko-domingo
-position: Product Manager - Jobayan
+position: Product Manager
 detail: Lorem ipsum dolor sit amet
 company: Sterling Technologies
-img_bnw: /assets/images/placeholder/team-bnw.png
-img_colored: /assets/images/placeholder/team-colored.png
+img_bnw: /assets/images/our-team/staff-bnw/koko-bnw.jpg
+img_colored: /assets/images/our-team/staff-alt/koko-alt.jpg
 profile_img: /assets/images/placeholder/profile-picture.png
 team: leads
-order: 2
+order: 7
 highlighted: false
 ---
 

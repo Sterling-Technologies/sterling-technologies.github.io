@@ -3,12 +3,13 @@ layout: profile
 name: Kevin Rosaria
 first_name: Kevin
 slug: kevin-rosaria
-position: Hunter Head
+position: Developer
 detail: Owns the most number of pencils in all of Sterling Tech
-img_bnw: /assets/images/placeholder/team-bnw.png
-img_colored: /assets/images/placeholder/team-colored.png
+img_bnw: /assets/images/our-team/staff-bnw/kevin-bnw.jpg
+img_colored: /assets/images/our-team/staff-alt/kevin-alt.jpg
 profile_img: /assets/images/placeholder/profile-picture.png
 team: employees
+order: 23
 highlighted: true
 award: Best in Cramming
 ---
