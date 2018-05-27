@@ -3,163 +3,210 @@ layout: default
 ---
 
 <div class="page-home">
-  <section class="section-1">
+  <section class="banner-section">
     <div class="container">
-      <h2>
-        The Technology <br>
-        &lt;Accelerator&gt;
-      </h2>
+      <h2>The Technology Accelerator</h2>
+      <i>Sterling Tech is a get things done kind of company.</i>
 
-      <p>
-        Sterling Tech is a get things done kind of company. <br>
-        We develop apps. We develop companies. <br>
-        We develop game changers.
-      </p>
+      <p>We develop apps. We develop companies.</p>
+      <p class="text-red">We develop game changers.</p>
     </div>
   </section>
 
-  <section class="section-2">
+  <section class="tech-acc-section">
+    <div class="container">
+      <div class="row">
+        <div class="col col-sm-12 col-12">
+          <h3>What is a technology accelerator?</h3>
+        </div>
+        <div class="col col-sm-12 col-12">
+          <p>
+            We use a business methodology that we developed over the years
+            to transform products into prosperous companies. No matter what
+            phase your company is in, we can get you to the finish line faster.
+          </p>
+        </div>
+      </div>
+
+      <ul class="process d-flex">
+        {% for process in site.data.home.tech-acce %}
+          <li>
+            <div class="process-image">
+              <img src="{{ process.img | absolute_url }}" alt="Process Image">
+            </div>
+            <p>{{ process.title }}</p>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+
+  <section class="what-we-do-section">
     <div class="container">
       <div class="section-header">
-        <div class="section-logo">
-          <img src="{{ '/assets/images/home/sec2-logo.png' | absolute_url }}" alt="Sterlingtech">
+        <div class="row">
+          <div class="col col-md-4 col-sm-12 col-12 offset-md-1 d-flex">
+            <h3>What We Do</h3>
+          </div>
+          <div class="col col-md-5 col-sm-12 col-12">
+            <p>
+              Data, science, philosophy and methodology is in the center of what
+              we do and how we do it. We cover a wide array of product development,
+              digital marketing and technology options and we immerse well into companies.
+            </p>
+          </div>
         </div>
+        <div class="row">
+          <div class="col offset-md-1">
+            <p>We provide solutions, not services</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row wwd-list">
+        {% for solution in site.data.home.what-we-do %}
+          <div class="col col-md-4 col-sm-12 col-12">
+            <div class="solution-image">
+              <img src="{{ solution.img | absolute_url }}" alt="Solution Image">
+            </div>
+            <p>{{ solution.title }}</p>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="what-we-use-section">
+    <div class="container">
+      <div class="section-header">
+        <h3>What We Use</h3>
         <p>
-          We are a multi-disciplined, full stack technology company. Knowledgable in most <br>
-          open source programming languages, test driven, continuous integration, lean and agile.
+          We are a multi-disciplined, full stack technology company.
+          Knowledgable in most open source <br> programming languages, test driven,
+          continuous integration, lean and agile.
         </p>
       </div>
 
-      <div class="services-list">
-        <div class="row">
-          <div class="col col-md-4">
-            <div class="service-image">
-              <img src="{{ '/assets/images/home/sec-2-cloudarchitecture.png' | absolute_url }}" alt="Service Image">
-            </div>
-            <div class="service-name">Cloud Architecture</div>
-          </div>
-          <div class="col col-md-4">
-            <div class="service-image">
-              <img src="{{ '/assets/images/home/sec-2-backend-development.png' | absolute_url }}" alt="Service Image">
-            </div>
-            <div class="service-name">Backend Development</div>
-          </div>
-          <div class="col col-md-4">
-            <div class="service-image">
-              <img src="{{ '/assets/images/home/sec-2-desktop-development.png' | absolute_url }}" alt="Service Image">
-            </div>
-            <div class="service-name">Desktop Development</div>
-          </div>
+      <div class="row wwu-list">
+        <div class="col">
+          <p class="col-name">Servers</p>
+          <ul>
+            {% for server in site.data.home.what-we-use-servers %}
+              <li><img src="{{ server | absolute_url }}" alt="Server Image"></li>
+            {% endfor %}
+          </ul>
         </div>
-        <div class="row">
-          <div class="col col-md-6">
-            <div class="service-image">
-              <img src="{{ '/assets/images/home/sec2-mobile-development.png' | absolute_url }}" alt="Service Image">
-            </div>
-            <div class="service-name">Mobile Development</div>
-          </div>
-          <div class="col col-md-6">
-            <div class="service-image">
-              <img src="{{ '/assets/images/home/sec-2-web-development.png' | absolute_url }}" alt="Service Image">
-            </div>
-            <div class="service-name">Web Development</div>
-          </div>
+        <div class="col">
+          <p class="col-name">Languages</p>
+          <ul>
+            {% for lang in site.data.home.what-we-use-lang %}
+              <li><img src="{{ lang | absolute_url }}" alt="Language Image"></li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="col">
+          <p class="col-name">Databases</p>
+          <ul>
+            {% for db in site.data.home.what-we-use-db %}
+              <li><img src="{{ db | absolute_url }}" alt="DB Image"></li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="col">
+          <p class="col-name">Continuous</p>
+          <ul>
+            {% for cont in site.data.home.what-we-use-cont %}
+              <li><img src="{{ cont | absolute_url }}" alt="Continuous Image"></li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="col">
+          <p class="col-name">Libraries</p>
+          <ul>
+            {% for lib in site.data.home.what-we-use-libs %}
+              <li><img src="{{ lib | absolute_url }}" alt="Library Image"></li>
+            {% endfor %}
+          </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="section-3">
-    <div class="container">
-      <div class="section-header">
-        <h3 class="section-title">Case Studies</h3>
+  <!-- <section class="case-studies-section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col col-md-6 section-text">
+          <h3>Case Studies</h3>
+          <p>
+            We have a strong discipline in product strategy and development and
+            have been involved in a number of challenging projects and end-to-end
+            solutions for many of our clients and the companies we have created
+            throughout the years. Our software development case studies show our
+            diversity in many industries and commitment to master todays technology.
+          </p>
+        </div>
+        <div class="col-md-4 section-projects">
+          <div class="row">
+            {% for project in site.data.home.case-studies %}
+              <div class="col col-12 col-sm-12 col-md-6 d-flex">
+                <a href="{{ project.link }}" target="_blank">
+                  <img src="{{ project.img | absolute_url }}" alt="Project Image">
+                </a>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section> -->
+
+  <!-- <section class="github-section">
+    <div class="section-header">
+      <div class="container">
         <p>
-          We’ve been involved in a number of challenging projects and an end-to-end solutions <br>
-          for many of our clients and the companies we have created throughout the years. <br> 
-          Our software development case studies show our diversity and commitment to master <br>
-          todays technology.
+          <img src="{{ '/assets/images/logos/github-logo.png' | absolute_url }}" alt="Github Logo">
+          Sterling Tech on Github
         </p>
       </div>
+    </div>
+  </section> -->
 
-      <div class="site-list">
+  <!-- <section class="press-section">
+    <div class="container">
+      <h3>Straight from our press</h3> -->
+
+      <!-- Get Posts -->
+      <!-- {% assign posts = site.posts | sort: 'date' | reverse %}
+
+      <div class="blog-listing">
         <div class="row">
-          <div class="col">
-            <ul>
-              <li>
-                <a href="https://salap.ph" target="_blank" class="site-link">
-                  <img src="{{ '/assets/images/home/sec-3-salap.png' | absolute_url }}" alt="Site Logo">
-                </a>
-              </li>
-              <li>
-                <a href="http://monico.openovate.com" target="_blank" class="site-link">
-                  <img src="{{ '/assets/images/home/sec-3-monico.png' | absolute_url }}" alt="Site Logo">
-                </a>
-              </li>
-              <li>
-                <a href="https://dealcha.com" target="_blank" class="site-link">
-                  <img src="{{ '/assets/images/home/sec-3-dealcha.png' | absolute_url }}" alt="Site Logo">
-                </a>
-              </li>
-            </ul>
+          {% for post in posts limit: 2 %}
+          <div class="col col-12 col-sm-12 col-md-6">
+            <a href="{{ post.url }}" class="post-image">
+              <img src="{{ post.image | absolute_url }}" alt="Post Image">
+            </a>
+            <div class="post-detail">
+              <a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
+              <div class="post-short-detail">{{ post.short_detail }}</div>
+              <div class="post-date">{{ post.date | date_to_long_string }}</div>
+            </div>
           </div>
-          <div class="col">
-            <ul>
-              <li>
-                <a href="https://galleon.ph" target="_blank" class="site-link">
-                  <img src="{{ '/assets/images/home/sec-3-galleon.png' | absolute_url }}" alt="Site Logo">
-                </a>
-              </li>
-              <li>
-                <a href="https://www.paymuna.com" target="_blank" class="site-link">
-                  <img src="{{ '/assets/images/home/sec-3-paymuna.png' | absolute_url }}" alt="Site Logo">
-                </a>
-              </li>
-              <li>
-                <a href="https://iristext.com" target="_blank" class="site-link">
-                  <img src="{{ '/assets/images/home/sec-3-iris.png' | absolute_url }}" alt="Site Logo">
-                </a>
-              </li>
-              <li>
-                <a href="https://cradlephp.github.io" target="_blank" class="site-link">
-                  <img src="{{ '/assets/images/home/sec-3-cradle.png' | absolute_url }}" alt="Site Logo">
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col">
-            <ul>
-              <li>
-                <a href="https://theshop.ph" target="_blank" class="site-link">
-                  <img src="{{ '/assets/images/home/sec-3-theshop.png' | absolute_url }}" alt="Site Logo">
-                </a>
-              </li>
-              <li>
-                <a href="#" class="site-link">
-                  <img src="{{ '/assets/images/home/sec-3-translateph.png' | absolute_url }}" alt="Site Logo">
-                </a>
-              </li>
-              <li>
-                <a href="https://www.jobayan.com/" target="_blank" class="site-link">
-                  <img src="{{ '/assets/images/home/sec-3-jobayan.png' | absolute_url }}" alt="Site Logo">
-                </a>
-              </li>
-            </ul>
-          </div>
+          {% endfor %}
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
-  <section class="section-4">
+  <section class="contact-us-section">
     <div class="container text-center">
       <h3>Work with us</h3>
       <p>
         Do you have a project in mind? We would love to hear all about your ideas.
-        Getting started with us is <br> very easy with our Project Planner.
       </p>
 
       <a href="mailto:general@sterlingtech.ph" class="btn btn-lg btn-red">
-        Contact Us
+        Contact us for a meeting
       </a>
     </div>
   </section>

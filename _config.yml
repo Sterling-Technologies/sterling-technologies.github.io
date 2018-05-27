@@ -40,15 +40,24 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+exclude:
+  - app
+  - node_modules
+
 # Include
-include: ['_pages']
+include:
+  - _pages
+  - dist
 
 # Collections
 collections_dir: collections
 collections:
-  teams:
-    output: true
-    permalink: /teams/:name
   profiles:
     output: true
     permalink: /profiles/:name
+  what-we-do:
+    output: true
+    permalink: /what-we-do/:slug
+  case-studies:
+    output: true
+    permalink: /case-studies/:slug

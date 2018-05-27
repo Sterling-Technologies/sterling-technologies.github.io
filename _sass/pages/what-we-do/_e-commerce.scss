@@ -1,0 +1,88 @@
+.layout-what-we-do {
+  .page-content {
+    padding: 0 0 2rem;
+  }
+
+  .e-commerce-content {
+    .site-list {
+      ul {
+        margin: 0;
+        padding: 0;
+
+        li {
+          list-style-type: none;
+          margin-right: 20px;
+          width: 100%;
+
+          &:last-child {
+            margin-right: 0;
+          }
+
+          a {
+            flex-direction: column;
+            height: 200px;
+            padding-bottom: 2rem;
+            width: 100%;
+
+            img {
+              margin: auto;
+              height: auto;
+              width: 100%;
+            }
+          }
+
+          p {
+            text-align: center;
+          }
+        }
+      }
+    }
+
+    .content-detail {
+      padding-top: 3rem;
+
+      .text-center {
+        margin-bottom: 5rem;
+
+        h3 {
+          color: $text-red;
+          font-weight: normal;
+          margin-bottom: 10px;
+        }
+
+        p {
+          font-style: italic;
+        }
+      }
+
+      .row {
+        .col {
+          &:first-child {
+            align-items: center;
+
+            p {
+              width: 80%;
+              padding: 3rem 0;
+              margin: 0 0 0 auto;
+            }
+          }
+
+          ul {
+            li {
+              color: $text-red;
+              font-size: 1.2rem;
+              list-style-type: none;
+              padding: 0.4rem;
+
+              &:before {
+                content: "―";
+                width: 1rem;
+                margin-right: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

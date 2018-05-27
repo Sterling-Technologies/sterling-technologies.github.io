@@ -2,50 +2,61 @@
   <span class="navbar-toggler-icon"></span>
 </button>
 
+
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
   <ul class="navbar-nav ml-auto">
-    <li class="nav-item {% if page.url == "/about" %}active{% endif %}">
-      <a class="nav-link" href="/about">
-        {% if page.url == "/about" %}
-          &lt;about&gt;
-        {% else %}
-          about
-        {% endif %}
-      </a>
-    </li>
-    <li class="nav-item {% if page.url == "/what-we-do" %}active{% endif %}">
+    {% assign segment = page.url | slice: 1, page.url.size | split: '/' | first  %}
+    <li class="nav-item {% if segment == "what-we-do" %}active{% endif %}">
       <a class="nav-link" href="/what-we-do">
-        {% if page.url == "/what-we-do" %}
+        {% if segment == "what-we-do" %}
           &lt;what we do&gt;
         {% else %}
           what we do
         {% endif %}
       </a>
     </li>
-    <li class="nav-item {% if page.url == "/case-studies" %}active{% endif %}">
+    {% assign segment = page.url | slice: 1, page.url.size | split: '/' | first  %}
+    <!-- <li class="nav-item {% if segment == "case-studies" %}active{% endif %}">
       <a class="nav-link" href="/case-studies">
-        {% if page.url == "/case-studies" %}
+        {% if segment == "case-studies" %}
           &lt;case studies&gt;
         {% else %}
           case studies
         {% endif %}
       </a>
-    </li>
-    <li class="nav-item {% if page.url == "/teams/index" %}active{% endif %}">
-      <a class="nav-link" href="/teams">
-        {% if page.url == "/teams/index" %}
+    </li> -->
+    <li class="nav-item {% if page.url == "/who-we-are" %}active{% endif %}">
+      <a class="nav-link" href="/who-we-are">
+        {% if page.url == "/who-we-are" %}
+          &lt;who we are&gt;
+        {% else %}
+          who we are
+        {% endif %}
+      </a>
+    <li class="nav-item {% if page.url == "/the-team" %}active{% endif %}">
+      <a class="nav-link" href="/the-team">
+        {% if page.url == "/the-team" %}
           &lt;the team&gt;
         {% else %}
           the team
         {% endif %}
       </a>
     </li>
-    <li class="nav-item {% if page.url == "/careers" %}active{% endif %}">
+    <!-- <li class="nav-item {% if page.url == "/careers" %}active{% endif %}">
       <a class="nav-link" href="/careers">
         {% if page.url == "/careers" %}
           &lt;careers&gt;
         {% else %}
           careers
+        {% endif %}
+      </a>
+    </li> -->
+    <li class="nav-item {% if page.url == "/our-culture" %}active{% endif %}">
+      <a class="nav-link" href="/our-culture">
+        {% if page.url == "/our-culture" %}
+          &lt;our culture&gt;
+        {% else %}
+          our culture
         {% endif %}
       </a>
     </li>

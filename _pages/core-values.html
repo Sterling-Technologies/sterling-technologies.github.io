@@ -1,0 +1,58 @@
+---
+layout: default
+permalink: /core-values
+---
+
+<div class="page-core-values page-content">
+  <section class="banner-section">
+    <div class="container">
+      <h2>Sterling Tech Values</h2>
+      <p>
+        The following values are our fundamental beliefs <br>
+        that we practice in the office <br>
+        everyday.
+      </p>
+    </div>
+  </section>
+
+  <section class="core-values-section">
+    <div class="container">
+      {% for value in site.data.core-values %}
+        <div class="core-value-tpl" id="{{ value.name }}">
+          <div class="value-details d-flex">
+            <div class="name-image">
+              <h3 class="value-name">{{ value.name }}</h3>
+              <img src="{{ value.image | absolute_url }}" alt="Core Value Image">
+            </div>
+            <div class="value-description">
+              {{ value.description }}
+            </div>
+          </div>
+
+          <div class="row value-behaviors">
+            <div class="col col-12 col-sm-12 col-md-6 d-flex supporting-behavior">
+              <div class="col-wrapper">
+                <h4>Supporting Behavior</h4>
+                <ul>
+                  {% for supp in value.supporting_behavior %}
+                  <li>{{ supp }}</li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+            <div class="col col-12 col-sm-12 col-md-6 d-flex conflicting-behavior">
+              <div class="col-wrapper">
+                <h4>Conflicting Behavior</h4>
+                <ul>
+                  {% for conflict in value.conflicting_behavior %}
+                  <li>{{ conflict }}</li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+</div>

@@ -1,0 +1,64 @@
+.layout-what-we-do {
+  .blockchain-content {
+    .monico-details {
+      margin: 2rem 0 4rem;
+
+      .col-image {
+        display: flex;
+        display: -webkit-flex;
+        min-height: 300px;
+
+        img {
+          object-fit: contain;
+          margin: auto auto;
+        }
+      }
+
+      .col-text {
+        text-align: center;
+        padding: 3rem 5rem;
+
+        h3 {
+          color: $text-red;
+          margin-bottom: 10px;
+        }
+
+        .text-q {
+          font-style: italic;
+          margin-bottom: 2rem;
+        }
+
+        .desc {
+          line-height: 1.8;
+          padding: 0 3rem;
+          text-align: left;
+        }
+      }
+    }
+
+    .monico-features {
+      background-color: #951B25;
+      color: #fff;
+      margin: 0 auto 3rem;
+      padding: 2.5rem;
+      width: 55%;
+
+      ul {
+        font-size: 16px;
+        padding: 0;
+        margin-bottom: 10px;
+
+        li {
+          font-weight: 400;
+          list-style-type: none;
+          margin-bottom: 15px;
+          word-spacing: 1px;
+
+          img {
+            padding: 5px 20px 5px 0px;
+          }
+        }
+      }
+    }
+  }
+}

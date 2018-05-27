@@ -1,106 +1,202 @@
 .page-team {
   padding-top: 2rem;
+  
+  .row {
+    justify-content: center;
+  }
 
   .upper-section {
     margin-bottom: 3rem;
   }
 
-  .team-menu {
-    text-align: center;
-    margin-bottom: 2.5rem;
+  .team-executives {
+    margin-bottom: 4rem;
 
-    ul {
-      margin: 0;
-      padding: 0;
+    .exec-wrapper {
+      border: 1px solid #B4B4B4;
+      position: relative;
 
-      li {
-        display: inline-block;
-        list-style-type: none;
+      img {
+        height: 500px;
+        width: 100%;
+      }
 
-        a {
-          color: $text-gold;
-          display: block;
-          padding: 0.5rem 1rem;
-          text-decoration: none;
-          text-transform: uppercase;
+      .profile-info {
+        bottom: 15px;
+        color: #fff;
+        left: 0;
+        padding: 1rem 2rem;
+        position: absolute;
+
+        .profile-name {
+          color: $text-red;
+          font-size: 25px;
+          line-height: 1;
+          margin-bottom: 0;
         }
 
-        &.active a {
-          color: $text-red;
-          font-weight: 600;
+        .profile-position {
+          color: #333333;
+          font-size: 20px;
+        }
+
+        .profile-company {
+          font-style: italic;
+          margin-bottom: 15px;
         }
       }
     }
   }
 
+  .team-top-management {
+    margin-bottom: 2rem;
+  }
+
+  .team-leads {
+    margin-bottom: 3rem;
+    padding: 0 4rem;
+  }
+
   .team-profiles {
-    padding: 3rem 0;
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+
+    .section-header {
+      margin-bottom: 4rem;
+
+      h3 {
+        color: $text-red;
+        font-family: $text-bignoodle;
+        font-size: 2.5rem;
+      }
+    }
+  }
+
+  .col-leads {
     position: relative;
 
-    .hanging-bg {
-      background: url('../images/placeholder/team-banner-bg.png') no-repeat;
-      background-size: cover;
-      height: 380px;
-      position: absolute;
-      top: 0;
-      width: 100%;
-      z-index: -1;
+    .leads-wrapper {
+      margin-bottom: 1.5rem;
+      position: relative;
+
+      img {
+        width: 100%;
+      }
+
+      .leads-info {
+        background-color: #484848;
+        color: #fff;
+        bottom: 30px;
+        left: 0;
+        padding: 1rem;
+        position: absolute;
+        width: 80%;
+
+        .leads-name {
+          font-size: 22px;
+          font-weight: 400;
+        }
+      }
+
+      &.active {
+        bottom: 15px;
+        display: none;
+        left: 15px;
+        position: absolute;
+        right: 15px;
+        top: 0;
+
+        .leads-info {
+          background-color: transparent;
+          margin: 0 auto;
+
+          .leads-detail {
+            background-color: #000;
+            opacity: 0.8;
+            padding: 15px 10px;
+            text-align: center;
+          }
+
+          .btn {
+            margin-top: 10px;
+            text-transform: uppercase;
+          }
+        }
+      }
     }
+  }
 
-    h3 {
-      color: #fff;
-      font-family: $text-bignoodle;
-      font-size: 2.3rem;
-      margin-bottom: 4rem;
-      text-align: center;
+  .col-leads:hover {
+    .leads-wrapper.active {
+      display: block;
     }
+  }
 
-    .row {
-      .col {
-        .profile-wrapper {
-          border: 1px solid #707070;
-          position: relative;
+  .col-profile {
+    flex: 0 0 20%;
+    max-width: 20%;
+    position: relative;
 
-          img {
-            width: 100%;
-            height: 394px;
+    .profile-wrapper {
+      margin-bottom: 2rem;
+      position: relative;
+
+      img {
+        height: 100%;
+        object-fit: cover;
+        position: relative;
+        width: 100%;
+      }
+
+      .profile-info {
+        background-color: #484848;
+        color: #fff;
+        padding: 1rem;
+        width: 100%;
+
+        .profile-name {
+          font-size: 18px;
+          font-weight: 400;
+        }
+
+        .profile-pos {
+          font-size: 13px;
+        }
+      }
+
+      &.active {
+        display: none;
+        left: 15px;
+        position: absolute;
+        right: 15px;
+        top: 0;
+
+        .profile-info {
+          background-color: transparent;
+          left: 0;
+          margin: 0 auto;
+          right: 0;
+          width: 100%;
+
+          .profile-detail {
+            background-color: #000;
+            opacity: 0.8;
+            padding: 15px 10px;
+            text-align: center;
           }
 
-          .profile-info {
-            background-color: #484848;
-            color: #fff;
-            padding: 1rem;
-            position: absolute;
-            bottom: 30px;
-            left: 0;
-            width: 85%;
-
-            .profile-name {
-              font-size: 25px;
-            }
+          .btn {
+            margin-top: 10px;
+            text-transform: uppercase;
           }
-
-          &.active {
-            .profile-info {
-              background-color: transparent;
-              margin: 0 auto;
-              left: 0;
-              right: 0;
-              width: 95%;
-
-              .profile-detail {
-                background-color: #000;
-                opacity: 0.8;
-                padding: 15px 10px;
-                text-align: center;
-              }
-
-              .btn {
-                margin-top: 10px;
-                text-transform: uppercase;
-              }
-            }
-          }
+        }
+      }
+    }
+    
+    &:hover {
+      .profile-wrapper {
+        &.active {
+          display: block;
         }
       }
     }
@@ -108,7 +204,8 @@
 
   .team-join {
     color: #fff;
-    background-color: rgba(205, 180, 139, 0.7);
+    background: url('../images/team-bottom-banner.png') no-repeat;
+    background-size: cover;
     padding: 8rem 0;
     text-align: center;
 

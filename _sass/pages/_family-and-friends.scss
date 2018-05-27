@@ -1,0 +1,107 @@
+.page-family-and-friends {
+  .bar-separator {
+    border: 3px solid #000;
+    margin: 2.5rem 0;
+    width: 50px;
+  }
+
+  .section-1 {
+    background-image: url(../images/family-and-friends/fnf-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000;
+    padding: 10rem 0;
+
+    .col {
+      position: relative;
+
+      &:first-child {
+        align-items: center;
+        display: flex;
+
+        h2 {
+          font-family: $text-bignoodle;
+          font-size: 2.5rem;
+        }
+      }
+
+      hr {
+        border: 3px solid #000;
+        position: absolute;
+        width: 15%;
+      }
+
+      p {
+        margin-top: 3rem;
+      }
+
+      /*@media screen and (max-width: 767.98px) {
+        column-width: 500px;
+      }*/
+    }
+  }
+
+  .company-list-section {
+    //padding: 5rem 5rem 0;
+
+    .company-detail {
+      margin-bottom: 5rem;
+
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        @media screen and (max-width: 991.98px) {
+          max-width: 100%;
+          height: auto;
+        }
+      }
+    }
+
+    @media screen and (max-width: 1199.98px) {
+      padding: 5rem 5rem 0;
+    }
+    @media screen and (max-width: 767.98px) {
+      padding: 5rem 0 0;
+    }
+  }
+
+  .box-highlight {
+    background-size: 60% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 4rem;
+    background-image: url('../images/team-bottom-banner.png');
+
+    &.box-right {
+      background-position: left;
+    }
+
+    .col {
+      background-color: #fff;
+      border: 1px solid #D9D9D9;
+      padding: 3rem;
+
+      .bar-separator {
+        margin-top: 20px;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+        margin-bottom: 0;
+        text-transform: uppercase;
+      }
+
+      .btn {
+        background-color: #fff;
+        border: 1px solid #B73641;
+        color: #B73641;
+        letter-spacing: 1px;
+        margin-top: 1rem;
+        padding: 1.2rem 1.5rem;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

@@ -1,0 +1,188 @@
+.page-what-we-do {
+  .bar-separator {
+    border: 3px solid #000;
+    margin: 1rem 0;
+    width: 60px;
+  }
+
+  .banner-section {
+    background-image: url(../images/what-we-do/whatwedo-banner-main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6rem 0 13rem;
+    position: relative;
+
+    .col-sec {
+      .col {
+        &:first-child {
+          align-items: center;
+          display: flex;
+        }
+
+        h2 {
+          font-family: $text-bignoodle;
+          font-size: 2.5rem;
+        }
+
+        h3 {
+          text-transform: uppercase;
+          font-size: 1.3rem;
+          font-weight: 600;
+          letter-spacing: 2px;
+        }
+
+        p {
+          line-height: 1.8;
+        }
+      }
+    }
+
+    .center-sec {
+      background-color: #951b26;
+      color: #fff;
+      padding: 3rem 0;
+      position: absolute;
+      bottom: -120px;
+      left: 0;
+      right: 0;
+      text-align: center;
+
+      hr {
+        margin: 1rem auto;
+        border-color: #fff;
+      }
+
+      .text-large {
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        letter-spacing: 3px;
+      }
+
+      .text-small {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .box-highlight {
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 4rem;
+
+    &.box-right {
+      background-position: left;
+    }
+
+    .col {
+      background-color: #fff;
+      border: 1px solid #D9D9D9;
+      padding: 3rem;
+
+      .bar-separator {
+        margin-top: 20px;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+        margin-bottom: 0;
+        text-transform: uppercase;
+      }
+
+      .btn {
+        background-color: #fff;
+        border: 1px solid #B73641;
+        color: #B73641;
+        letter-spacing: 1px;
+        margin-top: 1rem;
+        padding: 1.2rem 1.5rem;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .e-commerce-section {
+    margin-top: 12rem;
+  }
+}
+
+.layout-what-we-do {
+  .banner-section {
+    margin: 2rem 0 3rem;
+
+    .col {
+      padding-top: 2rem;
+      position: relative;
+
+      h3 {
+        color: #5C5C5C;
+        font-family: $text-bignoodle;
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        color: $text-red;
+        font-size: 2.5rem;
+        font-weight: normal;
+      }
+
+      .text-question {
+        font-style: italic;
+      }
+
+      .description {
+        background-color: #000;
+        color: #fff;
+        margin: 0;
+        padding: 1.5rem 2rem;
+        width: 50%;
+      }
+
+      img {
+        height: 100%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        width: 65%;
+        z-index: -1;
+      }
+    }
+  }
+
+  .services-menu {
+    margin-bottom: 3rem;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+
+      li {
+        border-bottom: 1px solid #474747;
+        list-style-type: none;
+        width: 100%;
+
+        &.active {
+          a {
+            color: $text-red;
+            font-weight: 600;
+          }
+        }
+
+        a {
+          color: #474747;
+          display: block;
+          font-size: 0.9rem;
+          letter-spacing: 1px;
+          padding: 1rem 0;
+          text-align: center;
+          text-decoration: none;
+          text-transform: uppercase;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

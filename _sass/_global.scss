@@ -43,6 +43,16 @@ body {
   text-transform: uppercase;
 }
 
+.btn-transparent-red {
+  border: 1px solid $text-red;
+  color: $text-red;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+}
+
 .btn-primary {
   border-color: #FF7F3F;
   background-color: #FF7F3F;

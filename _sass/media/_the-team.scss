@@ -1,0 +1,101 @@
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  .page-team {
+    .col-leads {
+      .leads-wrapper {
+        .leads-info {
+          .leads-name {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+    
+    .col-profile {
+      .profile-wrapper {
+        .profile-info {
+          .profile-name {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  .page-team {
+    .col-profile {
+      .profile-wrapper {
+        .profile-info {
+          .profile-pos {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  .page-team {
+    .col-leads {
+      max-width: 33.3333333333%;
+      padding-left: 15px;
+      padding-right: 15px;
+      width: 33.3333333333%;
+      
+      .leads-wrapper {
+        .leads-info {
+          width: 90%;
+          
+          .leads-name {
+            font-size: 16px;
+          }
+          
+          .leads-pos {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    
+    .col-profile {
+      flex: 0 0 25%;
+      max-width: 25%;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .page-team {
+    .team-leads {
+      padding: 0 15px;
+    }
+    
+    .col-leads {
+      max-width: 50%;
+      width: 50%;
+    }
+    
+    .col-profile {
+      flex: 0 0 33.3333333333%;
+      max-width: 33.3333333333%;
+    }
+  }
+}
+
+// Special case
+@media (max-width: 545.98px) {
+  .page-team {    
+    .col-profile {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+}
