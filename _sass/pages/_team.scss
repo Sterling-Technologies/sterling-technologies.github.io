@@ -1,5 +1,9 @@
 .page-team {
   padding-top: 2rem;
+  
+  .row {
+    justify-content: center;
+  }
 
   .upper-section {
     margin-bottom: 3rem;
@@ -122,8 +126,10 @@
     }
   }
 
-  .col-leads:hover .leads-wrapper.active {
-    display: block;
+  .col-leads:hover {
+    .leads-wrapper.active {
+      display: block;
+    }
   }
 
   .col-profile {
@@ -136,16 +142,17 @@
       position: relative;
 
       img {
-        height: 261px;
+        height: 100%;
+        object-fit: cover;
         position: relative;
-        width: 198px;
+        width: 100%;
       }
 
       .profile-info {
         background-color: #484848;
         color: #fff;
         padding: 1rem;
-        width: 198px;
+        width: 100%;
 
         .profile-name {
           font-size: 18px;
@@ -159,7 +166,9 @@
 
       &.active {
         display: none;
+        left: 15px;
         position: absolute;
+        right: 15px;
         top: 0;
 
         .profile-info {
@@ -183,12 +192,15 @@
         }
       }
     }
+    
+    &:hover {
+      .profile-wrapper {
+        &.active {
+          display: block;
+        }
+      }
+    }
   }
-
-  .col-profile:hover .profile-wrapper.active {
-    display: block;
-  }
-
 
   .team-join {
     color: #fff;

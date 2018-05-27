@@ -94,7 +94,7 @@
   }
 
   .box-highlight {
-    background-size: 57% 95%;
+    background-size: auto 90%;
     background-position: right;
     background-repeat: no-repeat;
     padding: 4rem;
@@ -126,6 +126,37 @@
         margin-top: 1rem;
         padding: 1.2rem 1.5rem;
         text-transform: uppercase;
+      }
+    }
+  }
+}
+
+@media (max-width: 480.98px) {
+  .page-who-we-are {
+    .section-2 {
+      .row {
+        flex-direction: column;
+        
+        .col {
+          flex-basis: auto;
+          
+          &:first-child {
+            p {
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+    
+    .box-highlight {
+      padding: 2rem;
+      
+      .col {
+        .btn {
+          font-size: 0.9rem;
+          width: 100%;
+        }
       }
     }
   }

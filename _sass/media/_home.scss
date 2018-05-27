@@ -53,6 +53,17 @@
         padding: 4rem 15px 20rem;
       }
     }
+    
+    .tech-acc-section {
+      .process {
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+        li {
+          width: 50%;
+        }
+      }
+    }
 
     .what-we-do-section {
       padding: 5rem 0;
@@ -71,6 +82,13 @@
               margin: 20px 0 0;
             }
           }
+        }
+      }
+      
+      .wwd-list {
+        .col {
+          flex: 0 0 50%;
+          max-width: 50%;
         }
       }
     }
@@ -133,4 +151,12 @@
 }
 
 // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+  .page-home {
+    .what-we-do-section {
+      .wwd-list {
+        padding: 0 2rem;
+      }
+    }
+  }
+}
