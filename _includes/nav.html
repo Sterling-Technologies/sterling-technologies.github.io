@@ -137,6 +137,17 @@
             Our Culture
           {% endif %}
         </a>
+        <a 
+          class="nav-link dropdown-item
+            {% if page.url == "/family-and-friends" %}active{% endif %}" 
+          href="/family-and-friends"
+        >
+          {% if dropdownSegment == "family-and-friends" %}
+            &lt;Family and Friends&gt;
+          {% else %}
+            Family and Friends
+          {% endif %}
+        </a>
       </div>
     </li>
     <!-- <li class="nav-item {% if page.url == "/careers" %}active{% endif %}">

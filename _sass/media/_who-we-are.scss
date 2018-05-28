@@ -9,3 +9,44 @@
     }
   }
 }
+
+@media (max-width: 562.98px) {
+  .page-who-we-are {
+    .box-highlight {
+      padding: 2rem;
+      
+      .col {
+        padding: 1.5rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 480.98px) {
+  .page-who-we-are {
+    .box-highlight {
+      .col {
+        .btn {
+          font-size: .8rem;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 445.98px) {
+  .page-who-we-are {
+    .box-highlight {
+      padding: 1rem;
+      
+      .col {
+        padding: 1.5rem 1rem;
+        
+        .btn {
+          font-size: .75rem;
+        }
+      }
+    }
+  }
+}
