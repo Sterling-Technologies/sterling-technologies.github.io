@@ -12,7 +12,6 @@
       .navbar-nav {
         li {
           position: relative;
-          //overflow: visible;
 
           .dropdown-toggle {
             &.active {
@@ -26,6 +25,8 @@
 
           .dropdown-menu {
             a.dropdown-item {
+              font-size: 12px;
+
               &.active {
                 background-color: transparent;
                 color: $text-red;
@@ -40,6 +41,14 @@
           &:hover .dropdown-menu {
             display: block;
           }
+
+          /*@media (max-width: 991.98px) {
+            .dropdown-menu {
+              display: block;
+              border: 0;
+              padding-left: 1rem;
+            }
+          }*/
 
           a.nav-link {
             color: $text-gold;
