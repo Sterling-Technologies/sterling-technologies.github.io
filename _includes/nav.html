@@ -6,16 +6,90 @@
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
   <ul class="navbar-nav ml-auto">
     {% assign segment = page.url | slice: 1, page.url.size | split: '/' | first  %}
-    <li class="nav-item {% if segment == "what-we-do" %}active{% endif %}">
-      <a class="nav-link" href="/what-we-do">
+    <li class="nav-item dropdown">
+      <a
+        class="dropdown-toggle nav-link 
+          {% if segment == "what-we-do" %}active{% endif %}" 
+        href="/what-we-do" 
+      >
         {% if segment == "what-we-do" %}
           &lt;what we do&gt;
         {% else %}
           what we do
         {% endif %}
       </a>
+      <div aria-labelledby="navbarDropdown" class="dropdown-menu">
+        {% assign dropdownSegment = page.url 
+            | slice: 1, page.url.size | split: '/' | last  %}
+
+        <a 
+          class="nav-link dropdown-item
+            {% if page.url == "/what-we-do/e-commerce" %}active{% endif %}" 
+          href="/what-we-do/e-commerce"
+        >
+          {% if dropdownSegment == "e-commerce" %}
+            &lt;E-commerce&gt;
+          {% else %}
+            E-commerce
+          {% endif %}
+        </a>
+        <a 
+          class="nav-link dropdown-item
+            {% if page.url == "/what-we-do/customer-support" %}active{% endif %}" 
+          href="/what-we-do/customer-support"
+        >
+          {% if dropdownSegment == "customer-support" %}
+            &lt;Customer Support&gt;
+          {% else %}
+            Customer Support
+          {% endif %}
+        </a>
+        <a 
+          class="nav-link dropdown-item
+            {% if page.url == "/what-we-do/blockchain" %}active{% endif %}" 
+          href="/what-we-do/blockchain"
+        >
+          {% if dropdownSegment == "blockchain" %}
+            &lt;Blockchain&gt;
+          {% else %}
+            Blockchain
+          {% endif %}
+        </a>
+        <a 
+          class="nav-link dropdown-item
+            {% if page.url == "/what-we-do/digital-marketing" %}active{% endif %}" 
+          href="/what-we-do/digital-marketing"
+        >
+          {% if dropdownSegment == "digital-marketing" %}
+            &lt;Digital Marketing&gt;
+          {% else %}
+            Digital Marketing
+          {% endif %}
+        </a>
+        <a 
+          class="nav-link dropdown-item
+            {% if page.url == "/what-we-do/technology" %}active{% endif %}" 
+          href="/what-we-do/technology"
+        >
+          {% if dropdownSegment == "technology" %}
+            &lt;Technology&gt;
+          {% else %}
+            Technology
+          {% endif %}
+        </a>
+        <a 
+          class="nav-link dropdown-item
+            {% if page.url == "/what-we-do/back-office" %}active{% endif %}" 
+          href="/what-we-do/back-office"
+        >
+          {% if dropdownSegment == "back-office" %}
+            &lt;Back Office&gt;
+          {% else %}
+            Back Office
+          {% endif %}
+        </a>
+      </div>
     </li>
-    {% assign segment = page.url | slice: 1, page.url.size | split: '/' | first  %}
     <!-- <li class="nav-item {% if segment == "case-studies" %}active{% endif %}">
       <a class="nav-link" href="/case-studies">
         {% if segment == "case-studies" %}
@@ -25,38 +99,52 @@
         {% endif %}
       </a>
     </li> -->
-    <li class="nav-item {% if page.url == "/who-we-are" %}active{% endif %}">
-      <a class="nav-link" href="/who-we-are">
-        {% if page.url == "/who-we-are" %}
+    <li class="nav-item">
+       <a
+        class="dropdown-toggle nav-link 
+          {% if segment == "who-we-are" %}active{% endif %}" 
+        href="/who-we-are" 
+      >
+        {% if segment == "who-we-are" %}
           &lt;who we are&gt;
         {% else %}
           who we are
         {% endif %}
       </a>
-    <li class="nav-item {% if page.url == "/the-team" %}active{% endif %}">
-      <a class="nav-link" href="/the-team">
-        {% if page.url == "/the-team" %}
-          &lt;the team&gt;
-        {% else %}
-          the team
-        {% endif %}
-      </a>
+      <div aria-labelledby="navbarDropdown" class="dropdown-menu ">
+        {% assign dropdownSegment = page.url 
+            | slice: 1, page.url.size | split: '/' | last  %}
+
+        <a 
+          class="nav-link dropdown-item
+            {% if page.url == "/who-we-are/the-team" %}active{% endif %}" 
+          href="/who-we-are/the-team"
+        >
+          {% if dropdownSegment == "the-team" %}
+            &lt;The Team&gt;
+          {% else %}
+            The Team
+          {% endif %}
+        </a>
+        <a 
+          class="nav-link dropdown-item
+            {% if page.url == "/who-we-are/our-culture" %}active{% endif %}" 
+          href="/who-we-are/our-culture"
+        >
+          {% if dropdownSegment == "our-culture" %}
+            &lt;Our Culture&gt;
+          {% else %}
+            Our Culture
+          {% endif %}
+        </a>
+      </div>
     </li>
-    <!-- <li class="nav-item {% if page.url == "/careers" %}active{% endif %}">
+    <li class="nav-item {% if page.url == "/careers" %}active{% endif %}">
       <a class="nav-link" href="/careers">
         {% if page.url == "/careers" %}
           &lt;careers&gt;
         {% else %}
           careers
-        {% endif %}
-      </a>
-    </li> -->
-    <li class="nav-item {% if page.url == "/our-culture" %}active{% endif %}">
-      <a class="nav-link" href="/our-culture">
-        {% if page.url == "/our-culture" %}
-          &lt;our culture&gt;
-        {% else %}
-          our culture
         {% endif %}
       </a>
     </li>

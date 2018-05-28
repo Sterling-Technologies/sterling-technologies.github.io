@@ -11,6 +11,36 @@
 
       .navbar-nav {
         li {
+          position: relative;
+          //overflow: visible;
+
+          .dropdown-toggle {
+            &.active {
+              color: $text-red;
+            }
+
+            &:after {
+              display: none;
+            }
+          }
+
+          .dropdown-menu {
+            a.dropdown-item {
+              &.active {
+                background-color: transparent;
+                color: $text-red;
+              }
+
+              &:hover {
+                background-color: #DDD;
+              }
+            }
+          }
+
+          &:hover .dropdown-menu {
+            display: block;
+          }
+
           a.nav-link {
             color: $text-gold;
             font-weight: 600;
@@ -21,6 +51,7 @@
           }
 
           &.active a.nav-link {
+            background-color: transparent;
             color: $text-red;
           }
         }
