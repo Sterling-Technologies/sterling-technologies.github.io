@@ -1,4 +1,12 @@
-- /assets/images/icons/wwu/wwu-lang-1.png
-- /assets/images/icons/wwu/wwu-lang-2.png
-- /assets/images/icons/wwu/wwu-lang-3.png
-- /assets/images/icons/wwu/wwu-lang-4.png
+- img: /assets/images/icons/wwu/wwu-lang-1.png
+  link: http://php.net/
+  mb: 1rem
+- img: /assets/images/icons/wwu/wwu-lang-2.png
+  link: https://nodejs.org/en/
+  mb: 0.5rem
+- img: /assets/images/icons/wwu/wwu-lang-3.png
+  link: https://www.python.org/
+  mb: 0.2rem
+- img: /assets/images/icons/wwu/wwu-lang-4.png
+  link: https://www.oracle.com/java/index.html
+  mb: 1.7rem

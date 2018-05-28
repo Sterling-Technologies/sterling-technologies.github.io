@@ -1,5 +1,15 @@
-- /assets/images/icons/wwu/wwu-db-1.png
-- /assets/images/icons/wwu/wwu-db-2.png
-- /assets/images/icons/wwu/wwu-db-3.png
-- /assets/images/icons/wwu/wwu-db-4.png
-- /assets/images/icons/wwu/wwu-db-5.png
+- img: /assets/images/icons/wwu/wwu-db-1.png
+  link: http://hadoop.apache.org/
+  mb: 2.5rem
+- img: /assets/images/icons/wwu/wwu-db-2.png
+  link: http://couchdb.apache.org/
+  mb: 1.7rem
+- img: /assets/images/icons/wwu/wwu-db-3.png
+  link: https://redis.io/
+  mb: 1.7rem
+- img: /assets/images/icons/wwu/wwu-db-4.png
+  link: https://www.elastic.co/
+  mb: 1.9rem
+- img: /assets/images/icons/wwu/wwu-db-5.png
+  link: https://www.rabbitmq.com/
+  mb: 1.7rem
