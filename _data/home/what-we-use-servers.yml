@@ -1,5 +1,15 @@
-- /assets/images/icons/wwu/wwu-servers-1.png
-- /assets/images/icons/wwu/wwu-servers-2.png
-- /assets/images/icons/wwu/wwu-servers-3.png
-- /assets/images/icons/wwu/wwu-servers-4.png
-- /assets/images/icons/wwu/wwu-servers-5.png
+- img: /assets/images/icons/wwu/wwu-servers-1.png
+  link: https://aws.amazon.com/s3/
+  mb: 1.7rem
+- img: /assets/images/icons/wwu/wwu-servers-2.png
+  link: https://www.rackspace.com/en-ph
+  mb: 1.7rem
+- img: /assets/images/icons/wwu/wwu-servers-3.png
+  link: https://cloud.google.com/
+  mb: 2.25rem
+- img: /assets/images/icons/wwu/wwu-servers-4.png
+  link: https://azure.microsoft.com/en-us/
+  mb: 0.75rem
+- img: /assets/images/icons/wwu/wwu-servers-5.png
+  link: https://www.openstack.org/
+  mb: 1.7rem

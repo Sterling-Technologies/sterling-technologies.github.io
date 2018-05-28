@@ -5,10 +5,15 @@ layout: default
 <div class="page-home">
   <section class="banner-section">
     <div class="container">
-      <h2>The Technology Accelerator</h2>
-      <i>Sterling Tech is a get things done kind of company.</i>
+      <h2 class="header-red">The Technology</h2> 
+      
+      <h2 class="header-gold">&lt;Accelerator&gt;</h2>
+      <p>Sterling Tech is a get things done kind of <p>
 
-      <p>We develop apps. We develop companies.</p>
+      <p>company. We develop apps. We develop</p>
+
+      <p>companies.</p>
+      <br/>
       <p class="text-red">We develop game changers.</p>
     </div>
   </section>
@@ -92,7 +97,11 @@ layout: default
           <p class="col-name">Servers</p>
           <ul>
             {% for server in site.data.home.what-we-use-servers %}
-              <li><img src="{{ server | absolute_url }}" alt="Server Image"></li>
+              <li style="margin-bottom: {{ server.mb }}">
+                <a href="{{ server.link | absolute_url }}" target="_blank">
+                  <img src="{{ server.img | absolute_url }}" alt="Server Image">
+                </a>
+              </li>
             {% endfor %}
           </ul>
         </div>
@@ -100,7 +109,11 @@ layout: default
           <p class="col-name">Languages</p>
           <ul>
             {% for lang in site.data.home.what-we-use-lang %}
-              <li><img src="{{ lang | absolute_url }}" alt="Language Image"></li>
+              <li style="margin-bottom: {{ lang.mb }}">
+                <a href="{{ lang.link | absolute_url }}" target="_blank">
+                  <img src="{{ lang.img | absolute_url }}" alt="Language Image">
+                </a>
+              </li>
             {% endfor %}
           </ul>
         </div>
@@ -108,15 +121,23 @@ layout: default
           <p class="col-name">Databases</p>
           <ul>
             {% for db in site.data.home.what-we-use-db %}
-              <li><img src="{{ db | absolute_url }}" alt="DB Image"></li>
+              <li style="margin-bottom: {{ db.mb }}">
+                <a href="{{ db.link | absolute_url }}" target="_blank">
+                  <img src="{{ db.img | absolute_url }}" alt="DB Image">
+                </a>
+              </li>
             {% endfor %}
           </ul>
         </div>
         <div class="col">
-          <p class="col-name">Continuous</p>
+          <p class="col-name col-continuous">Continuous</p>
           <ul>
             {% for cont in site.data.home.what-we-use-cont %}
-              <li><img src="{{ cont | absolute_url }}" alt="Continuous Image"></li>
+              <li style="margin-bottom: {{ cont.mb }}">
+                <a href="{{ cont.link | absolute_url }}" target="_blank">
+                  <img src="{{ cont.img | absolute_url }}" alt="Continuous Image">
+                </a>
+              </li>
             {% endfor %}
           </ul>
         </div>
@@ -124,7 +145,11 @@ layout: default
           <p class="col-name">Libraries</p>
           <ul>
             {% for lib in site.data.home.what-we-use-libs %}
-              <li><img src="{{ lib | absolute_url }}" alt="Library Image"></li>
+              <li style="margin-bottom: {{ lib.mb }}">
+                <a href="{{ lib.link | absolute_url }}" target="_blank">
+                  <img src="{{ lib.img | absolute_url }}" alt="Library Image">
+                </a>
+              </li>
             {% endfor %}
           </ul>
         </div>

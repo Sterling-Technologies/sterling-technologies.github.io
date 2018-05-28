@@ -1,6 +1,18 @@
-- /assets/images/icons/wwu/wwu-libs-1.png
-- /assets/images/icons/wwu/wwu-libs-2.png
-- /assets/images/icons/wwu/wwu-libs-3.png
-- /assets/images/icons/wwu/wwu-libs-4.png
-- /assets/images/icons/wwu/wwu-libs-5.png
-- /assets/images/icons/wwu/wwu-libs-6.png
+- img: /assets/images/icons/wwu/wwu-libs-1.png
+  link: https://reactjs.org/
+  mb: 1.7rem
+- img: /assets/images/icons/wwu/wwu-libs-2.png
+  link: https://www.polymer-project.org/
+  mb: 2.25rem
+- img: /assets/images/icons/wwu/wwu-libs-3.png
+  link: https://ionicframework.com/
+  mb: 2.5rem
+- img: /assets/images/icons/wwu/wwu-libs-4.png
+  link: https://electronjs.org/
+  mb: 1.7rem
+- img: /assets/images/icons/wwu/wwu-libs-5.png
+  link: https://www.android.com/
+  mb: 1.7rem
+- img: /assets/images/icons/wwu/wwu-libs-6.png
+  link: https://swift.org/
+  mb: 1.7rem
