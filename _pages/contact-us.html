@@ -17,30 +17,51 @@ permalink: /contact-us
     <div class="container-fluid">
       <div class="row d-flex">
         <form 
-          action="mailto:general@sterlingtech.ph" 
           class="col-md-5 offset-md-1 d-flex flex-column" 
-          method="post"
+          action="https://docs.google.com/forms/d/e/1FAIpQLSdmZbn31L9q1MwQWPugRExoM-NIZywQdrmZ_5vC3ncBitDqAQ/formResponse"
+          method="get"
+          role="form"
+          id="contactForm"
+          target="gdocs-frame"
+          name="contactForm"
+          data-do="contact-form"
+          data-on="submit"
+
         >
           <h2>Contact Us</h2>
 
+          <input type="hidden" name="fvv" value="1">
+          <input type="hidden" name="draftResponse" value="[null,null,&quot;5191816991791460709&quot;]">
+          <input type="hidden" name="pageHistory" value="0">
+          <input type="hidden" name="fbzx" value="5191816991791460709">
+
           <div class="form-group">
-            <input type="text" class="form-control" placeholder="Name">
+            <input type="text" class="form-control" id="inputName" placeholder="Name" name="entry.1045391692" />
+            <p class="help" id="helpName"></p>
           </div>
           <div class="form-group">
-            <input type="text" class="form-control" placeholder="Company Name">
+            <input type="text" class="form-control" placeholder="Company Name" name="entry.816126204" />
           </div>
           <div class="form-group">
-            <input type="email" class="form-control" placeholder="Email Address">
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email Address" name="entry.1505277387" />
+            <p class="help" id="helpEmail"></p>
           </div>
           <div class="form-group">
-            <input type="text" class="form-control" placeholder="Contact Number">
+            <input type="text" class="form-control" placeholder="Contact Number" name="entry.681703671" />
           </div>
           <div class="form-group">
-            <textarea class="form-control" rows="6" placeholder="Your message here"></textarea>
+            <textarea class="form-control" rows="6" placeholder="Your message here" name="entry.1694761695" />
+            </textarea>
           </div>
 
-          <input type="submit" class="btn btn-lg btn-red" value="Send Message">
+          <button type="button" class="btn btn-lg btn-red" id="contactSubmit">
+            Send Message
+          </button>
+
         </form>
+
+        <iframe id="gdocs-frame" name="gdocs-frame" style="display:none;"></iframe>
+
         <div class="col-md-6 d-flex contact-aside">
           <div class="col-wrapper">
             <p>
