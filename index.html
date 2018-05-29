@@ -8,11 +8,11 @@ layout: default
       <h2 class="header-red">The Technology</h2> 
       
       <h2 class="header-gold">&lt;Accelerator&gt;</h2>
-      <p>Sterling Tech is a get things done kind of <p>
-
-      <p>company. We develop apps. We develop</p>
-
-      <p>companies.</p>
+      <p>
+        Sterling Tech is a get things done kind of <br/>
+        company. We develop apps. We develop <br/>
+        companies.
+      </p>
       <br/>
       <p class="text-red">We develop game changers.</p>
     </div>
@@ -53,6 +53,7 @@ layout: default
           <div class="col col-md-4 col-sm-12 col-12 offset-md-1 d-flex">
             <h3>What We Do</h3>
           </div>
+
           <div class="col col-md-5 col-sm-12 col-12">
             <p>
               Data, science, philosophy and methodology is in the center of what
@@ -61,6 +62,7 @@ layout: default
             </p>
           </div>
         </div>
+
         <div class="row">
           <div class="col offset-md-1">
             <p>We provide solutions, not services</p>
@@ -99,55 +101,59 @@ layout: default
             {% for server in site.data.home.what-we-use-servers %}
               <li style="margin-bottom: {{ server.mb }}">
                 <a href="{{ server.link | absolute_url }}" target="_blank">
-                  <img src="{{ server.img | absolute_url }}" alt="Server Image">
+                  <img src="{{ server.img | absolute_url }}" alt="Server Image"/>
                 </a>
               </li>
             {% endfor %}
           </ul>
         </div>
+
         <div class="col">
           <p class="col-name">Languages</p>
           <ul>
             {% for lang in site.data.home.what-we-use-lang %}
               <li style="margin-bottom: {{ lang.mb }}">
                 <a href="{{ lang.link | absolute_url }}" target="_blank">
-                  <img src="{{ lang.img | absolute_url }}" alt="Language Image">
+                  <img src="{{ lang.img | absolute_url }}" alt="Language Image"/>
                 </a>
               </li>
             {% endfor %}
           </ul>
         </div>
+
         <div class="col">
           <p class="col-name">Databases</p>
           <ul>
             {% for db in site.data.home.what-we-use-db %}
               <li style="margin-bottom: {{ db.mb }}">
                 <a href="{{ db.link | absolute_url }}" target="_blank">
-                  <img src="{{ db.img | absolute_url }}" alt="DB Image">
+                  <img src="{{ db.img | absolute_url }}" alt="DB Image"/>
                 </a>
               </li>
             {% endfor %}
           </ul>
         </div>
+
         <div class="col">
           <p class="col-name col-continuous">Continuous</p>
           <ul>
             {% for cont in site.data.home.what-we-use-cont %}
               <li style="margin-bottom: {{ cont.mb }}">
                 <a href="{{ cont.link | absolute_url }}" target="_blank">
-                  <img src="{{ cont.img | absolute_url }}" alt="Continuous Image">
+                  <img src="{{ cont.img | absolute_url }}" alt="Continuous Image"/>
                 </a>
               </li>
             {% endfor %}
           </ul>
         </div>
+
         <div class="col">
           <p class="col-name">Libraries</p>
           <ul>
             {% for lib in site.data.home.what-we-use-libs %}
               <li style="margin-bottom: {{ lib.mb }}">
                 <a href="{{ lib.link | absolute_url }}" target="_blank">
-                  <img src="{{ lib.img | absolute_url }}" alt="Library Image">
+                  <img src="{{ lib.img | absolute_url }}" alt="Library Image"/>
                 </a>
               </li>
             {% endfor %}
