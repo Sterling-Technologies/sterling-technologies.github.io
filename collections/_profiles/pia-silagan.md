@@ -9,7 +9,7 @@ img_bnw: /assets/images/our-team/staff-bnw/pia-bnw.jpg
 img_colored: /assets/images/our-team/staff-alt/pia-alt.jpg
 profile_img: /assets/images/placeholder/profile-picture.png
 team: employees
-order: 38
+order: 40
 highlighted: true
 award: Best in Cramming
 ---

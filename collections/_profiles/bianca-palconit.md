@@ -9,7 +9,7 @@ img_bnw: /assets/images/our-team/staff-bnw/bianca-bnw.jpg
 img_colored: /assets/images/our-team/staff-alt/bianca-alt.jpg
 profile_img: /assets/images/placeholder/profile-picture.png
 team: employees
-order: 31
+order: 32
 highlighted: true
 award: Best in Cramming
 ---

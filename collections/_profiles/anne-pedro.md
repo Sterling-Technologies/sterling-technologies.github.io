@@ -9,7 +9,7 @@ img_bnw: /assets/images/our-team/staff-bnw/anne-bnw.jpg
 img_colored: /assets/images/our-team/staff-alt/anne-alt.jpg
 profile_img: /assets/images/placeholder/profile-picture.png
 team: employees
-order: 32
+order: 33
 highlighted: true
 award: Best in Cramming
 ---

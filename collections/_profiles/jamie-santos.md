@@ -1,15 +1,15 @@
 ---
 layout: profile
-name: John Abad
-first_name: John
-slug: john-abad
+name: Jamie Santos
+first_name: Jamie
+slug: jamie-santos
 position: Bus. Dev. Manager
 detail: Owns the most number of pencils in all of Sterling Tech
-img_bnw: /assets/images/our-team/staff-bnw/john-bnw.jpg
-img_colored: /assets/images/our-team/staff-alt/john-alt.jpg
+img_bnw: /assets/images/our-team/staff-bnw/jamie1-bnw.jpg
+img_colored: /assets/images/our-team/staff-alt/jamie1-alt.jpg
 profile_img: /assets/images/placeholder/profile-picture.png
 team: employees
-order: 34
+order: 39
 highlighted: true
 award: Best in Cramming
 ---

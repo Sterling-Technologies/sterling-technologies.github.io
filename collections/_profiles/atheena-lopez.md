@@ -9,7 +9,7 @@ img_bnw: /assets/images/our-team/staff-bnw/atheena-bnw.jpg
 img_colored: /assets/images/our-team/staff-alt/atheena-alt.jpg
 profile_img: /assets/images/placeholder/profile-picture.png
 team: employees
-order: 36
+order: 37
 highlighted: true
 award: Best in Cramming
 ---
