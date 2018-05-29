@@ -10,6 +10,16 @@
         text-transform: uppercase;
       }
 
+      .form-group {
+        p.help {
+          display: none;
+        }
+
+        .has-danger {
+          border-color: #F73A48;
+        }
+      }
+
       input[type="text"],
       input[type="email"],
       textarea {
