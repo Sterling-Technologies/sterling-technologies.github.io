@@ -9,7 +9,7 @@ img_bnw: /assets/images/our-team/staff-bnw/cyrynn-bnw.jpg
 img_colored: /assets/images/our-team/staff-alt/cyrynn-alt.jpg
 profile_img: /assets/images/placeholder/profile-picture.png
 team: employees
-order: 34
+order: 35
 highlighted: true
 award: Best in Cramming
 ---

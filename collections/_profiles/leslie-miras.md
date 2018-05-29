@@ -9,7 +9,7 @@ img_bnw: /assets/images/our-team/staff-bnw/leslie-bnw.jpg
 img_colored: /assets/images/our-team/staff-alt/leslie-alt.jpg
 profile_img: /assets/images/placeholder/profile-picture.png
 team: employees
-order: 37
+order: 38
 highlighted: true
 award: Best in Cramming
 ---

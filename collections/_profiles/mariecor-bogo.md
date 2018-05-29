@@ -9,7 +9,7 @@ img_bnw: /assets/images/our-team/staff-bnw/mariecor-bnw.jpg
 img_colored: /assets/images/our-team/staff-alt/mariecor-alt.jpg
 profile_img: /assets/images/placeholder/profile-picture.png
 team: employees
-order: 35
+order: 36
 highlighted: true
 award: Best in Cramming
 ---

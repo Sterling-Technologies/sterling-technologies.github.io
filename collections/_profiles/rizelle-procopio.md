@@ -1,15 +1,15 @@
 ---
 layout: profile
-name: John Abad
-first_name: John
-slug: john-abad
-position: Bus. Dev. Manager
+name: Rizelle Procopio
+first_name: Rizelle
+slug: rizelle-procopio
+position: Data Encoder
 detail: Owns the most number of pencils in all of Sterling Tech
-img_bnw: /assets/images/our-team/staff-bnw/john-bnw.jpg
-img_colored: /assets/images/our-team/staff-alt/john-alt.jpg
+img_bnw: /assets/images/our-team/staff-bnw/rizelle-bnw.jpg
+img_colored: /assets/images/our-team/staff-alt/rizelle-alt.jpg
 profile_img: /assets/images/placeholder/profile-picture.png
 team: employees
-order: 34
+order: 30
 highlighted: true
 award: Best in Cramming
 ---

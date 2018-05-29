@@ -9,7 +9,7 @@ img_bnw: /assets/images/our-team/staff-bnw/issa-bnw.jpg
 img_colored: /assets/images/our-team/staff-alt/issa-alt.jpg
 profile_img: /assets/images/placeholder/profile-picture.png
 team: employees
-order: 30
+order: 31
 highlighted: true
 award: Best in Cramming
 ---
