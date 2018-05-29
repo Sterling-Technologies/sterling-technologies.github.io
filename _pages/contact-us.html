@@ -24,9 +24,6 @@ permalink: /contact-us
           id="contactForm"
           target="gdocs-frame"
           name="contactForm"
-          data-do="contact-form"
-          data-on="submit"
-
         >
           <h2>Contact Us</h2>
 
@@ -40,18 +37,20 @@ permalink: /contact-us
             <p class="help" id="helpName"></p>
           </div>
           <div class="form-group">
-            <input type="text" class="form-control" placeholder="Company Name" name="entry.816126204" />
+            <input type="text" class="form-control" id="inputCompanyName" placeholder="Company Name" name="entry.816126204" />
+            <p class="help" id="helpCompanyName"></p>
           </div>
           <div class="form-group">
             <input type="email" class="form-control" id="inputEmail" placeholder="Email Address" name="entry.1505277387" />
             <p class="help" id="helpEmail"></p>
           </div>
           <div class="form-group">
-            <input type="text" class="form-control" placeholder="Contact Number" name="entry.681703671" />
+            <input type="text" class="form-control" id="inputContact" placeholder="Contact Number" name="entry.681703671" />
+            <p class="help" id="helpContact"></p>
           </div>
           <div class="form-group">
-            <textarea class="form-control" rows="6" placeholder="Your message here" name="entry.1694761695" />
-            </textarea>
+            <textarea class="form-control" rows="6" id="inputMessage" placeholder="Your message here" name="entry.1694761695" /></textarea>
+            <p class="help" id="helpMessage"></p>
           </div>
 
           <button type="button" class="btn btn-lg btn-red" id="contactSubmit">
