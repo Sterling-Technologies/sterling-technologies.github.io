@@ -21,28 +21,6 @@ layout: default
       </div>
     </div>
   </section>
-
-  <section class="services-menu">
-    <div class="container">
-      <!-- get what we do services -->
-      {% assign services = site.what-we-do | sort: 'order' %}
-
-      <!-- loop through services -->
-      <ul class="services-menu">
-        {% for service in services %}
-        <li class="{% if page.slug == service.slug %}active{% endif %}">
-          <a href="/what-we-do/{{ service.slug }}">
-            {% if page.slug == service.slug %}
-              &lt; {{ service.title }} &gt;
-            {% else %}
-              {{ service.title }}
-            {% endif %}
-          </a>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </section>
-
+  
   {{ content }}
 </div>

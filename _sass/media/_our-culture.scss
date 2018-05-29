@@ -82,3 +82,57 @@
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {}
+
+@media (max-width: 480.98px) {
+  .page-our-culture {
+    .core-values-section {
+      .honesty-row {
+        .row {
+          .col-honesty {
+            .col-wrapper {
+              padding: 1.5rem 2rem;
+            }
+          }
+          
+          .col-gallery {
+            .col-wrapper {
+              padding: 3rem 2rem;
+            }
+          }
+        }
+      }
+      
+      .three-values-row {
+        .col-ownership {
+          padding: 2rem;
+          
+          .value-name {
+            font-size: 2.5rem;
+          }
+        }
+        
+        .col-passion {
+          padding: 2.5rem;
+        }
+        
+        .col-transparency {
+          padding: 2rem 2.5rem;
+        }
+      }
+      
+      .discipline-row {
+        padding: 2rem 2.5rem;
+      }
+      
+      .family-row {
+        .col-family {
+          padding: 2rem 2.5rem;
+          
+          .value-description {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

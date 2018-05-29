@@ -11,6 +11,45 @@
 
       .navbar-nav {
         li {
+          position: relative;
+
+          .dropdown-toggle {
+            &.active {
+              color: $text-red;
+            }
+
+            &:after {
+              display: none;
+            }
+          }
+
+          .dropdown-menu {
+            a.dropdown-item {
+              font-size: 12px;
+
+              &.active {
+                background-color: transparent;
+                color: $text-red;
+              }
+
+              &:hover {
+                background-color: #DDD;
+              }
+            }
+          }
+
+          &:hover .dropdown-menu {
+            display: block;
+          }
+
+          /*@media (max-width: 991.98px) {
+            .dropdown-menu {
+              display: block;
+              border: 0;
+              padding-left: 1rem;
+            }
+          }*/
+
           a.nav-link {
             color: $text-gold;
             font-weight: 600;
@@ -21,6 +60,7 @@
           }
 
           &.active a.nav-link {
+            background-color: transparent;
             color: $text-red;
           }
         }

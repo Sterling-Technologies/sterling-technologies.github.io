@@ -28,8 +28,10 @@
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {  
   .page-what-we-do .banner-section {
-    .col-sec .col {
-      margin-bottom: 2rem;
+    .col-sec {
+      .col {
+        margin-bottom: 2rem;
+      }
     }
 
     .center-sec {
@@ -87,3 +89,25 @@
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {}
+
+@media (max-width: 480.98px) {
+  .page-what-we-do {
+    .banner-section {
+      .center-sec {
+        position: relative;
+      }
+    }
+    
+    .box-highlight {
+      padding: 2rem;
+      
+      .col {
+        padding: 1.5rem;
+      }
+    }
+    
+    .e-commerce-section {
+      margin-top: 0;
+    }
+  }
+}

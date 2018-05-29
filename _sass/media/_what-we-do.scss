@@ -20,6 +20,70 @@
   }
 }
 
+@media (max-width: 841.98px) {
+  .layout-what-we-do {
+    .back-office-content {
+      .section-1 {
+        .row {
+          flex-direction: column;
+          
+          .col {
+            flex-basis: auto;
+            
+            &.col-image {
+              display: block;
+              min-height: 1px;
+              
+              img {
+                display: block;
+                width: 100%;
+              }
+            }
+            
+            &.col-text {
+              padding: 1.5rem 2.5rem;
+              
+              .desc {
+                padding: 0;
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+      
+      .section-3 {
+        .row {
+          flex-direction: column-reverse;
+          
+          .col {
+            flex-basis: auto;
+            
+            &.col-image {
+              display: block;
+              min-height: 1px;
+              
+              img {
+                display: block;
+                width: 100%;
+              }
+            }
+            
+            &.col-text {
+              padding: 1.5rem 2.5rem;
+              
+              .desc {
+                padding: 0;
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
   .layout-what-we-do {    
@@ -32,6 +96,14 @@
           li {
             width: 47%;
           }
+        }
+      }
+    }
+    
+    .customer-support-content {
+      .row {
+        .col-detail {
+          padding: 1.5rem 3rem;
         }
       }
     }
@@ -85,6 +157,22 @@
           }
         }
       }
+      
+      .section-4.jobayan-features {
+        ul {
+          flex-wrap: wrap;
+          
+          li {
+            width: 50%;
+          }
+        }
+      }
+      
+      .section-6 {
+        ul.d-flex {
+          width: 100%;
+        }
+      }
     }
   }
 }
@@ -123,10 +211,52 @@
       }
     }
     
+    .blockchain-content {
+      .monico-details {
+        .row {
+          flex-direction: column;
+          
+          .col {
+            flex-basis: auto;
+          }
+        }
+        
+        .col-image {
+          img {
+            display: block;
+            height: 100%;
+            width: 100%;
+          }
+        }
+        
+        .col-text {
+          padding: 1rem 2rem;
+          
+          .desc {
+            padding: 0;
+          }
+        }
+      }
+      
+      .monico-features {
+        width: 100%;
+      }
+    }
+    
     .customer-support-content {
       .row {
+        flex-direction: column;
+        
+        &.iristext-row {
+          flex-direction: col ;
+        }
+        
+        .col {
+          flex-basis: auto;
+        }
+        
         .col-detail {
-          padding: 3.5rem 2rem;
+          padding: 1rem;
         }
       }
     }
@@ -153,29 +283,11 @@
         }
       }
     }
-    
-    .back-office-content {
-      .section-4.jobayan-features {
-        ul {
-          flex-wrap: wrap;
-          
-          li {
-            width: 50%;
-          }
-        }
-      }
-      
-      .section-6 {
-        ul.d-flex {
-          width: 100%;
-        }
-      }
-    }
   }
 }
 
 @media (max-width: 480.98px) {
-  .layout-what-we-do {
+  .layout-what-we-do {    
     .e-commerce-content {
       .site-list {
         ul {
@@ -223,26 +335,6 @@
         }
       }
     }
-  
-    .customer-support-content {
-      .row {
-        .col-detail {
-          padding: 1rem;
-        }
-      }
-    }
-    
-    .blockchain-content {
-      .monico-details {
-        .col-text {
-          padding: 1rem 2rem;
-        }
-      }
-      
-      .monico-features {
-        width: 100%;
-      }
-    }
     
     .digital-marketing-content {
       .section-2 {
@@ -283,13 +375,17 @@
     .back-office-content {
       .two-col-img {
         .col-text {
-          padding: 3rem 2rem;
+          padding: 1.5rem 1rem;
         }
       }
       
       .section-3 {
         .col-text {
-          padding: 3rem 2rem;
+          padding: 1.5rem 1rem;
+          
+          .desc {
+            padding: 0;
+          }
         }
       }
       
