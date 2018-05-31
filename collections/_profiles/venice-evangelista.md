@@ -3,7 +3,7 @@ layout: profile
 name: Venice Evangelista
 first_name: Venice
 slug: venice-evangelista
-position: Business Lead
+position: Business Manager
 detail: Lorem ipsum dolor sit amet
 company: Sterling Technologies
 img_bnw: /assets/images/our-team/staff-bnw/venice-bnw.jpg
