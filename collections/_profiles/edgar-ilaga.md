@@ -3,7 +3,7 @@ layout: profile
 name: Edgar Ilaga
 first_name: Edgar
 slug: edgar-ilaga
-position: Business Technology Lead
+position: Business Development Manager
 detail: Lorem ipsum dolor sit amet
 company: Sterling Technologies
 img_bnw: /assets/images/our-team/staff-bnw/ed-bnw.jpg
