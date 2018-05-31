@@ -56,12 +56,15 @@ permalink: /what-we-do
     >
       <div class="container">
         <div class="row">
-        <div class="col col-md-8 {% if mod == 0 %}offset-md-4{% endif %}">
-          <h3>{{ service.title }}</h3>
-          <div class="bar-separator"></div>
-          <p>{{ service.description }}</p>
-          <a href="/what-we-do/{{ service.slug }}" class="btn btn-default">Read More</a>
-        </div>
+          <div class="col col-md-8 {% if mod == 0 %}offset-md-4{% endif %}">
+            <h3>{{ service.title }}</h3>
+            <div class="bar-separator"></div>
+            <p>{{ service.description }}</p>
+
+            <a href="/what-we-do/{{ service.slug }}" class="btn btn-default">
+              Read More
+            </a>
+          </div>
         </div>
       </div>
     </section>

@@ -21,6 +21,14 @@
 }
 
 @media (max-width: 841.98px) {
+  .page-what-we-do {
+    .e-commerce-section {
+      p {
+        margin-right: 0 !important;
+      }
+    }
+  }
+  
   .layout-what-we-do {
     .back-office-content {
       .section-1 {
