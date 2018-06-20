@@ -101,11 +101,32 @@
   }
 
   .e-commerce-section {
+    background-image:url("/assets/images/what-we-do/inner-whatwedo-ecommerce.jpg");
     margin-top: 12rem;
 
     p {
       margin-right: 4rem;
     }
+  }
+
+  .customer-support-section {
+    background-image:url("/assets/images/what-we-do/inner-whatwedo-customersupport.jpg");
+  }
+
+  .blockchain-section {
+    background-image:url("/assets/images/what-we-do/inner-whatwedo-blockchain.jpg");
+  }
+
+  .digital-marketing-section {
+    background-image:url("/assets/images/what-we-do/inner-whatwedo-digitalmarketing.jpg");
+  }
+
+  .technology-section {
+    background-image:url("/assets/images/what-we-do/inner-whatwedo-technology.jpg");
+  }
+
+  .back-office-section {
+    background-image:url("/assets/images/what-we-do/inner-whatwedo-backoffice.jpg");
   }
 }
 
