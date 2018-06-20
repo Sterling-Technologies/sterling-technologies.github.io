@@ -116,8 +116,8 @@ function contactSubmit() {
     }
 
     // remove error text if there is
-    if ($('#contactSubmitText').hasClass('text-danger')) {
-      $('#contactSubmitText').text('').removeClass('text-danger');
+    if ($('.contactSubmitText').hasClass('text-danger')) {
+      $('.contactSubmitText').text('').removeClass('text-danger');
     }
 
     if (!hasError) {
@@ -127,7 +127,7 @@ function contactSubmit() {
       $('#contactForm textarea').attr('readonly', true);
 
       // display success message
-      $('#contactSubmit').after(
+      $('.insert-message').append(
         '<p class="text-success" id="contactSubmitText">' + 
           'Your response had been submitted successfully!' + 
         '</p>'
@@ -137,12 +137,12 @@ function contactSubmit() {
         $('#contactForm')[0].reset();
         $('#contactForm input').removeAttr('readonly');
         $('#contactForm textarea').removeAttr('readonly');
-        $('#contactSubmitText').addClass('d-none');
+        $('.insert-message').addClass('d-none');
         loading = false;
       }, 5000);
     } else {
-      $('#contactSubmit').after(
-        '<p class="text-danger" id="contactSubmitText">' + 
+      $('.insert-message').append(
+        '<p class="text-danger contactSubmitText">' + 
           'There are errors in your form.' + 
         '</p>'
       );

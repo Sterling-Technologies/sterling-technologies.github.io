@@ -48,7 +48,7 @@
       }
 
       .btn {
-        width: 40%;
+        /*width: 40%;*/
       }
     }
 
@@ -62,6 +62,20 @@
         line-height: 1.8;
         padding: 13rem 0 0 4rem;
         width: 60%;
+      }
+    }
+  }
+
+  .row {
+    .insert-message {
+      p {
+        &.text-danger {
+          margin-top: 14px;
+        }
+        
+        &.text-success {
+          margin-top: 8px;
+        }
       }
     }
   }
