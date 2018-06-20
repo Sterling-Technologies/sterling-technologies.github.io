@@ -24,6 +24,7 @@ layout: default
         <div class="col col-sm-12 col-12">
           <h3>What is a technology accelerator?</h3>
         </div>
+
         <div class="col col-sm-12 col-12">
           <p>
             We use a business methodology that we developed over the years
@@ -31,6 +32,7 @@ layout: default
             phase your company is in, we can get you to the finish line faster.
           </p>
         </div>
+      
       </div>
 
       <ul class="process d-flex">
@@ -79,6 +81,36 @@ layout: default
             <p>{{ solution.title }}</p>
           </div>
         {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="case-studies-section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col col-md-6 section-text">
+          <h3>Case Studies</h3>
+          <p>
+            We have a strong discipline in product strategy and development and
+            have been involved in a number of challenging projects and end-to-end
+            solutions for many of our clients and the companies we have created
+            throughout the years. Our software development case studies show our
+            diversity in many industries and commitment to master todays technology.
+          </p>
+        </div>
+
+        <div class="col-md-4 section-projects">
+          <div class="row">
+            {% for project in site.data.home.case-studies %}
+              <div class="col col-12 col-sm-12 col-md-6 d-flex">
+                <a href="{{ project.link }}" target="_blank">
+                  <img src="{{ project.img | absolute_url }}" alt="Project Image">
+                </a>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -163,35 +195,6 @@ layout: default
     </div>
   </section>
 
-  <!-- <section class="case-studies-section">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col col-md-6 section-text">
-          <h3>Case Studies</h3>
-          <p>
-            We have a strong discipline in product strategy and development and
-            have been involved in a number of challenging projects and end-to-end
-            solutions for many of our clients and the companies we have created
-            throughout the years. Our software development case studies show our
-            diversity in many industries and commitment to master todays technology.
-          </p>
-        </div>
-        <div class="col-md-4 section-projects">
-          <div class="row">
-            {% for project in site.data.home.case-studies %}
-              <div class="col col-12 col-sm-12 col-md-6 d-flex">
-                <a href="{{ project.link }}" target="_blank">
-                  <img src="{{ project.img | absolute_url }}" alt="Project Image">
-                </a>
-              </div>
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section> -->
-
   <!-- <section class="github-section">
     <div class="section-header">
       <div class="container">
@@ -236,7 +239,7 @@ layout: default
         Do you have a project in mind? We would love to hear all about your ideas.
       </p>
 
-      <a href="mailto:general@sterlingtech.ph" class="btn btn-lg btn-red">
+      <a href="/contact-us" class="btn btn-lg btn-red">
         Contact us for a meeting
       </a>
     </div>

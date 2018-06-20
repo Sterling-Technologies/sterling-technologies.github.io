@@ -34,10 +34,6 @@
       p {
         margin-top: 3rem;
       }
-
-      /*@media screen and (max-width: 767.98px) {
-        column-width: 500px;
-      }*/
     }
   }
 
@@ -51,28 +47,16 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-
-        @media screen and (max-width: 991.98px) {
-          max-width: 100%;
-          height: auto;
-        }
       }
-    }
-
-    @media screen and (max-width: 1199.98px) {
-      padding: 5rem 5rem 0;
-    }
-    @media screen and (max-width: 767.98px) {
-      padding: 5rem 0 0;
     }
   }
 
   .box-highlight {
+    background-image: url('../images/team-bottom-banner.png');
     background-size: 60% 100%;
     background-position: right;
     background-repeat: no-repeat;
     padding: 4rem;
-    background-image: url('../images/team-bottom-banner.png');
 
     &.box-right {
       background-position: left;

@@ -30,14 +30,15 @@ background_img: /assets/images/what-we-do/inner-whatwedo-technology.jpg
     </section>
 
     <section class="section-2 text-center">
-      <hr class="bar-separator">    
+      <hr class="bar-separator">
       <h3>Servers</h3>
       <ul class="section-images">
         {% assign servers = site.data.what-we-do.technology | where: "tag", 'servers' %}
         {% for server in servers %}
           <li>
             <div class="technology-div">
-              <img src="{{server.img | absolute-url}}">
+              <canvas id="{{server.name}}" width="150" height="150"></canvas>
+              <img class="{{server.name}}" src="{{server.img | absolute-url}}">
               <div class="percent-div">
                 {{server.percent}}
               </div>
@@ -57,7 +58,8 @@ background_img: /assets/images/what-we-do/inner-whatwedo-technology.jpg
         {% for database in databases %}
           <li>
             <div class="technology-div">
-              <img src="{{database.img | absolute-url}}">
+              <canvas id="{{database.name}}" width="150" height="150"></canvas>
+              <img class="{{database.name}}" src="{{database.img | absolute-url}}">
               <div class="percent-div">
                 {{database.percent}}
               </div>
@@ -77,7 +79,8 @@ background_img: /assets/images/what-we-do/inner-whatwedo-technology.jpg
         {% for library in libraries %}
           <li>
             <div class="technology-div">
-              <img src="{{library.img | absolute-url}}">
+              <canvas id="{{library.name}}" width="150" height="150"></canvas>
+              <img class="{{library.name}}" src="{{library.img | absolute-url}}">
               <div class="percent-div">
                 {{library.percent}}
               </div>
@@ -107,6 +110,13 @@ background_img: /assets/images/what-we-do/inner-whatwedo-technology.jpg
             testing to measure the stability of our applications. We take
             automated testing to a different level of coverage.
           </p>
+          <a 
+          class="btn btn-transparent-red" 
+          href="#" 
+          target="_blank"
+          >
+            Schedule a demo
+          </a>
         </div>
 
         <div class="col col-02 ">

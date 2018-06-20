@@ -18,25 +18,24 @@
           color: #fff;
           display: none;
           height: 100%;
+          letter-spacing: 2px;
           opacity: 0.93;
+          padding: 4rem 3rem;
           position: absolute;
+          text-transform: uppercase;
           top: 0;
           width: 100%;
-          text-transform: uppercase;
-          letter-spacing: 2px;
-          padding: 4rem 3rem;
 
           .wrapper {
+            align-items: center;
             display: flex;
             flex-direction: column;
-            -webkit-flex-direction: column;
-            align-items: center;
-            -webkit-align-items: center;
-            justify-content: center;
-            -webkit-justify-content: center;
             height: 100%;
-            //border: 1px solid black;
+            justify-content: center;
             position: relative;
+            -webkit-align-items: center;
+            -webkit-flex-direction: column;
+            -webkit-justify-content: center;
 
             .inner-wrapper {
               .sterling-tech-logo {
@@ -61,45 +60,45 @@
             }
 
             .inner-wrapper:before {
+              background: #FFFFFF;
+              bottom: -0.15em;
               content: "";
+              height: 40%;
               position: absolute;
               right: 0;
-              bottom: -0.15em;
-              height: 40%;
               width: 1px;
-              background: #FFFFFF;
             }
 
             .inner-wrapper:after {
-              position: absolute;
-              bottom: -0.15em;
-              right: 0;
-              content: "";
-              width: 40%;
-              height: 0;
               border-bottom: 1px solid #FFFFFF;
+              bottom: -0.15em;
+              content: "";
+              height: 0;
+              position: absolute;
+              right: 0;
+              width: 40%;
             }
 
           }
 
           .wrapper:before {
-            content: "";
-            position: absolute;
-            left: 0;
-            top: -0.15em;
-            height: 40%;
-            width: 1px;
             background: #FFFFFF;
+            content: "";
+            height: 40%;
+            left: 0;
+            position: absolute;
+            top: -0.15em;
+            width: 1px;
           }
 
           .wrapper:after {
+            border-bottom: 1px solid #FFFFFF;
+            content: "";
+            height: 0;
+            left: 0;
             position: absolute;
             top: -0.15em;
-            left: 0;
-            content: "";
             width: 40%;
-            height: 0;
-            border-bottom: 1px solid #FFFFFF;
           }
 
         }
@@ -108,8 +107,8 @@
       .proj-link {
         color: inherit;
         display: block;
-        font-weight: 600;
         font-size: 16px;
+        font-weight: 600;
         letter-spacing: 2px;
         text-align: center;
         text-transform: uppercase;
@@ -127,8 +126,8 @@
 .layout-case-study {
   .banner-section {
     background-color: #434343;
-    padding: 5rem 0;
     color: #fff;
+    padding: 5rem 0;
 
     h2 {
       font-family: $text-bignoodle;
@@ -156,8 +155,8 @@
       letter-spacing: 2px;
       margin-right: 3rem;
       padding: 0 1rem 1rem;
-      text-transform: uppercase;
       text-decoration: none;
+      text-transform: uppercase;
 
       &.active {
         border-bottom: 5px solid #F5A242;

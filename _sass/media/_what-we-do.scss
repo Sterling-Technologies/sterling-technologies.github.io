@@ -132,7 +132,7 @@
       .section-3 {
         ul.section-images {
           li {
-            margin-bottom: 50px;
+            margin-bottom: 100px;
           }
         }
       }
@@ -256,7 +256,7 @@
         flex-direction: column;
         
         &.iristext-row {
-          flex-direction: col ;
+          flex-direction: column-reverse;
         }
         
         .col {
@@ -265,6 +265,16 @@
         
         .col-detail {
           padding: 1rem;
+        }
+      }
+    }
+
+    .digital-marketing-content {
+      .section-4 {
+        img {
+          display: block;
+          height: 100%;
+          width: 100%;
         }
       }
     }
