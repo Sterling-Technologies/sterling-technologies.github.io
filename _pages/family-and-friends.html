@@ -10,6 +10,7 @@ permalink: /family-and-friends
         <div class="col">
           <h2>Family and Friends</h2>
         </div>
+
         <div class="col col-md-4 col-sm-12 col-12">
           <hr>
           <p>
@@ -17,6 +18,7 @@ permalink: /family-and-friends
             companies we had the privilege to work with.
           </p>
         </div>
+        
         <div class="col col-md-4 col-sm-12 col-12">
         </div>
       </div>
@@ -29,7 +31,7 @@ permalink: /family-and-friends
         {% for company in site.data.family-and-friends %}
           <div class="col col-12 col-sm-12 col-md-4 company-detail">
             <a href="{{ company.link }}" class="d-flex" target="_blank">
-              <img src="{{ company.logo | absolute_url }}" alt="{{ company.alt }}">
+              <img alt="{{ company.alt }}" src="{{ company.logo | absolute_url }}" />
             </a>
           </div>
         {% endfor %}

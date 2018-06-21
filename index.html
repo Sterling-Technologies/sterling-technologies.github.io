@@ -9,8 +9,8 @@ layout: default
       
       <h2 class="header-gold">&lt;Accelerator&gt;</h2>
       <p>
-        Sterling Tech is a get things done kind of <br/>
-        company. We develop apps. We develop <br/>
+        Sterling Tech is a get things done kind of <br />
+        company. We develop apps. We develop <br />
         companies.
       </p>
       <br/>
@@ -39,7 +39,7 @@ layout: default
         {% for process in site.data.home.tech-acce %}
           <li>
             <div class="process-image">
-              <img src="{{ process.img | absolute_url }}" alt="Process Image">
+              <img src="{{ process.img | absolute_url }}" alt="Process Image" />
             </div>
             <p>{{ process.title }}</p>
           </li>
@@ -76,7 +76,7 @@ layout: default
         {% for solution in site.data.home.what-we-do %}
           <div class="col col-md-4 col-sm-12 col-12">
             <div class="solution-image">
-              <img src="{{ solution.img | absolute_url }}" alt="Solution Image">
+              <img src="{{ solution.img | absolute_url }}" alt="Solution Image" />
             </div>
             <p>{{ solution.title }}</p>
           </div>
@@ -104,7 +104,7 @@ layout: default
             {% for project in site.data.home.case-studies %}
               <div class="col col-12 col-sm-12 col-md-6 d-flex">
                 <a href="{{ project.link }}" target="_blank">
-                  <img src="{{ project.img | absolute_url }}" alt="Project Image">
+                  <img src="{{ project.img | absolute_url }}" alt="Project Image" />
                 </a>
               </div>
             {% endfor %}
@@ -131,9 +131,9 @@ layout: default
           <p class="col-name">Servers</p>
           <ul>
             {% for server in site.data.home.what-we-use-servers %}
-              <li style="margin-bottom: {{ server.mb }}">
+              <li class="{{ server.name }}">
                 <a href="{{ server.link | absolute_url }}" target="_blank">
-                  <img src="{{ server.img | absolute_url }}" alt="Server Image"/>
+                  <img src="{{ server.img | absolute_url }}" alt="Server Image" />
                 </a>
               </li>
             {% endfor %}
@@ -144,9 +144,9 @@ layout: default
           <p class="col-name">Languages</p>
           <ul>
             {% for lang in site.data.home.what-we-use-lang %}
-              <li style="margin-bottom: {{ lang.mb }}">
+              <li class="{{ lang.name }}">
                 <a href="{{ lang.link | absolute_url }}" target="_blank">
-                  <img src="{{ lang.img | absolute_url }}" alt="Language Image"/>
+                  <img src="{{ lang.img | absolute_url }}" alt="Language Image" />
                 </a>
               </li>
             {% endfor %}
@@ -157,7 +157,7 @@ layout: default
           <p class="col-name">Databases</p>
           <ul>
             {% for db in site.data.home.what-we-use-db %}
-              <li style="margin-bottom: {{ db.mb }}">
+              <li class="{{ db.name }}">
                 <a href="{{ db.link | absolute_url }}" target="_blank">
                   <img src="{{ db.img | absolute_url }}" alt="DB Image"/>
                 </a>
@@ -170,9 +170,9 @@ layout: default
           <p class="col-name col-continuous">Continuous</p>
           <ul>
             {% for cont in site.data.home.what-we-use-cont %}
-              <li style="margin-bottom: {{ cont.mb }}">
+              <li class="{{ cont.name }}">
                 <a href="{{ cont.link | absolute_url }}" target="_blank">
-                  <img src="{{ cont.img | absolute_url }}" alt="Continuous Image"/>
+                  <img src="{{ cont.img | absolute_url }}" alt="Continuous Image" />
                 </a>
               </li>
             {% endfor %}
@@ -183,7 +183,7 @@ layout: default
           <p class="col-name">Libraries</p>
           <ul>
             {% for lib in site.data.home.what-we-use-libs %}
-              <li style="margin-bottom: {{ lib.mb }}">
+              <li class="{{ lib.name }}">
                 <a href="{{ lib.link | absolute_url }}" target="_blank">
                   <img src="{{ lib.img | absolute_url }}" alt="Library Image"/>
                 </a>

@@ -10,9 +10,11 @@ layout: default
         <li class="breadcrumb-item">
           <a href="/">Home</a>
         </li>
+
         <li class="breadcrumb-item">
           <a href="/blog">Blog</a>
         </li>
+        
         <li class="breadcrumb-item active">
           <a href="{{ page.url }}">
             {{ page.title }}
@@ -33,7 +35,7 @@ layout: default
 
     <!-- Post Banner -->
     <div class="post-banner">
-      <img src="{{ page.banner_image | absolute_url }}" alt="Post Banner">
+      <img alt="Post Banner" src="{{ page.banner_image | absolute_url }}" />
     </div>
 
     <!-- Post Content -->
@@ -65,8 +67,9 @@ layout: default
 
           <div class="col col-md-4">
             <a href="{{ post.url }}" class="post-image">
-              <img src="{{ post.image | absolute_url }}" alt="Post Image">
+              <img alt="Post Image" src="{{ post.image | absolute_url }}" />
             </a>
+            
             <div class="post-detail">
               <a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
               <div class="post-short-detail">{{ post.short_detail }}</div>

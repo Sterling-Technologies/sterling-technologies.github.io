@@ -184,6 +184,39 @@
     }
 
     .wwu-list {
+      li {
+        margin-bottom: 1.7rem;
+
+        &.python {
+          margin-bottom: 0.2rem;
+        }
+        &.nodejs {
+          margin-bottom: 0.5rem;
+        }
+        &.azure {
+          margin-bottom: 0.75rem;
+        }
+        &.github, 
+        &.php {
+          margin-bottom: 1rem;
+        }
+        &.elastic {
+          margin-bottom: 1.9rem;
+        }
+        &.googlecloud, 
+        &.polymer, 
+        &.travis {
+          margin-bottom: 2.25rem;
+        }
+        &.hadoop, 
+        &.ionic {
+          margin-bottom: 2.5rem;
+        }
+        &.gitlab {
+          margin-bottom: 2.6rem;
+        }
+      }
+
       .col-name {
         color: $text-light-gold;
         font-size: 18px;
