@@ -24,7 +24,7 @@ permalink: /blog
         <div class="row">
           <div class="col">
             <div class="post-image">
-              <img src="{{ post.image | absolute_url }}" alt="Post Image">
+              <img alt="Post Image" src="{{ post.image | absolute_url }}" />
             </div>
           </div>
           <div class="col">
@@ -50,7 +50,7 @@ permalink: /blog
 
             <div class="col col-md-6">
               <a href="{{ post.url }}" class="post-image">
-                <img src="{{ post.image | absolute_url }}" alt="Post Image">
+                <img alt="Post Image" src="{{ post.image | absolute_url }}" />
               </a>
               <div class="post-detail">
                 <a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
@@ -75,10 +75,17 @@ permalink: /blog
                   <div class="float-left">
                     <p>{{ forloop.index }}</p>
                   </div>
+                  
                   <div class="float-left">
-                    <a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
-                    <div class="post-short-detail">{{ post.short_detail | truncate: 70 }}</div>
-                    <div class="post-date">{{ post.date | date_to_long_string }}</div>
+                    <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
+
+                    <div class="post-short-detail">
+                      {{ post.short_detail | truncate: 70 }}
+                    </div>
+
+                    <div class="post-date">
+                      {{ post.date | date_to_long_string }}
+                    </div>
                   </div>
                 </div>
               </li>

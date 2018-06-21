@@ -58,7 +58,7 @@ permalink: /who-we-are/our-culture
 
       <section class="office-tour-row">
         <h3>
-          Magic. <br>
+          Magic. <br />
           It happens here.
         </h3>
         <!-- <a href="#">
@@ -111,12 +111,27 @@ permalink: /who-we-are/our-culture
 
           <div class="col-images">
             <div class="d-flex">
-              <img src="{{ '/assets/images/our-culture/passion-1.png' }}" alt="Core Value Image">
-              <img src="{{ '/assets/images/our-culture/square-2.png' }}" alt="Core Value Image">
+              <img 
+                alt="Core Value Image"
+                src="{{ '/assets/images/our-culture/passion-1.png' }}" 
+              />
+
+              <img 
+                alt="Core Value Image"
+                src="{{ '/assets/images/our-culture/square-2.png' }}" 
+              />
             </div>
+
             <div class="d-flex">
-              <img src="{{ '/assets/images/our-culture/square-3.png' }}" alt="Core Value Image">
-              <img src="{{ '/assets/images/our-culture/passion-4.png' }}" alt="Core Value Image">
+              <img 
+                alt="Core Value Image"
+                src="{{ '/assets/images/our-culture/square-3.png' }}" 
+              />
+
+              <img 
+                alt="Core Value Image"
+                src="{{ '/assets/images/our-culture/passion-4.png' }}" 
+              />
             </div>
           </div>
         </div>
@@ -132,6 +147,7 @@ permalink: /who-we-are/our-culture
             <h3 class="value-name">{{ value.name }}</h3>
             <a href="{{ value.link }}">Know more</a>
           </div>
+
           <div class="col col-12 col-sm-12 col-md-8">
             <p class="value-description">{{ value.description }}</p>
           </div>
@@ -139,7 +155,11 @@ permalink: /who-we-are/our-culture
       </section>
 
       <section class="family-row d-flex">
-        <img src="{{ '/assets/images/our-culture/family-1.png' }}" alt="Family Core Value Image">
+        <img 
+          alt="Family Core Value Image" 
+          src="{{ '/assets/images/our-culture/family-1.png' }}" 
+        />
+
         <div class="col-family">
           <!-- get family core value -->
           {% assign value = site.data.core-values | where: 'name', 'family' | first %}
@@ -149,7 +169,11 @@ permalink: /who-we-are/our-culture
           <p class="value-description">{{ value.description }}</p>
           <a href="{{ value.link }}">Know more</a>
         </div>
-        <img src="{{ '/assets/images/our-culture/family-2.png' }}" alt="Family Core Value Image">
+
+        <img 
+          alt="Family Core Value Image"
+          src="{{ '/assets/images/our-culture/family-2.png' }}" 
+        />
       </section>
     </div>
   </section>
@@ -159,12 +183,17 @@ permalink: /who-we-are/our-culture
       <p class="text-highlight-1">
         When the boss isn't looking
       </p>
+
       <p class="text-highlight-2">
         PlayerUnknown's Battlegrounds
       </p>
 
       <div class="d-flex">
-        <img src="{{ '/assets/images/our-culture/game.png' }}" class="game-image" alt="Game Image">
+        <img 
+          alt="Game Image" 
+          class="game-image" 
+          src="{{ '/assets/images/our-culture/game.png' }}" 
+        />
         <div class="details">
           <p class="description">
             PlayerUnknown’s Battlegrounds PUBG), the hit game on PC (and Xbox One) that popularized 
@@ -176,12 +205,17 @@ permalink: /who-we-are/our-culture
             <p>Sterling Tech's Top Player</p>
             <div class="d-flex">
               <div class="player-img">
-                <img src="{{ '/assets/images/our-culture/player-rico.png' }}" alt="Top Player Image">
+                <img 
+                  alt="Top Player Image" 
+                  src="{{ '/assets/images/our-culture/player-rico.png' }}" 
+                />
               </div>
+
               <div>
                 <p class="player-ign">Kshatriya666</p>
                 <p class="player-name">a.k.a. Rico Maglayon</p>
               </div>
+              
             </div>
           </div>
         </div>

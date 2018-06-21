@@ -33,6 +33,12 @@ body {
   border-radius: 0;
 }
 
+.btn:active,
+.btn:focus,
+.btn:hover {
+  box-shadow: none;
+}
+
 .btn-red {
   background-color: #a94045;
   color: #FFFFFF !important;
@@ -57,7 +63,6 @@ body {
 .btn-transparent-red:focus,
 .btn-transparent-red:hover {
   border: 1px solid $text-gold;
-  box-shadow: none;
   color: $text-gold;
 }
 
