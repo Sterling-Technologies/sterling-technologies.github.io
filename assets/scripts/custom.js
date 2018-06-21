@@ -143,7 +143,7 @@ function contactSubmit() {
     } else {
       $('.insert-message').append(
         '<p class="text-danger contactSubmitText">' + 
-          'There are errors in your form.' + 
+          'Please fill-in the required details.' + 
         '</p>'
       );
     }
