@@ -82,7 +82,7 @@ function contactSubmit() {
     /* validate first */
     if (!$('#inputContact').val() || $('#inputContact').val() === '') {
       $('#helpContact')
-        .text('Contact is required')
+        .text('Contact number is required')
         .addClass('text-danger')
         .css('display', 'block');
 
