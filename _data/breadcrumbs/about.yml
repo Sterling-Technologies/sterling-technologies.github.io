@@ -1,0 +1,7 @@
+- title: Home
+  url: /
+  active: false
+
+- title: About the Company
+  url: /about
+  active: true

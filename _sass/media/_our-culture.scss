@@ -1,0 +1,138 @@
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  .page-our-culture .core-values-section .honesty-row .row .col-honesty .col-wrapper {
+    padding: 5rem;
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  .page-our-culture {
+    .core-values-section {
+      .honesty-row .row .col-honesty .col-wrapper {
+        padding: 2.2rem 4rem;
+      }
+
+      .office-tour-row {
+        padding: 5rem 4rem 7rem;
+      }
+
+      .three-values-row .col-transparency {
+        background-color: #fff;
+      }
+    }
+
+    .three-values-row,
+    .family-row,
+    .game-section .d-flex, {
+      flex-direction: column;
+      -webkit-flex-direction: column;
+    }
+
+    .game-section .details {
+      margin-top: 2rem;
+      padding-left: 0;
+    }
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  .page-our-culture {
+    .banner-section {
+      padding: 8rem 0 5rem;
+      
+      .banner-text-1 p {
+        width: 85%;
+      }
+    }
+
+    .core-values-section {
+      .honesty-row {
+        height: auto;
+        padding-top: 2rem;
+
+        .row {
+          position: relative;
+          top: 0;
+
+          .col:first-child {
+            padding-right: 15px;
+          }
+
+          .col:last-child {
+            padding-left: 15px;
+          }
+        }
+      }
+
+      .office-tour-row {
+        background-size: cover;
+      }
+    }
+    
+    .game-section {
+      .text-highlight-2 {
+        letter-spacing: 1px;
+        line-height: 4.4rem;
+      }
+    }
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {}
+
+@media (max-width: 480.98px) {
+  .page-our-culture {
+    .core-values-section {
+      .honesty-row {
+        .row {
+          .col-honesty {
+            .col-wrapper {
+              padding: 1.5rem 2rem;
+            }
+          }
+          
+          .col-gallery {
+            .col-wrapper {
+              padding: 3rem 2rem;
+            }
+          }
+        }
+      }
+      
+      .three-values-row {
+        .col-ownership {
+          padding: 2rem;
+          
+          .value-name {
+            font-size: 2.5rem;
+          }
+        }
+        
+        .col-passion {
+          padding: 2.5rem;
+        }
+        
+        .col-transparency {
+          padding: 2rem 2.5rem;
+        }
+      }
+      
+      .discipline-row {
+        padding: 2rem 2.5rem;
+      }
+      
+      .family-row {
+        .col-family {
+          padding: 2rem 2.5rem;
+          
+          .value-description {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

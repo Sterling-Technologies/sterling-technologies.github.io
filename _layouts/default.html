@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+
+  <title>Sterling Technologies</title>
+  <meta name="google-site-verification" content="qTT0KSOdccq17PJI7dyZ8Yrifm5Sp0cgcsaINnvskf0" />
+
+  <!-- MOBILE TAGS -->
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, height=device-height, width=device-width" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+  <!-- GOOGLE TAGS -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="robots" content="index,follow" />
+
+  <!-- FAVICON -->
+  <link rel="shortcut icon" href="{{ '/assets/images/icons/favicon-32x32.png' | absolute_url }}" type="image/png" />
+
+  <meta name="description" content="We develop game changers." />
+  <meta name="keywords" content="Add Some SEO Here" />
+
+  <!-- FACEBOOK TAGS -->
+  <meta property="fb:app_id" content="" />
+  <meta property="fb:admins" content="" />
+  <meta property="og:image" content="{{ '/assets/images/logos/logo-square-colored.png' | absolute_url }}" />
+  <meta property="og:title" content="Sterling Tech" />
+  <meta property="og:description" content="We develop game changers." />
+  <meta property="og:type" content="Add Some SEO Here" />
+  <meta property="og:url" content="http://sterlingtech.ph" />
+
+  <!-- TWITTER TAGS -->
+  <meta name="twitter:card" content="summary" />
+  <meta property="twitter:image" content="{{ '/assets/images/logos/logo-square-colored.png' | absolute_url }}" />
+  <meta property="twitter:title" content="Sterling Tech" />
+  <meta property="twitter:description" content="We develop game changers." />
+  <meta name="twitter:url" content="http://sterlingtech.ph" />
+
+  <!-- SCHEMA.ORG -->
+  <meta itemprop="name" content="@Perks" />
+  <meta itemprop="openingHours" content="Mo,Tu,We,Th,Fr 10:00-20:00" />
+  <link itemprop="url" content="http://sterlingtech.ph" />
+  <link itemprop="logo" content="{{ site.url }}/assets/images/icon/favicon.png" />
+  <link itemprop="image" content="{{ site.url }}/assets/images/logo-small.png" />
+
+  <link href="{{ '/assets/styles/fontawesome-all.min.css' | absolute_url }}" rel="stylesheet" type="text/css" />
+  <link href="{{ '/assets/styles/bootstrap.min.css' | absolute_url }}" rel="stylesheet" type="text/css" />
+  <link href="{{ '/assets/styles/main.css?v=' | append: site.github.build_revision | absolute_url }}" rel="stylesheet" type="text/css" />
+
+  <!-- Animate on Scroll -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- G01 Custom CSS -->
+  <link href="{{ '/assets/styles/G01-custom.css' | absolute_url }}" rel="stylesheet" type="text/css" />
+  
+
+</head>
+<body>
+  <header class="head">
+    {% include header.html url=page.url %}
+  </header>
+
+  <main class="body">
+    {{ content }}
+  </main>
+
+  <footer class="foot">
+    {% include footer.html url=page.url %}
+  </footer>
+
+  <script 
+    src="{{ '/assets/scripts/jquery-3.3.1.min.js' | absolute_url }}" 
+    type="text/javascript"
+  >
+  </script>
+  <script 
+    src="{{ '/assets/scripts/bootstrap.min.js' | absolute_url }}" 
+    type="text/javascript"
+  >
+  </script>
+  <script src="{{ '/dist/bundle.js' | absolute_url }}"></script>
+  <script 
+    src="{{ '/assets/scripts/Chart.min.js' | absolute_url }}" 
+    type="text/javascript"
+  >
+  </script>
+  <script 
+    src="{{ '/assets/scripts/chartjs-plugin-deferred.min.js' | absolute_url }}" 
+    type="text/javascript"
+  >
+  </script>
+  <script 
+    src="{{ '/assets/scripts/doon.js' | absolute_url }}" 
+    type="text/javascript"
+  >
+  </script>
+  <script 
+    src="{{ '/assets/scripts/custom.js' | absolute_url }}" 
+    type="text/javascript"
+  >
+  </script>
+
+  <script 
+    src="{{ '/assets/scripts/scroll2draw.js' | absolute_url }}" 
+    type="text/javascript"
+  >
+  </script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+</html>

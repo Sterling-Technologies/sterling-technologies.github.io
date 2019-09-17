@@ -1,0 +1,128 @@
+---
+layout: default
+---
+
+<section class="page-profile">
+  <!-- Breadcrumb -->
+  <nav aria-label="breadcrumb">
+    <div class="container">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="/teams">Team</a>
+        </li>
+        
+        <li class="breadcrumb-item">
+          <a href="/teams/{{ page.team_slug }}">{{ page.team }}</a>
+        </li>
+
+        <li class="breadcrumb-item active">
+          <a href="/profiles/{{ page.slug }}">
+            {{ page.name }}
+          </a>
+        </li>
+      </ol>
+    </div>
+  </nav>
+
+  <div class="profile-cover">
+    <div class="container">
+      <div class="row">
+        <div class="col col-12 col-sm-12 col-md-5"></div>
+        <div class="col col-12 col-sm-12 col-md-7">
+          <div class="profile-cover-info">
+            <div class="profile-name">{{ page.name }}</div>
+            <div class="profile-position">{{ page.position }}</div>
+            <div class="profile-award">
+              <img 
+                alt="Profile Badge"
+                src="{{ "/assets/images/icons/profile-badge.png" | absolute_url }}" 
+              />
+              {{ page.award }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="profile-detail">
+    <div class="container">
+      <div class="row">
+        <div class="col col-12 col-sm-12 col-md-5">
+          <div class="profile-image">
+            <img alt="Profile Picture" src="{{ page.profile_img | absolute_url }}" />
+          </div>
+
+          <ul class="profile-awards">
+            <li>
+              <a href="#" class="clearfix">
+                <img 
+                alt="achievement logo" 
+                class="float-left" 
+                src="{{ "/assets/images/icons/profile-red-badge-4.png" | absolute_url }}" 
+                />
+                <span class="float-left">Competition</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="clearfix">
+                <img 
+                alt="achievement logo" 
+                class="float-left" 
+                src="{{ "/assets/images/icons/profile-red-badge-3.png" | absolute_url }}" 
+                />
+                <span class="float-left">Communication</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="clearfix">
+                <img 
+                alt="achievement logo" 
+                src="{{ "/assets/images/icons/profile-red-badge.png" | absolute_url }}" 
+                class="float-left" 
+                />
+                <span class="float-left">Significance</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="clearfix">
+                <img 
+                  alt="achievement logo" 
+                  class="float-left" 
+                  src="{{ "/assets/images/icons/profile-red-badge-2.png" | absolute_url }}" 
+                />
+                <span class="float-left">Self-Assurance</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="clearfix">
+                <img 
+                  alt="achievement logo" 
+                  class="float-left" 
+                  src="{{ "/assets/images/icons/profile-red-badge-5.png" | absolute_url }}" 
+                />
+                <span class="float-left">Activator</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col col-12 col-sm-12 col-md-7">
+          <div class="profile-bio">
+            {{ page.content }}
+          </div>
+
+          <div class="clearfix">
+            <a href="/teams/{{ page.team_slug }}" class="btn btn-red btn-lg float-right">
+              Back to the team
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>

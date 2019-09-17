@@ -1,0 +1,156 @@
+---
+layout: what-we-do
+slug: technology
+title: Technology
+order: 5
+breadcrumbs:
+  - title: Home
+    url: /
+    active: false
+  - title: What We Do
+    url: /what-we-do
+    active: false
+  - title: Technology
+    url: /what-we-do/technology
+    active: true
+text_question: How about some AI for your Messenger?
+description:
+  We are a team that has been together since 2012 and our retention is very high. This is because we work with new technologies almost every week. We are home of some of the best technologists in the country.
+banner_img: /assets/images/what-we-do/technology/whatwedo-banner-technology.jpg
+background_img: /assets/images/what-we-do/inner-whatwedo-technology.jpg
+---
+
+<div class="page-content technology">
+  <div class="container">
+    <section class="section-1 text-center">
+      <h3>Server Architectures</h3>
+      <p>
+        There most likely isn’t a could service we haven’t touched. We know which ones are the most affordable and which ones perform the best. We often use multiple cloud services in order to get the best results.
+      </p>
+    </section>
+
+    <section class="section-2 text-center">
+      <hr class="bar-separator">
+      <h3>Servers</h3>
+      <ul class="section-images">
+        {% assign servers = site.data.what-we-do.technology | where: "tag", 'servers' %}
+        {% for server in servers %}
+          <li>
+            <div class="technology-div">
+              <canvas id="{{server.name}}" width="150" height="150"></canvas>
+              <img class="{{server.name}}" src="{{server.img | absolute-url}}" />
+              <div class="percent-div">
+                {{server.percent}}
+              </div>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    <hr class="bar-separator">
+      
+    <section class="section-3 text-center">
+      <h3>Databases</h3>
+      
+      <ul class="section-images">
+        {% assign databases = site.data.what-we-do.technology | where: "tag", 'databases' %}
+        {% for database in databases %}
+          <li>
+            <div class="technology-div">
+              <canvas id="{{database.name}}" width="150" height="150"></canvas>
+              <img class="{{database.name}}" src="{{database.img | absolute-url}}" />
+              <div class="percent-div">
+                {{database.percent}}
+              </div>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    <hr class="bar-separator">
+    
+    <section class="section-4 text-center">
+      <h3>Libraries</h3>
+
+      <ul class="section-images">
+        {% assign libraries = site.data.what-we-do.technology | where: "tag", 'libraries' %}
+        {% for library in libraries %}
+          <li>
+            <div class="technology-div">
+              <canvas id="{{library.name}}" width="150" height="150"></canvas>
+              <img class="{{library.name}}" src="{{library.img | absolute-url}}" />
+              <div class="percent-div">
+                {{library.percent}}
+              </div>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+
+      <p>
+        Let us help you design and/or implement your Server Stack. Our technical documents and design cover recommendations, rationale, research references, considerations, points of failure and resolutions.
+      </p>
+
+      <!-- <button>Download a Sample</button> -->
+    </section>
+  </div>
+  <div class="bottom-section-container">
+    <section class="section-5">
+      <div class="row">
+        <div class="col col-01 text-center">
+          <h3>Continuous Delivery</h3>
+          <p class="first-child">Testing is a Serious Business</p>
+          <p>
+            Developing custom apps usually yields bugs and issues. For a time,
+            we were also no different than other companies in this regard. 
+            <br/>
+            Today, we rely on both manual quality assurance and automated
+            testing to measure the stability of our applications. We take
+            automated testing to a different level of coverage.
+          </p>
+          <a 
+            class="btn btn-transparent-red" 
+            href="/contact-us" 
+          >
+            Schedule a demo
+          </a>
+        </div>
+
+        <div class="col col-02 ">
+          <h3 class="text-center">Our Approach</h3>
+          {% assign check_icon = "/assets/images/icons/check-circle-outline.png" %}
+          <ul>
+            <li>
+              <img src= {{check_icon}} />
+              Show Travis Results
+            </li>
+            
+            <li>
+              <img src= {{check_icon}} />
+              Show Coveralls Results
+            </li>
+            
+            <li>
+              <img src= {{check_icon}} />
+              Show CacheGrind Results
+            </li>
+            
+            <li>
+              <img src= {{check_icon}} />
+              Show WMT Results
+            </li>
+            
+            <li>
+              <img src= {{check_icon}} />
+              Show Linode Server Results
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+</div>

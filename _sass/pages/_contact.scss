@@ -1,0 +1,82 @@
+.page-contact {
+  .form-wrapper {
+    form {
+      padding-bottom: 3rem;
+
+      h2 {
+        color: $text-red;
+        font-size: 2rem;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+      }
+
+      .form-group {
+        p.help {
+          display: none;
+        }
+
+        .has-danger {
+          border-color: #F73A48;
+        }
+      }
+
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        border: 1px solid #ddd;
+        padding: .75rem 1.8rem;
+
+        &::-webkit-input-placeholder {
+          color: #909090;
+          font-style: italic;
+        }
+
+        &:-moz-placeholder {
+          color: #909090;
+          font-style: italic;
+        }
+
+        &::-moz-placeholder {
+          color: #909090;
+          font-style: italic;
+        }
+
+        &:-ms-input-placeholder {
+          color: #909090;
+          font-style: italic;
+        }
+      }
+
+      .btn {
+        /*width: 40%;*/
+      }
+    }
+
+    .contact-aside .col-wrapper {
+      background: url('../images/placeholder/contact-us-bg.png') no-repeat;
+      background-size: cover;
+
+      p {
+        color: #fff;
+        font-size: 1.5rem;
+        line-height: 1.8;
+        padding: 13rem 0 0 4rem;
+        width: 60%;
+      }
+    }
+  }
+
+  .row {
+    .insert-message {
+      p {
+        &.text-danger {
+          margin-top: 14px;
+        }
+        
+        &.text-success {
+          margin-top: 8px;
+        }
+      }
+    }
+  }
+}

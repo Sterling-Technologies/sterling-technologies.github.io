@@ -1,0 +1,225 @@
+---
+layout: default
+permalink: /who-we-are/our-culture
+---
+
+<div class="page-our-culture page-content">
+  <section class="banner-section">
+    <div class="container">
+      <div class="banner-text-1 ">
+        <h3>Our Culture</h3>
+        <p>
+          We develop game changers. Our mission is to develop things that have
+          an impact on our city, Philippines, Southeast Asia and the World.
+          Extreme lengths are taken in pursuit of this goal.
+        </p>
+      </div>
+      <div class="banner-text-2">
+        <h2>Work Hard</h2>
+        <h2>Play Hard</h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="core-values-section">
+    <div class="container">
+      <section class="honesty-row">
+        <div class="row">
+          <div class="col col-12 col-sm-12 col-md-6 col-honesty">
+            <div class="col-wrapper">
+              <!-- get honesty core value -->
+              {% assign value = site.data.core-values | where: 'name', 'honesty' | first %}
+
+              <p class="value-num">Core Value I</p>
+              <h2 class="value-name">{{ value.name }}</h2>
+              <p class="value-description">{{ value.description }}</p>
+
+              <a href="{{ value.link | absolute_url }}">Know more</a>
+            </div>
+          </div>
+          <div class="col col-12 col-sm-12 col-md-6 col-gallery">
+            <div class="col-wrapper">
+              <h2>Gallery</h2>
+              <p>
+                Watch this space.
+              </p>
+              
+              <p>
+                We are currently in the process of making memories.
+              </p>
+
+              <a href="#" class="clearfix">
+                &nbsp;
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="office-tour-row">
+        <h3>
+          Magic. <br />
+          It happens here.
+        </h3>
+        <!-- <a href="#">
+          Take a tour of our office
+          <i class="fa fa-arrow-right"></i>
+        </a> -->
+      </section>
+
+      <section class="three-values-row d-flex">
+        <div class="col-values">
+          <div class="col-ownership">
+            <!-- get ownership core value -->
+            {% assign value = site.data.core-values | where: 'name', 'ownership' | first %}
+
+            <p class="value-num">Core Value II</p>
+            <h3 class="value-name">{{ value.name }}</h3>
+            <p class="value-description">{{ value.description }}</p>
+            <a href="{{ value.link }}">Know more</a>
+          </div>
+
+          <div class="col-passion">
+            <!-- get passion core value -->
+            {% assign value = site.data.core-values | where: 'name', 'passion' | first %}
+
+            <p class="value-num">Core Value IV</p>
+            <h3 class="value-name">{{ value.name }}</h3>
+            <p class="value-description">{{ value.description }}</p>
+            <a href="{{ value.link }}">Know more</a>
+          </div>
+        </div>
+
+        <div class="col-values">
+          <div class="col-transparency">
+            <!-- get transparency core value -->
+            {% assign value = site.data.core-values | where: 'name', 'transparency' | first %}
+
+            <div class="d-flex">
+              <div>
+                <p class="value-num">Core Value III</p>
+                <h3 class="value-name">
+                  tran <br>
+                  spar <br>
+                  ency
+                </h3>
+                <a href="{{ value.link }}">Know more</a>
+              </div>
+              <p class="value-description">{{ value.description }}</p>
+            </div>
+          </div>
+
+          <div class="col-images">
+            <div class="d-flex">
+              <img 
+                alt="Core Value Image"
+                src="{{ '/assets/images/our-culture/passion-1.png' }}" 
+              />
+
+              <img 
+                alt="Core Value Image"
+                src="{{ '/assets/images/our-culture/square-2.png' }}" 
+              />
+            </div>
+
+            <div class="d-flex">
+              <img 
+                alt="Core Value Image"
+                src="{{ '/assets/images/our-culture/square-3.png' }}" 
+              />
+
+              <img 
+                alt="Core Value Image"
+                src="{{ '/assets/images/our-culture/passion-4.png' }}" 
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="discipline-row">
+        <!-- get discipline core value -->
+        {% assign value = site.data.core-values | where: 'name', 'discipline' | first %}
+
+        <div class="row">
+          <div class="col col-12 col-sm-12 col-md-4">
+            <p class="value-num">Core Value V</p>
+            <h3 class="value-name">{{ value.name }}</h3>
+            <a href="{{ value.link }}">Know more</a>
+          </div>
+
+          <div class="col col-12 col-sm-12 col-md-8">
+            <p class="value-description">{{ value.description }}</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="family-row d-flex">
+        <img 
+          alt="Family Core Value Image" 
+          src="{{ '/assets/images/our-culture/family-1.png' }}" 
+        />
+
+        <div class="col-family">
+          <!-- get family core value -->
+          {% assign value = site.data.core-values | where: 'name', 'family' | first %}
+
+          <p class="value-num">Core Value VI</p>
+          <h3 class="value-name">{{ value.name }}</h3>
+          <p class="value-description">{{ value.description }}</p>
+          <a href="{{ value.link }}">Know more</a>
+        </div>
+
+        <img 
+          alt="Family Core Value Image"
+          src="{{ '/assets/images/our-culture/family-2.png' }}" 
+        />
+      </section>
+    </div>
+  </section>
+
+  <section class="game-section">
+    <div class="container">
+      <p class="text-highlight-1">
+        When the boss isn't looking
+      </p>
+
+      <p class="text-highlight-2">
+        PlayerUnknown's Battlegrounds
+      </p>
+
+      <div class="d-flex">
+        <img 
+          alt="Game Image" 
+          class="game-image" 
+          src="{{ '/assets/images/our-culture/game.png' }}" 
+        />
+        <div class="details">
+          <p class="description">
+            PlayerUnknown’s Battlegrounds PUBG), the hit game on PC (and Xbox One) that popularized 
+            the battle royale genre, has made its way to Android and iOS devices. For a game as 
+            complex as this one, it’s a surprise that it runs as well as it does on your phone.
+          </p>
+
+          <div class="top-player">
+            <p>Sterling Tech's Top Player</p>
+            <div class="d-flex">
+              <div class="player-img">
+                <img 
+                  alt="Top Player Image" 
+                  src="{{ '/assets/images/our-culture/player-rico.png' }}" 
+                />
+              </div>
+
+              <div>
+                <p class="player-ign">Kshatriya666</p>
+                <p class="player-name">a.k.a. Rico Maglayon</p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

@@ -1,0 +1,8 @@
+_site
+.sass-cache
+.jekyll-metadata
+node_modules
+app/config/settings.js
+app/config/services.js
+
+.DS_Store

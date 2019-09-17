@@ -1,0 +1,21 @@
+<nav aria-label="breadcrumb">
+    <div class="container">
+    <ol class="breadcrumb">
+      {% for crumb in include.breadcrumbs %}
+        {% if crumb.active == true %}
+          <li class="breadcrumb-item active">
+            <a href="{{ crumb.url }}">
+              {{ crumb.title }}
+            </a>
+          </li>
+        {% else %}
+          <li class="breadcrumb-item">
+            <a href="{{ crumb.url }}">
+              {{ crumb.title }}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ol>
+  </div>
+</nav>

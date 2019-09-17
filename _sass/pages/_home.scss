@@ -1,0 +1,347 @@
+.page-home {
+  .banner-section {
+    margin-top: 3rem;
+
+    .container {
+      background: url('../images/home/sec1-slash.png') no-repeat;
+      background-position: right;
+      background-size: contain;
+      padding: 8rem 15px 20rem;
+
+      h2 {
+        font-family: $text-bignoodle;
+        font-size: 3.8rem;
+        margin: 0;
+      } 
+
+      .header-red {
+        color: $text-red;
+      }
+      .header-gold {
+        color: $text-gold;
+      }
+
+      i {
+        display: block;
+        font-size: 16px;
+        margin-bottom: 30px;
+      }
+
+      p {
+        margin: 0;
+        font-size: 18px;
+      }
+
+      .text-red {
+        color: $text-red;
+        font-size: 24px;
+      }
+    }
+  }
+
+  .tech-acc-section {
+    background-color: #951B25;
+    color: #fff;
+    padding: 6rem 0;
+
+    .row {
+      margin-bottom: 4rem;
+
+      .col {
+        align-items: center;
+        display: flex;
+        font-size: 16px;
+        line-height: 2;
+
+        &:first-child {
+          h3 {
+            font-size: 2.2rem;
+            font-weight: normal;
+            letter-spacing: 1px;
+          }
+        }
+      }
+    }
+
+    .process {
+      margin: 0;
+      padding: 0;
+
+      li {
+        list-style-type: none;
+        text-align: center;
+        width: 100%;
+
+        .process-image {
+          position: relative;
+          margin-bottom: 2rem;
+
+          &:after {
+            content: "";
+            border-top: 2px solid #fff;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 158px;
+            right: 0;
+            height: 0.5em;
+            width: 54px;
+          }
+        }
+
+        &:last-child {
+          .process-image::after {
+            content: none;
+          }
+        }
+
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .what-we-do-section {
+    padding: 8rem 0;
+
+    .section-header {
+      margin-bottom: 3rem;
+
+      .row:first-child {
+        .col:first-child {
+          align-items: flex-end;
+          -webkit-align-items: flex-end;
+          justify-content: flex-end;
+          -webkit-justify-content: flex-end;
+
+          h3 {
+            color: $text-red;
+            font-size: 5rem;
+            font-family: $text-bignoodle;
+          }
+        }
+
+        .col:last-child {
+          p {
+            font-style: italic;
+            font-size: 16px;
+          }
+        }
+      }
+
+      .row:last-child {
+        p {
+          color: $text-red;
+          font-size: 2rem;
+          margin-left: 5.4rem;
+        }
+      }
+    }
+
+    .wwd-list {
+      padding: 0 5rem;
+
+      .col {
+        text-align: center;
+        margin-top: 2rem;
+
+        .solution-image {
+          margin-bottom: 20px;
+          min-height: 125px;
+
+          img {
+            max-width: 100%;
+          }
+        }
+
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .what-we-use-section {
+    background-color: #393939;
+    color: #fff;
+    padding: 4rem 0;
+
+    .section-header {
+      text-align: center;
+
+      h3 {
+        font-family: $text-bignoodle;
+        font-size: 2.8rem;
+      }
+
+      p {
+        font-size: 16px;
+        font-style: italic;
+        margin-bottom: 5rem;
+      }
+    }
+
+    .wwu-list {
+      li {
+        margin-bottom: 1.7rem;
+
+        &.python {
+          margin-bottom: 0.2rem;
+        }
+        &.nodejs {
+          margin-bottom: 0.5rem;
+        }
+        &.azure {
+          margin-bottom: 0.75rem;
+        }
+        &.github, 
+        &.php {
+          margin-bottom: 1rem;
+        }
+        &.elastic {
+          margin-bottom: 1.9rem;
+        }
+        &.googlecloud, 
+        &.polymer, 
+        &.travis {
+          margin-bottom: 2.25rem;
+        }
+        &.hadoop, 
+        &.ionic {
+          margin-bottom: 2.5rem;
+        }
+        &.gitlab {
+          margin-bottom: 2.6rem;
+        }
+      }
+
+      .col-name {
+        color: $text-light-gold;
+        font-size: 18px;
+        margin-bottom: 2rem;
+        text-align: center;
+      }
+
+      .col-continuous {
+        margin-bottom: 1rem;
+      }
+
+      ul {
+        margin: 0;
+        padding: 0;
+
+        li {
+          list-style-type: none;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .case-studies-section {
+    color: #fff;
+
+    .section-text {
+      background-color: #951B25;
+      padding-top: 8rem;
+      padding-bottom: 8rem;
+      padding-right: 30px;
+      text-align: right;
+
+      h3 {
+        font-family: $text-bignoodle;
+        font-size: 4.6rem;
+        font-weight: normal;
+        letter-spacing: 1px;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-size: 16px;
+        margin-left: auto;
+        width: 60%;
+      }
+    }
+
+    .section-projects {
+      padding-top: 9rem;
+      padding-bottom: 6rem;
+      padding-left: 5rem;
+
+      .col {
+        margin-bottom: 2rem;
+        align-items: center;
+        -webkit-align-items: center;
+        justify-content: center;
+        -webkit-justify-content: center;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .github-section {
+    .section-header {
+      background-color: #474747;
+      color: #fff;
+      padding: 1rem;
+
+      p {
+        font-size: 20px;
+        margin: 0;
+
+        img {
+          display: inline-block;
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+
+  .press-section {
+    padding: 4rem;
+
+    h3 {
+      color: $text-red;
+      font-size: 2rem;
+      font-weight: 400;
+      margin-bottom: 3rem;
+      text-align: center;
+    }
+
+    .blog-listing {
+      padding: 0 8rem;
+
+      .col {
+        padding: 0 2rem;
+      }
+    }
+  }
+
+  .contact-us-section {
+    color: #fff;
+    background: url('../images/home/sec4-background.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20rem 0;
+
+    h3 {
+      font-family: $text-bignoodle;
+      font-size: 6rem;
+      font-weight: 400;
+    }
+
+    p {
+      margin-bottom: 3rem;
+      font-size: 16px;
+    }
+
+    .btn {
+      padding: 1.5rem 2rem;
+    }
+  }
+}

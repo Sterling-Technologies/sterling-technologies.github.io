@@ -1,0 +1,354 @@
+.page-our-culture {
+  .banner-section {
+    background: url('../images/our-culture/culture-banner.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 15rem 0 12rem;
+    color: #fff;
+
+    .banner-text-1 {
+      margin-bottom: 4rem;
+
+      h3 {
+        font-size: 3.5rem;
+        font-weight: normal;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 20px;
+        width: 45%;
+      }
+    }
+
+    .banner-text-2 {
+      text-align: right;
+
+      h2 {
+        font-family: $text-bignoodle;
+        font-size: 6rem;
+        font-weight: normal;
+        letter-spacing: 5px;
+      }
+    }
+  }
+
+  .core-values-section {
+    background-color: #EFEFEF;
+
+    .honesty-row {
+      position: relative;
+      height: 345px;
+
+      .row {
+        position: absolute;
+        top: -150px;
+
+        .col:first-child {
+          padding-right: 10px;
+        }
+
+        .col:last-child {
+          padding-left: 10px;
+        }
+
+        .col .col-wrapper {
+          min-height: 474px;
+        }
+
+        .col-honesty .col-wrapper {
+          background-color: #fff;
+          color: $text-red;
+          padding: 6rem;
+
+          .value-num {
+            margin-bottom: 0;
+          }
+
+          .value-name {
+            font-family: $text-bignoodle;
+            font-size: 4rem;
+          }
+
+          .value-description {
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 25px;
+          }
+
+          a {
+            color: $text-gold;
+            text-transform: uppercase;
+          }
+        }
+
+        .col-gallery .col-wrapper {
+          background-color: #951B25;
+          color: #fff;
+          padding: 6rem 4rem;
+          position: relative;
+
+          h2 {
+            font-size: 3rem;
+            text-transform: uppercase;
+            font-weight: 400;
+            margin-bottom: 20px;
+          }
+
+          p {
+            font-size: 16px;
+            line-height: 1.6;
+          }
+
+          a {
+            background-color: #C5A063;
+            color: #fff;
+            display: block;
+            font-size: 20px;
+            font-weight: 400;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            padding: 1.3rem 2rem;
+            width: 100%;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+    .office-tour-row {
+      background: url('../images/our-culture/tour.png') no-repeat;
+      background-position: center;
+      background-size: 100%;
+      color: #fff;
+      padding: 14rem 4rem 7rem;
+      text-align: right;
+
+      h3 {
+        font-size: 3.2rem;
+        font-weight: 400;
+        line-height: 1;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+      }
+
+      a {
+        color: #fff;
+        font-size: 20px;
+        text-decoration: none;
+      }
+    }
+
+    .three-values-row {
+      .col-values {
+        width: 100%;
+      }
+
+      .col-ownership {
+        background-color: #505050;
+        color: #fff;
+        padding: 4rem;
+
+        .value-num {
+          font-size: 16px;
+          margin: 0;
+        }
+
+        .value-name {
+          font-size: 3.5rem;
+          font-weight: 400;
+          margin-bottom: 15px;
+          text-transform: uppercase;
+        }
+
+        .value-description {
+          font-size: 16px;
+          line-height: 2.4;
+          margin-bottom: 25px;
+        }
+
+        a {
+          color: #fff;
+          text-transform: uppercase;
+          text-decoration: none;
+        }
+      }
+
+      .col-passion {
+        color: $text-red;
+        padding: 5rem;
+
+        .value-num {
+          margin-bottom: 0;
+        }
+
+        .value-name {
+          font-family: $text-bignoodle;
+          font-size: 4rem;
+        }
+
+        .value-description {
+          font-size: 16px;
+          line-height: 1.8;
+          margin-bottom: 25px;
+        }
+
+        a {
+          color: $text-gold;
+          text-transform: uppercase;
+        }
+      }
+
+      .col-transparency {
+        color: $text-red;
+        padding: 4rem 2.5rem;
+
+        .value-num {
+          margin-bottom: 0;
+        }
+
+        .value-name {
+          font-family: $text-bignoodle;
+          font-size: 4rem;
+        }
+
+        a {
+          color: #474747;
+          text-transform: uppercase;
+        }
+
+        .value-description {
+          color: #525252;
+          font-size: 16px;
+          line-height: 1.8;
+          margin-left: 25px;
+          margin-top: 30px;
+        }
+      }
+
+      .col-images {
+        img {
+          height: 100%;
+          width: 50%;
+        }
+      }
+    }
+
+    .discipline-row {
+      background-color: #951B25;
+      color: #fff;
+      padding: 3rem 3.5rem;
+
+      .value-num {
+        font-size: 16px;
+        margin-bottom: 5px;
+      }
+
+      .value-name {
+        font-size: 3rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+      }
+
+      a {
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+
+      .value-description {
+        font-size: 16px;
+        line-height: 2.5;
+        margin-top: 25px;
+      }
+    }
+
+    .family-row {
+      img {
+        width: 100%;
+      }
+
+      .col-family {
+        background-color: #C5A063;
+        color: #fff;
+        padding: 3rem 4rem;
+        text-align: center;
+        width: 100%;
+
+        .value-num {
+          font-size: 16px;
+          margin-bottom: 5px;
+        }
+
+        .value-name {
+          font-size: 3.5rem;
+          font-weight: 400;
+          text-transform: uppercase;
+        }
+
+        .value-description {
+          font-size: 16px;
+          line-height: 2;
+          margin-bottom: 25px;
+          width: 90%;
+        }
+
+        a {
+          color: #fff;
+          font-size: 16px;
+          text-transform: uppercase;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .game-section {
+    background-color: #9A9A9A;
+    color: #fff;
+    padding: 3rem 0;
+
+    .text-highlight-1 {
+      font-size: 1.8rem;
+      font-weight: 400;
+      letter-spacing: 4px;
+      margin-bottom: 0;
+      text-transform: uppercase;
+    }
+
+    .text-highlight-2 {
+      font-size: 4.4rem;
+      font-family: $text-bignoodle;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+    }
+
+    .game-image {
+      width: 100%;
+    }
+
+    .details {
+      font-size: 16px;
+      padding-left: 3.5rem;
+      width: 90%;
+
+      .description {
+        line-height: 1.8;
+        margin-bottom: 30px;
+      }
+
+      .top-player {
+        img {
+          margin-right: 15px;
+        }
+
+        .player-ign {
+          font-weight: 600;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

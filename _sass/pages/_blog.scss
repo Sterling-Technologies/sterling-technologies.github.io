@@ -1,0 +1,187 @@
+.page-blog {
+  padding-bottom: 3rem;
+
+  .blog-recent {
+    margin-bottom: 4rem;
+
+    .post-image {
+      img {
+        width: 100%;
+      }
+    }
+
+    .col:last-child {
+      padding-top: 1rem;
+
+      .post-title {
+        color: $text-gold;
+        display: block;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 20px;
+        text-decoration: none;
+      }
+
+      .post-short-detail {
+        margin-bottom: 40px;
+      }
+
+      .post-date {
+        font-size: 14px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .blog-popular {
+    .section-head {
+      background-color: $text-gold;
+      color: #fff;
+      font-size: 20px;
+      margin-bottom: 1rem;
+      padding: 1rem;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+
+      li {
+        list-style-type: none;
+        margin-bottom: 1.5rem;
+
+        .float-left:first-child {
+          width: 12%;
+
+          p {
+            color: $text-gold;
+            font-size: 3rem;
+            line-height: 1;
+          }
+        }
+
+        .float-left:last-child {
+          width: 88%;
+
+          .post-title {
+            color: $text-default;
+            display: block;
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            text-decoration: none;
+          }
+
+          .post-short-detail {
+            color: $text-gray;
+            margin-bottom: 10px;
+          }
+
+          .post-date {
+            color: $text-gray
+          }
+        }
+      }
+    }
+  }
+}
+
+.blog-listing {
+  .col {
+    margin-bottom: 2rem;
+
+    .post-image {
+      display: block;
+      margin-bottom: 1.3rem;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .post-title {
+      color: $text-gold;
+      display: block;
+      font-size: 18px;
+      margin-bottom: 15px;
+      text-decoration: none;
+    }
+
+    .post-short-detail {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+.page-post {
+  padding-bottom: 2rem;
+
+  .post-header {
+    margin: 2rem 0;
+
+    h1 {
+      font-size: 3rem;
+      font-weight: normal;
+      letter-spacing: 1px;
+      margin-bottom: 20px;
+    }
+
+    .post-short-detail {
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+  }
+
+  .post-banner {
+    margin-bottom: 2rem;
+    height: 360px;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+      -webkit-object-fit: cover;
+    }
+  }
+
+  .post-content {
+    font-size: 18px;
+    margin-bottom: 5rem;
+
+    p {
+      margin-bottom: 2rem;
+    }
+
+    .post-blockquote {
+      color: $text-gray;
+      font-size: 24px;
+      font-style: italic;
+      margin: 3rem auto 3rem;
+      width: 65%;
+    }
+  }
+
+  .recent-posts {
+    hr {
+      border-top: 1px solid $text-default;
+      margin-bottom: 2rem;
+    }
+
+    h3 {
+      margin-bottom: 2rem;
+    }
+
+    .blog-listing {
+      .post-title {
+        color: $text-default;
+        font-size: 22px;
+        font-weight: bold;
+      }
+
+      .post-short-detail {
+        margin-bottom: 25px;
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+.page-careers {
+  .bar-separator {
+    border: 2px solid #000;
+    margin: 1rem 0;
+    width: 60px;
+
+    &.white {
+      border-color: #fff;
+    }
+  }
+
+  .banner-section {
+    background-color: #464646;
+    color: #fff;
+    padding: 5rem 0;
+
+    .col {
+      &:first-child {
+        align-items: center;
+        display: flex;
+      }
+
+      h3 {
+        font-family: $text-bignoodle;
+        font-size: 2.3rem;
+      }
+    }
+  }
+
+  .section-2 {
+    padding: 3rem 0;
+
+    p {
+      color: #6C6C6C;
+      line-height: 1.8;
+      width: 65%;
+    }
+  }
+
+  .section-3 {
+    background-color: #951B25;
+    color: #fff;
+    margin-bottom: 3rem;
+    padding: 3.5rem 0;
+    text-align: center;
+
+    hr {
+      margin: 1.5rem auto;
+      width: 50px;
+    }
+
+    .text-large {
+      font-size: 1.3rem;
+      letter-spacing: 2px;
+      margin-bottom: 0;
+      text-transform: uppercase;
+    }
+  }
+}

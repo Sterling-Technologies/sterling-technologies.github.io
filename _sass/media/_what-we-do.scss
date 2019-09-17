@@ -1,0 +1,421 @@
+@media (max-width: 991.98px) {
+  .layout-what-we-do {
+    .services-menu {
+      ul {
+        li {
+          align-items: center;
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+    
+    .back-office-content {
+      .section-3 {
+        .col-text {
+          padding-left: 5rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 841.98px) {
+  .page-what-we-do {
+    .e-commerce-section {
+      p {
+        margin-right: 0 !important;
+      }
+    }
+  }
+  
+  .layout-what-we-do {
+    .back-office-content {
+      .section-1 {
+        .row {
+          flex-direction: column;
+          
+          .col {
+            flex-basis: auto;
+            
+            &.col-image {
+              display: block;
+              min-height: 1px;
+              
+              img {
+                display: block;
+                width: 100%;
+              }
+            }
+            
+            &.col-text {
+              padding: 1.5rem 2.5rem;
+              
+              .desc {
+                padding: 0;
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+      
+      .section-3 {
+        .row {
+          flex-direction: column-reverse;
+          
+          .col {
+            flex-basis: auto;
+            
+            &.col-image {
+              display: block;
+              min-height: 1px;
+              
+              img {
+                display: block;
+                width: 100%;
+              }
+            }
+            
+            &.col-text {
+              padding: 1.5rem 2.5rem;
+              
+              .desc {
+                padding: 0;
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  .layout-what-we-do {    
+    .e-commerce-content {
+      .site-list {
+        ul {
+          flex-wrap: wrap;
+          justify-content: center;
+          
+          li {
+            width: 47%;
+          }
+        }
+      }
+    }
+    
+    .customer-support-content {
+      .row {
+        .col-detail {
+          padding: 1.5rem 3rem;
+        }
+      }
+    }
+    
+    .blockchain-content {
+      .monico-features {
+        width: 70%;
+      }
+    }
+    
+    .technology {
+      .section-2 {
+        ul.section-images {
+          padding: 0;
+        }
+      }
+      
+      .section-3 {
+        ul.section-images {
+          li {
+            margin-bottom: 100px;
+          }
+        }
+      }
+      
+      .section-5 {
+        .col-01 {
+          p {
+            padding: 0 50px;
+          }
+        }
+      }
+    }
+  
+    .back-office-content {
+      .two-col-img {
+        .col-text {
+          .desc {
+            text-align: center;
+          }
+        }
+      }
+      
+      .section-3 {
+        .col-text {
+          width: 100%;
+          
+          .desc {
+            padding: 0 3rem;
+            text-align: center;
+          }
+        }
+      }
+      
+      .section-4.jobayan-features {
+        ul {
+          flex-wrap: wrap;
+          
+          li {
+            width: 50%;
+          }
+        }
+      }
+      
+      .section-6 {
+        ul.d-flex {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .layout-what-we-do {
+    .banner-section {
+      .col {
+        img {
+          opacity: 0.5;
+          width: 100%;
+        }
+        
+        .description {
+          width: 80%;
+        }
+      }
+    }
+    
+    .services-menu {
+      ul {
+        flex-direction: column;
+      }
+    }
+    
+    .e-commerce-content {
+      .site-list {
+        ul {
+          flex-wrap: wrap;
+          justify-content: center;
+          
+          li {
+            width: 46%;
+          }
+        }
+      }
+    }
+    
+    .blockchain-content {
+      .monico-details {
+        .row {
+          flex-direction: column;
+          
+          .col {
+            flex-basis: auto;
+          }
+        }
+        
+        .col-image {
+          img {
+            display: block;
+            height: 100%;
+            width: 100%;
+          }
+        }
+        
+        .col-text {
+          padding: 1rem 2rem;
+          
+          .desc {
+            padding: 0;
+          }
+        }
+      }
+      
+      .monico-features {
+        width: 100%;
+      }
+    }
+    
+    .customer-support-content {
+      .row {
+        flex-direction: column;
+        
+        &.iristext-row {
+          flex-direction: column-reverse;
+        }
+        
+        .col {
+          flex-basis: auto;
+        }
+        
+        .col-detail {
+          padding: 1rem;
+        }
+      }
+    }
+
+    .digital-marketing-content {
+      .section-4 {
+        img {
+          display: block;
+          height: 100%;
+          width: 100%;
+        }
+      }
+    }
+    
+    .technology {
+      .section-1,
+      .section-4 {
+        p {
+          margin: 0;
+        }
+      }
+      
+      .section-5 {
+        .col-01 {
+          p {
+            padding: 0 10px;
+          }
+        }
+        
+        .col-02 {
+          ul {
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480.98px) {
+  .layout-what-we-do {    
+    .e-commerce-content {
+      .site-list {
+        ul {
+          li {
+            width: 45%;
+          }
+        }
+      }
+      
+      .content-detail {
+        .text-center {
+          margin-bottom: 2rem;
+        }
+        
+        .row {
+          align-items: center;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          
+          .col {
+            flex-basis: auto;
+            
+            &:first-child {
+              p {
+                padding: 0 0 3rem;
+                text-align: center !important;
+                width: 100%;
+              }
+            }
+            
+            &:last-child {
+              ul {
+                padding: 0;
+                text-align: center;
+                
+                li {
+                  &:before {
+                    content: "";
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    
+    .digital-marketing-content {
+      .section-2 {
+        .row {
+          flex-direction: column;
+          
+          .col {
+            flex-basis: auto;
+            
+            &:first-child {
+              h2 {
+                padding: 2rem 3rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    
+    .technology {
+      .section-5 {
+        .row {
+          flex-direction: column;
+          
+          .col {
+            flex-basis: auto;
+          }
+        }
+        
+        .col-01 {
+          p {
+            text-align: center;
+          }
+        }
+      }
+    }
+    
+    .back-office-content {
+      .two-col-img {
+        .col-text {
+          padding: 1.5rem 1rem;
+        }
+      }
+      
+      .section-3 {
+        .col-text {
+          padding: 1.5rem 1rem;
+          
+          .desc {
+            padding: 0;
+          }
+        }
+      }
+      
+      .section-6 {
+        ul.d-flex {
+          flex-direction: column;
+          
+          li {
+            margin-bottom: 2rem;
+          }
+        }
+      }
+    }
+  }
+}

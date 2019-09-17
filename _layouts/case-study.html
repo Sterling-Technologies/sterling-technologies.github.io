@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<!-- Breadcrumbs -->
+{% include breadcrumbs.html breadcrumbs=page.breadcrumbs %}
+
+<div class="layout-case-study">
+  <section class="banner-section">
+    <div class="container">
+      <h2>{{ page.domain }}</h2>
+      <p>{{ page.short-desc }}</p>
+      <a href="{{ page.link }}" class="btn btn-red">
+        {{ page.cta }}
+      </a>
+    </div>
+  </section>
+
+  <section class="study-menu">
+    <div class="container">
+      <a href="#" class="active">
+        at a glance
+      </a>
+
+      <a href="#">
+        case study
+      </a>
+    </div>
+  </section>
+
+  {{ content }}
+</div>

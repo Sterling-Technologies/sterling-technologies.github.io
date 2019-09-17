@@ -1,0 +1,138 @@
+.G01-wwd {
+	min-height:6400px;
+	overflow-x:hidden;
+}
+
+.G01-wwd img {
+	max-width:100%;
+}
+
+.G01-wwd h3 {
+	color: #89272a;
+    font-size: 5rem;
+    font-family: 'bignoodletitling';
+    line-height: 1em;
+    margin-top:0.1em;
+}
+
+.G01-wwdicon {
+	width:100px;
+	float:left;
+    margin: 1em 2em 1em 1em;
+}
+
+/* red line thing */
+.G01-svg {
+	position:absolute;
+	width:100%;
+	z-index:-100;
+	margin:720px auto 0;
+	max-width: 1140px;
+}
+
+@media only screen and (max-width: 768px) {
+	.G01-svg {
+		display: none !important;
+	}
+}
+
+
+@media only screen and (max-width: 1200px)  {
+	.G01-awks {
+		display: none !important;
+	}
+	.G01-grayed {
+		background:#F7F7F7;
+	}
+}
+
+
+
+
+/* Top Section */
+.G01-wwd-3img01 {
+	color:#333;
+	width:100%;
+	margin:0 auto;
+}
+
+
+/* Sections */
+.G01-wwd-section {
+	color:#333;
+}
+
+.G01-jobportal {
+	padding:3rem 0;
+	min-height:600px;
+	width:100%;
+}
+
+.G01-ecomm {
+	min-height:1000px;
+	width:100%;
+}
+
+.G01-blockchain01 {
+	min-height:635px;
+	width:50%;
+	margin:0 auto;
+	float:left;
+}
+
+.G01-blockchain02 {
+	min-height:635px;
+	width:42%;
+	margin:0 auto;
+	float:right;
+}
+
+.G01-video01 {
+	min-height:680px;
+	width:100%;
+	margin:250px auto 0;
+}
+
+.G01-iris01 {
+	min-height:100px;
+	width:100%;
+	margin:0 auto;
+	float:left;
+}
+
+.G01-iris02 {
+	min-height:600px;
+	width:100%;
+	margin:0 auto;
+	float:left;
+}
+
+.G01-paymuna01 {
+	min-height:700px;
+	width:100%;
+	margin:12em auto 0;
+}
+
+
+.G01-blurb {
+	background-color:#F7F7F7;
+	border-radius: 10px;
+	padding:2em;
+}
+
+
+/* Buttons */
+.G01-wwd-section a.btn {
+	margin-top: 2em;
+}
+
+
+
+/* Spacing Divs */
+.G01-spacing01 {
+	height:110px;
+}
+
+.G01-spacing01-half {
+	height:55px;
+}

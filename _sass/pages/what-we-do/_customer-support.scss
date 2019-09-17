@@ -1,0 +1,45 @@
+.layout-what-we-do {
+  .customer-support-content {
+    .row {
+      margin-bottom: 3rem;
+
+      .col-image {
+        display: flex;
+        display: -webkit-flex;
+        min-height: 300px;
+
+        img {
+          display: block;
+          height: 100%;
+          object-fit: cover;
+          width: 100%;
+        }
+      }
+
+      .col-detail {
+        text-align: center;
+        padding: 3.5rem 7rem;
+
+        h3 {
+          color: $text-red;
+          margin-bottom: 15px;
+        }
+
+        .text-q {
+          font-style: italic;
+          margin-bottom: 20px;
+        }
+
+        .desc {
+          text-align: left;
+          margin-bottom: 2rem;
+        }
+
+        ul li {
+          text-align: left;
+          margin-bottom: 2px;
+        }
+      }
+    }
+  }
+}

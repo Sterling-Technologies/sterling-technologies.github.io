@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<!-- Breadcrumbs -->
+{% include breadcrumbs.html breadcrumbs=page.breadcrumbs %}
+
+<div class="layout-what-we-do">
+  <section class="banner-section">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="text-wrapper">
+            <h3>What we do</h3>
+            <h2>{{ page.title }}</h2>
+            <p class="text-question">{{ page.text_question }}</p>
+            <p class="description">{{ page.description }}</p>
+          </div>
+          <img alt="banner image" src="{{ page.banner_img | absolute_url }}" />
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  {{ content }}
+</div>

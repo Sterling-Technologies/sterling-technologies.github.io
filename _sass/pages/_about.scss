@@ -1,0 +1,93 @@
+.page-about {
+  padding-top: 2rem;
+
+  .our-mission-section {
+    margin-bottom: 4rem;
+
+    .col {
+      &:first-child {
+        text-align: right;
+
+        h3 {
+          color: $text-red;
+          font-size: 2.3rem;
+          margin-bottom: 20px;
+          text-transform: uppercase;
+        }
+      }
+
+      img {
+        display: block;
+        height: 500px;
+        width: 100%;
+      }
+    }
+  }
+
+  .principle-section {
+    margin-bottom: 4rem;
+
+    p {
+      font-size: 20px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+
+  .values-section {
+    background-color: #f1f1f1;
+    padding: 6rem 0;
+    text-align: center;
+
+    h3 {
+      color: $text-red;
+      font-family: $text-bignoodle;
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
+
+    .icon-list {
+      margin: 0 0 30px;
+      padding: 0;
+
+      li {
+        display: inline-block;
+        list-style-type: none;
+
+        a {
+          color: #808080;
+          font-size: 1.8rem;
+          margin: 0 15px;
+          text-decoration: none;
+        }
+
+        &.active a {
+          color: $text-red;
+        }
+      }
+    }
+
+    .highlighted-value {
+      .value-icon {
+        margin-bottom: 20px;
+
+        i.fa {
+          color: $text-red;
+          font-size: 8rem;
+        }
+      }
+
+      .value-title {
+        color: $text-red;
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+      }
+
+      .value-description {
+        margin: 0 auto;
+        width: 50%;
+      }
+    }
+  }
+}

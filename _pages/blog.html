@@ -1,0 +1,98 @@
+---
+layout: default
+permalink: /blog
+---
+
+{% include breadcrumbs.html breadcrumbs=site.data.breadcrumbs.blog %}
+
+<section class="page-blog page-content">
+  <div class="container">
+    <section class="upper-section">
+      <h2>Be updated on the latest happening on the &lt;Tech World&gt;</h2>
+      <p>
+        Esse esse eu excepteur officia reprehenderit labore cillum sit aute <br>
+        magna enim cillum excepteur aliquip in aliquip officia. Duis labore nisi dolor
+      </p>
+    </section>
+
+    <!-- Get Posts -->
+    {% assign posts = site.posts | sort: 'date' | reverse %}
+
+    <!-- Display Recent Post -->
+    <section class="blog-recent">
+      {% for post in posts limit: 1 %}
+        <div class="row">
+          <div class="col">
+            <div class="post-image">
+              <img alt="Post Image" src="{{ post.image | absolute_url }}" />
+            </div>
+          </div>
+          <div class="col">
+            <a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
+            <div class="post-short-detail">{{ post.short_detail }}</div>
+            <div class="post-date">{{ post.date | date_to_long_string }}</div>
+
+            <a href="{{ post.url }}" class="btn btn-red btn-lg">
+              Read Article
+            </a>
+          </div>
+        </div>
+      {% endfor %}
+    </section>
+
+    <div class="row">
+      <section class="col-md-8 blog-listing">
+        <div class="row">
+          {% for post in posts limit: 6 %}
+            {% if forloop.index == 1 %}
+              {% continue %}
+            {% endif %}
+
+            <div class="col col-md-6">
+              <a href="{{ post.url }}" class="post-image">
+                <img alt="Post Image" src="{{ post.image | absolute_url }}" />
+              </a>
+              <div class="post-detail">
+                <a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
+                <div class="post-short-detail">{{ post.short_detail }}</div>
+                <div class="post-date">{{ post.date | date_to_long_string }}</div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </section>
+
+
+      <section class="col-md-4 blog-popular">
+        <div class="section-head">Popular</div>
+
+        {% assign popular = site.posts | sort: 'data' | reverse | where: 'popular', true %}
+        <ul>
+          {% for post in popular limit: 5 %}
+            {% if post.tags contains "popular" %}
+              <li>
+                <div class="clearfix">
+                  <div class="float-left">
+                    <p>{{ forloop.index }}</p>
+                  </div>
+                  
+                  <div class="float-left">
+                    <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
+
+                    <div class="post-short-detail">
+                      {{ post.short_detail | truncate: 70 }}
+                    </div>
+
+                    <div class="post-date">
+                      {{ post.date | date_to_long_string }}
+                    </div>
+                  </div>
+                </div>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
+    </div>
+  </div>
+</section>

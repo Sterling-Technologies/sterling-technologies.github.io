@@ -1,0 +1,7 @@
+- title: Home
+  url: /
+  active: false
+
+- title: Tools
+  url: /tools
+  active: true

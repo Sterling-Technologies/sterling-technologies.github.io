@@ -1,0 +1,15 @@
+- name: aws
+  img: /assets/images/icons/wwu/wwu-servers-1.png
+  link: https://aws.amazon.com/s3/
+- name: rackspace
+  img: /assets/images/icons/wwu/wwu-servers-2.png
+  link: https://www.rackspace.com/en-ph
+- name: googlecloud
+  img: /assets/images/icons/wwu/wwu-servers-3.png
+  link: https://cloud.google.com/
+- name: azure
+  img: /assets/images/icons/wwu/wwu-servers-4.png
+  link: https://azure.microsoft.com/en-us/
+- name: openstack
+  img: /assets/images/icons/wwu/wwu-servers-5.png
+  link: https://www.openstack.org/

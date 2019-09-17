@@ -1,0 +1,80 @@
+---
+layout: default
+permalink: /what-we-do
+---
+
+<div class="page-what-we-do page-content">
+  <section class="banner-section">
+    <div class="container col-sec">
+      <div class="row">
+        <div class="col col-md-4 col-sm-12 col-12">
+          <h2>What we do</h2>
+        </div>
+        
+        <div class="col col-md-4 col-sm-12 col-12">
+          <h3>We develop apps</h3>
+          <hr class="bar-separator">
+          <p>
+            Web, Desktop and Mobile. Experienced in most modern open
+            source programming languages. Experienced in most cloud
+            services. Things like TDD, BDD, EDD, Agile, Scrum,
+            Continuous Integration, Test Suites and Code Coverage
+            are what we do every day.
+          </p>
+        </div>
+
+        <div class="col col-md-4 col-sm-12 col-12">
+          <h3>We develop companies</h3>
+          <hr class="bar-separator">
+          <p>
+            Solutions, not services. Immersion is a key component
+            to our success. Our business is also into making
+            companies. Business Science and Lean are some of the
+            words to describe how we do it.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container center-sec">
+      <p class="text-large">We develop game changers</p>
+      <hr class="bar-separator">
+      <p class="text-small">
+        Our mission is to develop things that have an impact on
+      </p>
+      <p class="text-large">
+        Our city, the Philippines, southeast asia, and the world
+      </p>
+      <p class="text-small">
+        Extreme lengths are taken in pursuit of this goal.
+      </p>
+    </div>
+  </section>
+
+  <!-- Get What We Dos -->
+  {% assign services = site.what-we-do | sort: 'order' %}
+
+  <!-- loop through services -->
+  {% for service in services %}
+    <!-- get modulo to use on even index -->
+    {% assign mod = forloop.index | modulo: 2 %}
+    <section 
+      class="{{ service.slug }}-section box-highlight 
+        {% if mod == 0 %}box-right{% endif %}"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col col-md-8 {% if mod == 0 %}offset-md-4{% endif %}">
+            <h3>{{ service.title }}</h3>
+            <div class="bar-separator"></div>
+            <p>{{ service.description }}</p>
+
+            <a href="/what-we-do/{{ service.slug }}" class="btn btn-default">
+              Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  {% endfor %}
+</div>

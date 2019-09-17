@@ -1,0 +1,112 @@
+/* Global - Classes
+------------------------------*/
+html,
+body {
+  color: $text-default;
+  font-family: $text-cabin;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  min-height: 100%;
+  padding-bottom: 0;
+}
+
+.page-content {
+  .upper-section {
+    margin-bottom: 4rem;
+    text-align: center;
+
+    h2 {
+      color: $text-red;
+      font-family: $text-bignoodle;
+      font-size: 2.4rem;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+/* Bootstrap
+------------------------------*/
+.btn {
+  border-radius: 0;
+}
+
+.btn:active,
+.btn:focus,
+.btn:hover {
+  box-shadow: none;
+}
+
+.btn-red {
+  background-color: #a94045;
+  color: #FFFFFF !important;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+}
+
+.btn-transparent-red {
+  border: 1px solid $text-red;
+  color: $text-red;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+}
+
+.btn-transparent-red:active,
+.btn-transparent-red:focus,
+.btn-transparent-red:hover {
+  border: 1px solid $text-gold;
+  color: $text-gold;
+}
+
+.btn-primary {
+  background-color: #FF7F3F;
+  border-color: #FF7F3F;
+  color: #FFFFFF !important;
+}
+
+.btn-secondary {
+  background-color: #31517A;
+  border-color: #31517A;
+  color: #FFFFFF !important;
+}
+
+.btn-outline {
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF !important;
+}
+
+.text-danger {
+  color: #F73A48;
+}
+
+.text-warning {
+  color: #FFC300;
+}
+
+.text-info {
+  color: #00C1ED;
+}
+
+.text-success {
+  color: #00D37E;
+}
+
+.text-currency {
+  color: #FFC300;
+}
+
+.text-discount {
+  color: #FF3643;
+}
+
+.text-token {
+  color: #00D37E;
+}

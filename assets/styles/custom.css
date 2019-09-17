@@ -1,0 +1,145 @@
+/* Global - Classes
+------------------------------*/
+html,
+body {
+    background-color: #333333;
+    color: #333333;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    padding-bottom: 0;
+    margin: 0;
+    min-height: 100%;
+}
+
+/* Bootstrap
+------------------------------*/
+.btn {
+    border-radius: 0;
+}
+
+.btn-primary {
+    border-color: #FF7F3F;
+    background-color: #FF7F3F;
+    color: #FFFFFF !important;
+}
+
+.btn-secondary {
+    border-color: #31517A;
+    background-color: #31517A;
+    color: #FFFFFF !important;
+}
+
+.btn-outline {
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF !important;
+}
+
+.text-danger {
+    color: #F73A48;
+}
+
+.text-warning {
+    color: #FFC300;
+}
+
+.text-info {
+    color: #00C1ED;
+}
+
+.text-success {
+    color: #00D37E;
+}
+
+.text-currency {
+    color: #FFC300;
+}
+
+.text-discount {
+    color: #FF3643;
+}
+
+.text-token {
+    color: #00D37E;
+}
+
+/* Partial - Box
+------------------------------*/
+.box {
+    background-image: url(../images/box-bg.png);
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+/* Head
+------------------------------*/
+.head {
+    padding: 10px 20px;
+}
+
+.head .nav-main {
+    padding-top: 8px;
+}
+
+.head.fixed-scroll {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #CCCCCC;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.head.fixed-scroll .btn-outline {
+    border: 1px solid #31517A;
+    color: #31517A !important;
+}
+
+/* Foot
+------------------------------*/
+.foot {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 40px 0;
+}
+
+.foot .left {
+    text-align: center;
+}
+
+.foot .copywrite {
+    font-size: 12px;
+}
+
+.foot h6 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.foot a {
+    color: #FFFFFF;
+    display: block;
+    padding: 10px;
+}
+
+.foot .social a {
+    display: inline-block;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.foot .spacer {
+    display: block;
+    height: 21px;
+}
+
+/* Body
+------------------------------*/
+.body .section-pager .contailer {
+
+}
+
+.body .section-1 {
+    text-align: center;
+}

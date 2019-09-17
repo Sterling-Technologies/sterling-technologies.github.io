@@ -1,0 +1,41 @@
+---
+layout: default
+permalink: /family-and-friends
+---
+
+<section class="page-family-and-friends page-content">
+  <section class="section-1">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>Family and Friends</h2>
+        </div>
+
+        <div class="col col-md-4 col-sm-12 col-12">
+          <hr>
+          <p>
+            Our friends tell us who we are. The following is a list of 
+            companies we had the privilege to work with.
+          </p>
+        </div>
+        
+        <div class="col col-md-4 col-sm-12 col-12">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="company-list-section">
+    <div class="container">
+      <div class="row">
+        {% for company in site.data.family-and-friends %}
+          <div class="col col-12 col-sm-12 col-md-4 company-detail">
+            <a href="{{ company.link }}" class="d-flex" target="_blank">
+              <img alt="{{ company.alt }}" src="{{ company.logo | absolute_url }}" />
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</section>

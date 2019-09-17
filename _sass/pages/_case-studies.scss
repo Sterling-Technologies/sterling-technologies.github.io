@@ -1,0 +1,166 @@
+.page-case-studies {
+  .project-list {
+    .col-proj {
+      margin-bottom: 2rem;
+
+      .proj-img {
+        display: block;
+        margin-bottom: 1rem;
+        position: relative;
+
+        img {
+          width: 100%;
+          object-fit: contain;
+        }
+
+        .img-overlay {
+          background-color: #951B25;
+          color: #fff;
+          display: none;
+          height: 100%;
+          letter-spacing: 2px;
+          opacity: 0.93;
+          padding: 4rem 3rem;
+          position: absolute;
+          text-transform: uppercase;
+          top: 0;
+          width: 100%;
+
+          .wrapper {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            justify-content: center;
+            position: relative;
+            -webkit-align-items: center;
+            -webkit-flex-direction: column;
+            -webkit-justify-content: center;
+
+            .inner-wrapper {
+              .sterling-tech-logo {
+                height: 25px;
+              }
+
+              .proj-header {
+                font-size: 1rem;
+                margin-top: 12px;
+              }
+
+              .proj-title {
+                font-family: $text-bignoodle;
+                font-size: 2.5rem;
+                margin: -10px;
+
+              }
+
+              .proj-footer {
+                font-size: 1rem;
+              }
+            }
+
+            .inner-wrapper:before {
+              background: #FFFFFF;
+              bottom: -0.15em;
+              content: "";
+              height: 40%;
+              position: absolute;
+              right: 0;
+              width: 1px;
+            }
+
+            .inner-wrapper:after {
+              border-bottom: 1px solid #FFFFFF;
+              bottom: -0.15em;
+              content: "";
+              height: 0;
+              position: absolute;
+              right: 0;
+              width: 40%;
+            }
+
+          }
+
+          .wrapper:before {
+            background: #FFFFFF;
+            content: "";
+            height: 40%;
+            left: 0;
+            position: absolute;
+            top: -0.15em;
+            width: 1px;
+          }
+
+          .wrapper:after {
+            border-bottom: 1px solid #FFFFFF;
+            content: "";
+            height: 0;
+            left: 0;
+            position: absolute;
+            top: -0.15em;
+            width: 40%;
+          }
+
+        }
+      }
+
+      .proj-link {
+        color: inherit;
+        display: block;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+    }
+
+    .col-proj:hover {
+      .proj-img .img-overlay {
+        display: block;
+      }
+    }
+  }
+}
+
+.layout-case-study {
+  .banner-section {
+    background-color: #434343;
+    color: #fff;
+    padding: 5rem 0;
+
+    h2 {
+      font-family: $text-bignoodle;
+      font-size: 6rem;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 2.5rem;
+      width: 40%;
+    }
+
+    .btn {
+      background-color: #951B25;
+      padding: 1.8rem 4rem;
+    }
+  }
+
+  .study-menu {
+    padding: 2rem 0 2.5rem;
+
+    a {
+      color: inherit;
+      letter-spacing: 2px;
+      margin-right: 3rem;
+      padding: 0 1rem 1rem;
+      text-decoration: none;
+      text-transform: uppercase;
+
+      &.active {
+        border-bottom: 5px solid #F5A242;
+      }
+    }
+  }
+}

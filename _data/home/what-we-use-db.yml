@@ -1,0 +1,15 @@
+- name: hadoop
+  img: /assets/images/icons/wwu/wwu-db-1.png
+  link: http://hadoop.apache.org/
+- name: couchdb
+  img: /assets/images/icons/wwu/wwu-db-2.png
+  link: http://couchdb.apache.org/
+- name: redis
+  img: /assets/images/icons/wwu/wwu-db-3.png
+  link: https://redis.io/
+- name: elastic
+  img: /assets/images/icons/wwu/wwu-db-4.png
+  link: https://www.elastic.co/
+- name: rabbitmq
+  img: /assets/images/icons/wwu/wwu-db-5.png
+  link: https://www.rabbitmq.com/

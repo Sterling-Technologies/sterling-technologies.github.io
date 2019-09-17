@@ -1,0 +1,87 @@
+.page-core-values {
+
+  .banner-section {
+    background-color: #B5B5B5;
+    color: #fff;
+    padding: 6rem 0 4.5rem;
+
+    h2 {
+      font-size: 3.5rem;
+      font-weight: 400;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+
+  .core-values-section {
+    background-color: #EFEFEF;
+    padding: 1rem 0 4rem;
+
+    .core-value-tpl {
+      margin-bottom: 2rem;
+
+      .value-details {
+        background-color: #fff;
+        border-top: 6px solid #951B25;
+        margin-bottom: 20px;
+        padding: 3rem 4rem;
+
+        .name-image {
+          padding-right: 7rem;
+
+        .value-name {
+            color: $text-red;
+            font-family: $text-bignoodle;
+            font-size: 4rem;
+            font-weight: 400;
+            margin-bottom: 1.5rem;
+          }
+        }
+
+        .value-description {
+          color: $text-red;
+        }
+      }
+
+      .value-behaviors {
+        .col {
+          flex: 1;
+          -webkit-flex: 1;
+
+          &:first-child {
+            padding-right: 10px;
+          }
+
+          &:last-child {
+            padding-left: 10px;
+          }
+
+          .col-wrapper {
+            background-color: #fff;
+            color: $text-red;
+            padding: 3rem;
+            width: 100%;
+
+            h4 {
+              font-size: 1.1rem;
+              font-weight: 600;
+              margin-bottom: 20px;
+            }
+
+            ul {
+              margin: 0;
+              padding-left: 16px;
+
+              li {
+                margin-bottom: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

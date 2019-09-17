@@ -1,0 +1,12 @@
+- name: php
+  img: /assets/images/icons/wwu/wwu-lang-1.png
+  link: http://php.net/
+- name: nodejs
+  img: /assets/images/icons/wwu/wwu-lang-2.png
+  link: https://nodejs.org/en/
+- name: python
+  img: /assets/images/icons/wwu/wwu-lang-3.png
+  link: https://www.python.org/
+- name: java
+  img: /assets/images/icons/wwu/wwu-lang-4.png
+  link: https://www.oracle.com/java/index.html

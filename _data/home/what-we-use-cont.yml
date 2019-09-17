@@ -1,0 +1,12 @@
+- name: github
+  img: /assets/images/icons/wwu/wwu-cont-1.png
+  link: https://github.com/
+- name: travis
+  img: /assets/images/icons/wwu/wwu-cont-2.png
+  link: https://travis-ci.org/
+- name: gitlab
+  img: /assets/images/icons/wwu/wwu-cont-3.png
+  link: https://gitlab.com/
+- name: coveralls
+  img: /assets/images/icons/wwu/wwu-cont-4.png
+  link: https://coveralls.io/
