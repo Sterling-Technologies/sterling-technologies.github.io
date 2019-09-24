@@ -1,5 +1,4 @@
 .G01-wwd {
-	min-height:6400px;
 	overflow-x:hidden;
 }
 
@@ -43,6 +42,12 @@
 	}
 	.G01-grayed {
 		background:#F7F7F7;
+		border-radius: 10px;
+		padding: 2em;
+	}
+	.G01-jobportal, .G01-ecomm,.G01-blockchain01,.G01-video01,.G01-iris02,.G01-paymuna01  {
+		min-height: 0 !important;
+		margin: 1em auto !important;
 	}
 }
 
@@ -59,63 +64,64 @@
 
 /* Sections */
 .G01-wwd-section {
-	color:#333;
+	color: #333;
+	width: 100%;
 }
 
 .G01-jobportal {
 	padding:3rem 0;
 	min-height:600px;
-	width:100%;
 }
 
 .G01-ecomm {
 	min-height:1000px;
-	width:100%;
+}
+
+.G01-ecomm-logos img {
+	margin:1em 2em;
 }
 
 .G01-blockchain01 {
-	min-height:635px;
-	width:50%;
+	min-height:625px;
 	margin:0 auto;
 	float:left;
 }
 
-.G01-blockchain02 {
-	min-height:635px;
-	width:42%;
+.G01-blockchain02a {
+	margin:0 auto;
+	float:left;
+}
+
+.G01-blockchain02b {
 	margin:0 auto;
 	float:right;
 }
 
 .G01-video01 {
 	min-height:680px;
-	width:100%;
 	margin:250px auto 0;
 }
 
 .G01-iris01 {
 	min-height:100px;
-	width:100%;
 	margin:0 auto;
 	float:left;
 }
 
 .G01-iris02 {
 	min-height:600px;
-	width:100%;
 	margin:0 auto;
 	float:left;
 }
 
 .G01-paymuna01 {
 	min-height:700px;
-	width:100%;
 	margin:12em auto 0;
 }
 
 
 .G01-blurb {
-	background-color:#F7F7F7;
+	background:#F7F7F7;
 	border-radius: 10px;
 	padding:2em;
 }
@@ -136,3 +142,14 @@
 .G01-spacing01-half {
 	height:55px;
 }
+
+
+
+/* Special Float */
+ .G01-floatleft {
+ 	float: left !important;
+ }
+
+ .G01-floatright {
+ 	float: right !important;
+ }
