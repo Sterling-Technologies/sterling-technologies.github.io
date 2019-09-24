@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Sterling-Technologies/sterling-technologies.github.io#readme",
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "async": "^2.6.0",
     "axios": "^0.18.0",
     "chart.js": "^2.7.2",
