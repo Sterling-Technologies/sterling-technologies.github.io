@@ -50,7 +50,10 @@
 
   <!-- Animate on Scroll -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
+  
+  <!-- Lightbox -->
+  <link rel="stylesheet" href="{{ '/assets/styles/ekko-lightbox.css' | absolute_url }}" />
+  
   <!-- G01 Custom CSS -->
   <link href="{{ '/assets/styles/G01-custom.css' | absolute_url }}" rel="stylesheet" type="text/css" />
   
@@ -74,10 +77,11 @@
     type="text/javascript"
   >
   </script>
-  <script 
+ <script 
     src="{{ '/assets/scripts/bootstrap.min.js' | absolute_url }}" 
     type="text/javascript"
   >
+
   </script>
   <script src="{{ '/dist/bundle.js' | absolute_url }}"></script>
   <script 
@@ -111,6 +115,28 @@
   <script>
     AOS.init();
   </script>
+
+  <script src="{{ '/assets/scripts/siema.min.js' | absolute_url }}"></script>
+  <script src="{{ '/assets/scripts/ekko-lightbox.min.js' | absolute_url }}"></script>
+  <script>
+
+    const mySiema = new Siema({
+      loop: true,
+    });
+    const prev = document.querySelector('.prev');
+    const next = document.querySelector('.next');
+
+    prev.addEventListener('click', () => mySiema.prev());
+    next.addEventListener('click', () => mySiema.next());
+
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox({
+                  showArrows: true,
+                });
+            });
+
+      </script>
 
 </body>
 </html>
