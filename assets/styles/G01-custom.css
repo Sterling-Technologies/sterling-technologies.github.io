@@ -1,0 +1,243 @@
+.G01-wwd {
+	overflow-x:hidden;
+}
+
+.G01-wwd img {
+	max-width:100%;
+}
+
+.G01-wwd h3 {
+	color: #89272a;
+    font-size: 5rem;
+    font-family: 'bignoodletitling';
+    line-height: 1em;
+    margin-top:0.1em;
+}
+
+.G01-wwdicon {
+	width:100px;
+	float:left;
+    margin: 1em 2em 1em 1em;
+}
+
+/* red line thing */
+.G01-svg {
+	position:absolute;
+	width:100%;
+	z-index:-100;
+	margin:720px auto 0;
+	max-width: 1140px;
+}
+
+/* secret h3 iristext */
+.G01-iris01-h3-secret-sm {
+	display: none;
+}
+
+
+
+
+/* Top Section */
+.G01-wwd-3img01 {
+	color:#333;
+	width:100%;
+	margin:0 auto;
+}
+
+
+/* Sections */
+.G01-wwd-section {
+	color: #333;
+	width: 100%;
+}
+
+.G01-jobportal {
+	padding:2em 0;
+	min-height:600px;
+}
+
+.G01-ecomm {
+	min-height:1000px;
+}
+
+.G01-ecomm-logos img {
+	margin:1em 2em;
+}
+
+.G01-blockchain01 {
+	min-height:625px;
+	margin:0 auto;
+	float:left;
+}
+
+.G01-blockchain02a {
+	margin:0 auto;
+	float:left;
+}
+
+.G01-blockchain02b {
+	margin:0 auto;
+	float:right;
+}
+
+.G01-video01 {
+	min-height:635px;
+	margin:250px auto 0;
+}
+
+.G01-iris01 {
+	min-height:100px;
+	margin:0 auto;
+	float:left;
+}
+
+.G01-iris02 {
+	min-height:600px;
+	margin:0 auto;
+	float:left;
+}
+
+.G01-paymuna01 {
+	min-height:700px;
+	margin:12em auto 0;
+}
+
+
+.G01-blurb {
+	background:#F7F7F7;
+	border-radius: 10px;
+	padding:1em;
+}
+
+
+/* Buttons */
+.G01-wwd-section a.btn {
+	margin-top: 2em;
+}
+
+
+
+/* Spacing Divs */
+.G01-spacing01 {
+	height:110px;
+}
+
+.G01-spacing01-half {
+	height:55px;
+}
+
+
+
+/* Special Float */
+ .G01-floatleft {
+ 	float: left !important;
+ }
+
+ .G01-floatright {
+ 	float: right !important;
+ }
+
+
+
+.modal.and.carousel {
+  position: fixed; // Needed because the carousel overrides the position property
+}
+
+
+.siema {
+	margin: 2em;
+}
+
+.modal-body .screenshots div {
+	margin:2em auto !important;
+	font-size:12px;
+	font-style: italic;
+	text-align:center;
+}
+
+
+
+.prev {
+	float: left;
+	position: absolute;
+	top: 40%;
+	background: rgba(0, 0, 0, 0.2);
+	border: 0;
+	height: 3em;
+	width: 3em;
+	left: 1em;
+	color: #FFF;
+	border-radius: 10em;
+	cursor: pointer;
+}
+
+.next {
+	float: right;
+    position: absolute;
+    top: 40%;
+    background: rgba(0, 0, 0, 0.2);
+    border: 0;
+    height: 3em;
+    width: 3em;
+    right: 1em;
+    color: #FFF;
+    border-radius: 10em;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+	.G01-wwd h3 {clear:both;}
+	.G01-svg {
+		display: none !important;
+	}
+	.G01-wwdicon {
+		margin: 0 auto !important;
+		float: none;
+	}
+	.G01-spacing-iris01 {
+		display: none;
+	}
+	.G01-wwd {
+		text-align: center !important;
+	}
+}
+
+
+@media only screen and (max-width: 1200px)  {
+	.G01-awks, .G01-video01-spacing01 {
+		display: none !important;
+	}
+	.G01-grayed {
+		background:#F7F7F7;
+		border-radius: 10px;
+		padding: 2em !important;
+	}
+	.G01-ecomm, .G01-paymuna01 {
+		margin: 2em !important;
+	}
+	.G01-jobportal, .G01-blockchain01,.G01-iris02  {
+		min-height: 0 !important;
+		margin: 1em auto !important;
+	}
+	/* Video Learn More Button */
+	.G01-video01 {
+		width: 100%;
+		margin-top: 0;
+	}
+	.G01-video01 .G01-blurb .btn-red {
+		margin: 0 auto;
+	}
+	.G01-video01 .G01-blurb {
+		text-align:center;
+	}
+
+}
+
+@media only screen and (max-width: 600px) {
+	.G01-iris01-h3 {
+		display: none !important;
+	}
+	.G01-iris01-h3-secret-sm {
+		display: block !important;
+	}
+}
